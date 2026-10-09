@@ -1,0 +1,1081 @@
+const imgLogoOmCrestWhite = "https://www.figma.com/api/mcp/asset/191c28d1-9522-4300-9d74-06b09171f208.svg";
+const imgIconHeart = "https://www.figma.com/api/mcp/asset/7f379636-3fdf-4719-9b8a-753f420deca2.svg";
+const imgIconChevronDown = "https://www.figma.com/api/mcp/asset/73b7a34c-85ea-4572-a532-43128d23fbd5.svg";
+const imgIconFilter = "https://www.figma.com/api/mcp/asset/97c50156-2287-43e0-a549-85c11d29fddd.svg";
+const imgIconBag = "https://www.figma.com/api/mcp/asset/5f6e31a9-35f1-4c08-9116-a7289dd96049.svg";
+const imgIconAccount = "https://www.figma.com/api/mcp/asset/e35f65a7-3433-4e99-a98f-57bb56314939.svg";
+const imgIconSearch = "https://www.figma.com/api/mcp/asset/0ef9aa85-77d1-4d9c-9a57-17f3e1e241ff.svg";
+const imgLogoOmCrestBlue = "https://www.figma.com/api/mcp/asset/f7e926d6-f761-4426-a301-9cd81eb92ba8.svg";
+const imgEllipse = "https://www.figma.com/api/mcp/asset/ce9a9ef5-d692-41b7-bc26-a4db7c7b4fe7.svg";
+const imgProductImage = "https://www.figma.com/api/mcp/asset/871d8c57-454c-4247-a568-d5094383c931.png";
+const imgProductImage1 = "https://www.figma.com/api/mcp/asset/3dc335e9-c57f-4259-b849-d07de5ef6436.png";
+const imgProductImage2 = "https://www.figma.com/api/mcp/asset/432442ec-4585-4916-925d-f01ef54f826c.png";
+const imgProductImage3 = "https://www.figma.com/api/mcp/asset/63768eef-0727-4d8f-af46-c8289ab4f0a2.png";
+const imgProductImage4 = "https://www.figma.com/api/mcp/asset/b2abfb18-d227-4987-9c35-f8381f2f2ef6.png";
+const imgProductImage5 = "https://www.figma.com/api/mcp/asset/fbd39a52-6d2e-4b6f-9297-510cfa65c727.png";
+const imgProductImage6 = "https://www.figma.com/api/mcp/asset/9fa0d65e-3c56-45fe-9a2b-e6c76d7ece12.png";
+const imgProductImage7 = "https://www.figma.com/api/mcp/asset/dde5ac5c-c7a2-48db-ab24-22783c79be2b.png";
+const imgImgEHeroD1 = "https://www.figma.com/api/mcp/asset/8a20d245-4cbf-41d1-88a9-8afdd17f19bf.png";
+const imgProductImage8 = "https://www.figma.com/api/mcp/asset/5b1c93f8-dfca-46fd-8f00-91f1bd7f4b86.png";
+const imgProductImage9 = "https://www.figma.com/api/mcp/asset/b433b9b2-9665-4c72-80cf-3f54e5958154.png";
+const imgProductImage10 = "https://www.figma.com/api/mcp/asset/57288a94-1685-4283-8b76-c086bea9a5a3.png";
+const imgProductImage11 = "https://www.figma.com/api/mcp/asset/9e2ac1a8-80c5-4ddb-98bb-0df787189ded.png";
+const imgSwatchWhite = "https://www.figma.com/api/mcp/asset/244d45d9-bad6-4544-80c1-932b3b65ad37.svg";
+const imgSwatchLightBlue = "https://www.figma.com/api/mcp/asset/6db0fec2-022e-4832-b871-0334c1dd3bff.svg";
+const imgSwatchNavy = "https://www.figma.com/api/mcp/asset/7c05f7d6-a821-45f1-ac74-2e7ca22e86cb.svg";
+const imgSwatchBlue = "https://www.figma.com/api/mcp/asset/e2926530-5200-489f-9f5a-daef22043e3c.svg";
+const imgSwatchRed = "https://www.figma.com/api/mcp/asset/65025817-bb81-475b-96c8-ea375440f3ee.svg";
+const imgSwatchGold = "https://www.figma.com/api/mcp/asset/5b3b6775-83c1-4a9a-a7f2-d7f4824dfa20.svg";
+const imgSwatchBeige = "https://www.figma.com/api/mcp/asset/6dfec7be-c505-43c2-a8b8-f80aa980db9c.svg";
+const imgKnobMin = "https://www.figma.com/api/mcp/asset/d2d848fc-aa8b-40e1-9cb0-daa5ae02ef84.svg";
+const imgIconHeart1 = "https://www.figma.com/api/mcp/asset/1b3564a9-ceff-4553-acca-c714e2218995.svg";
+
+function LogoOmCrestWhite({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[64px]"} data-node-id="10032:10" data-name="Logo / OM Crest / White">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgLogoOmCrestWhite} />
+    </div>
+  );
+}
+
+function IconHeart({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="10035:18" data-name="Icon / heart">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconHeart} />
+    </div>
+  );
+}
+
+function IconChevronDown({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="10035:25" data-name="Icon / chevron-down">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconChevronDown} />
+    </div>
+  );
+}
+
+function IconFilter({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="10035:57" data-name="Icon / filter">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconFilter} />
+    </div>
+  );
+}
+
+function IconBag({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="10035:22" data-name="Icon / bag">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconBag} />
+    </div>
+  );
+}
+
+function IconAccount({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="10035:15" data-name="Icon / account">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconAccount} />
+    </div>
+  );
+}
+
+function IconSearch({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="10035:11" data-name="Icon / search">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconSearch} />
+    </div>
+  );
+}
+
+function LogoOmCrestBlue({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[64px]"} data-node-id="10032:9" data-name="Logo / OM Crest / Blue">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgLogoOmCrestBlue} />
+    </div>
+  );
+}
+
+function NavHeaderDesktop({ className }: { className?: string }) {
+  return (
+    <div className={className || "bg-white content-stretch drop-shadow-[0px_2px_6px_rgba(0,0,0,0.06)] flex flex-col items-start relative w-[1920px]"} data-node-id="10036:8" data-name="Nav / Header — Desktop">
+      <div className="bg-[#0b61ac] content-stretch flex gap-[14px] items-center justify-center overflow-clip py-[9px] relative shrink-0 w-full" data-node-id="10100:1470" data-name="Announcement Bar">
+        <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[10px] text-white tracking-[0.8px] uppercase whitespace-nowrap" data-node-id="10100:1471">
+          Free standard delivery over €79
+        </p>
+        <div className="relative shrink-0 size-[3px]" data-node-id="10100:1472" data-name="Ellipse">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse} />
+        </div>
+        <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#d7be69] text-[10px] tracking-[0.8px] uppercase whitespace-nowrap" data-node-id="10100:1473">
+          Europa League personalisation now available
+        </p>
+      </div>
+      <div className="bg-white content-stretch flex gap-[40px] items-center overflow-clip px-[56px] py-[18px] relative shrink-0 w-full" data-node-id="10100:1474" data-name="Main Bar">
+        <div className="content-stretch flex gap-[12px] items-center overflow-clip relative shrink-0" data-node-id="10100:1475" data-name="Logo Lockup">
+          <LogoOmCrestBlue className="relative shrink-0 size-[38px]" />
+          <div className="[word-break:break-word] content-stretch flex flex-col gap-px items-start overflow-clip relative shrink-0 uppercase whitespace-nowrap" data-node-id="10100:1479" data-name="Wordmark">
+            <p className="font-['Manrope:ExtraBold'] font-extrabold leading-[18px] relative shrink-0 text-[#0d0e0e] text-[13px] tracking-[-0.13px]" data-node-id="10100:1480">
+              Olympique de Marseille
+            </p>
+            <p className="font-['Manrope:Bold'] font-bold leading-[12px] relative shrink-0 text-[#0b61ac] text-[9px] tracking-[1.26px]" data-node-id="10100:1481">
+              Official Store
+            </p>
+          </div>
+        </div>
+        <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="10102:1428">
+          <div className="flex-[1_0_0] h-full min-w-px relative" data-name="Spacer Left" />
+        </div>
+        <div className="bg-[#f2f4f6] content-stretch flex gap-[2px] items-center justify-center overflow-clip p-[6px] relative rounded-[999px] shrink-0" data-node-id="10100:1482" data-name="Nav Pill">
+          <div className="content-stretch flex items-start overflow-clip px-[19px] py-[9px] relative rounded-[999px] shrink-0" data-node-id="10100:1483" data-name="Nav Item — New Arrivals">
+            <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[15px] relative shrink-0 text-[#0d0e0e] text-[11px] tracking-[0.22px] uppercase whitespace-nowrap" data-node-id="10100:1484">
+              New Arrivals
+            </p>
+          </div>
+          <div className="bg-[#0d0e0e] content-stretch flex items-start overflow-clip px-[19px] py-[9px] relative rounded-[999px] shrink-0" data-node-id="10100:1485" data-name="Nav Item — Match Kits">
+            <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[15px] relative shrink-0 text-[11px] text-white tracking-[0.22px] uppercase whitespace-nowrap" data-node-id="10100:1486">
+              Match Kits
+            </p>
+          </div>
+          <div className="content-stretch flex items-start overflow-clip px-[19px] py-[9px] relative rounded-[999px] shrink-0" data-node-id="10100:1487" data-name="Nav Item — Players">
+            <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[15px] relative shrink-0 text-[#0d0e0e] text-[11px] tracking-[0.22px] uppercase whitespace-nowrap" data-node-id="10100:1488">
+              Players
+            </p>
+          </div>
+          <div className="content-stretch flex items-start overflow-clip px-[19px] py-[9px] relative rounded-[999px] shrink-0" data-node-id="10100:1489" data-name="Nav Item — Pre-Match & Training">
+            <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[15px] relative shrink-0 text-[#0d0e0e] text-[11px] tracking-[0.22px] uppercase whitespace-nowrap" data-node-id="10100:1490">{`Pre-Match & Training`}</p>
+          </div>
+          <div className="content-stretch flex items-start overflow-clip px-[19px] py-[9px] relative rounded-[999px] shrink-0" data-node-id="10100:1491" data-name="Nav Item — Lifestyle">
+            <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[15px] relative shrink-0 text-[#0d0e0e] text-[11px] tracking-[0.22px] uppercase whitespace-nowrap" data-node-id="10100:1492">
+              Lifestyle
+            </p>
+          </div>
+          <div className="content-stretch flex items-start overflow-clip px-[19px] py-[9px] relative rounded-[999px] shrink-0" data-node-id="10100:1493" data-name="Nav Item — Kids">
+            <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[15px] relative shrink-0 text-[#0d0e0e] text-[11px] tracking-[0.22px] uppercase whitespace-nowrap" data-node-id="10100:1494">
+              Kids
+            </p>
+          </div>
+          <div className="content-stretch flex items-start overflow-clip px-[19px] py-[9px] relative rounded-[999px] shrink-0" data-node-id="10100:1495" data-name="Nav Item — Fans & Gifts">
+            <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[15px] relative shrink-0 text-[#0d0e0e] text-[11px] tracking-[0.22px] uppercase whitespace-nowrap" data-node-id="10100:1496">{`Fans & Gifts`}</p>
+          </div>
+          <div className="content-stretch flex items-start overflow-clip px-[19px] py-[9px] relative rounded-[999px] shrink-0" data-node-id="10100:1497" data-name="Nav Item — Sale">
+            <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[15px] relative shrink-0 text-[#c90d00] text-[11px] tracking-[0.22px] uppercase whitespace-nowrap" data-node-id="10100:1498">
+              Sale
+            </p>
+          </div>
+        </div>
+        <div className="flex flex-[1_0_0] flex-row items-center self-stretch" data-node-id="10102:1429">
+          <div className="flex-[1_0_0] h-full min-w-px relative" data-name="Spacer Right" />
+        </div>
+        <div className="content-stretch flex gap-[20px] items-center relative shrink-0" data-node-id="10100:1499" data-name="Utilities">
+          <IconSearch className="relative shrink-0 size-[19px]" />
+          <IconAccount className="relative shrink-0 size-[19px]" />
+          <IconHeart className="relative shrink-0 size-[19px]" />
+          <div className="content-stretch flex items-start relative shrink-0" data-node-id="10100:1511" data-name="Bag">
+            <IconBag className="relative shrink-0 size-[19px]" />
+            <div className="absolute bg-[#0b61ac] content-stretch flex items-start left-[12px] overflow-clip px-[6px] py-[2px] rounded-[9px] top-[-4px]" data-node-id="10100:1516" data-name="Count">
+              <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[12px] relative shrink-0 text-[9px] text-white whitespace-nowrap" data-node-id="10100:1517">
+                2
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default function PlpVariantNoTopImage1440() {
+  return (
+    <div className="bg-[var(--colour\/foreground\/reverse,white)] content-stretch flex flex-col items-start relative size-full" data-node-id="10395:38598" data-name="PLP Variant — No Top Image (1440)">
+      <NavHeaderDesktop className="bg-white content-stretch drop-shadow-[0px_2px_6px_rgba(0,0,0,0.06)] flex flex-col items-start relative shrink-0 w-full" />
+      <div className="[word-break:break-word] bg-white content-stretch flex gap-[10px] items-center leading-[16px] overflow-clip px-[56px] py-[18px] relative shrink-0 text-[12px] w-full whitespace-nowrap" data-node-id="10395:38600" data-name="Breadcrumb">
+        <p className="font-['Manrope:Regular'] font-normal relative shrink-0 text-[#494f55]" data-node-id="10395:38601">
+          Home
+        </p>
+        <p className="font-['Manrope:Regular'] font-normal relative shrink-0 text-[#cfd8de]" data-node-id="10395:38602">
+          /
+        </p>
+        <p className="font-['Manrope:Regular'] font-normal relative shrink-0 text-[#494f55]" data-node-id="10395:38603">
+          Match Kits
+        </p>
+        <p className="font-['Manrope:Regular'] font-normal relative shrink-0 text-[#cfd8de]" data-node-id="10395:38604">
+          /
+        </p>
+        <p className="font-['Manrope:Bold'] font-bold relative shrink-0 text-[#0d0e0e]" data-node-id="10395:38605">
+          26/27 Collection
+        </p>
+      </div>
+      <div className="bg-white content-stretch flex flex-col gap-[12px] items-start overflow-clip px-[56px] py-[32px] relative shrink-0 w-[1440px]" data-node-id="10395:38606" data-name="Category Header">
+        <div className="content-stretch flex gap-[12px] items-center overflow-clip relative shrink-0" data-node-id="10395:38607" data-name="Kicker">
+          <div className="bg-[#d7be69] h-[3px] relative shrink-0 w-[28px]" data-node-id="10395:38608" data-name="Rectangle" />
+          <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[normal] relative shrink-0 text-[#d7be69] text-[11px] tracking-[1.1px] whitespace-nowrap" data-node-id="10395:38609">
+            Puma × OM · Season 26/27
+          </p>
+        </div>
+        <p className="[word-break:break-word] font-['Zilla_Slab:Bold'] leading-[normal] not-italic relative shrink-0 text-[#0d0e0e] text-[44px] tracking-[-0.66px] whitespace-nowrap" data-node-id="10395:38610">
+          Match kits 26/27
+        </p>
+        <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[26px] relative shrink-0 text-[#494f55] text-[16px] w-[760px]" data-node-id="10395:38611">{`Home, Away, Third and Goalkeeper. Authentic and Replica fits, in adult, women's and junior sizing — all available with official Ligue 1 and Europa League personalisation.`}</p>
+      </div>
+      <div className="bg-white border-[#e5eaf0] border-b border-solid content-stretch flex gap-[10px] items-center overflow-clip px-[56px] py-[28px] relative shrink-0 w-full" data-node-id="10395:38612" data-name="Category Navigation">
+        <div className="bg-[#0d0e0e] border border-[#0d0e0e] border-solid content-stretch flex items-center overflow-clip px-[18px] py-[12px] relative shrink-0" data-node-id="10395:38613" data-name="Chip — All kits">
+          <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[16px] relative shrink-0 text-[12px] text-white tracking-[0.72px] uppercase whitespace-nowrap" data-node-id="10395:38614">
+            All kits
+          </p>
+        </div>
+        <div className="bg-white border border-[#cfd8de] border-solid content-stretch flex items-center overflow-clip px-[18px] py-[12px] relative shrink-0" data-node-id="10395:38615" data-name="Chip — Home">
+          <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[16px] relative shrink-0 text-[#0d0e0e] text-[12px] tracking-[0.72px] uppercase whitespace-nowrap" data-node-id="10395:38616">
+            Home
+          </p>
+        </div>
+        <div className="bg-white border border-[#cfd8de] border-solid content-stretch flex items-center overflow-clip px-[18px] py-[12px] relative shrink-0" data-node-id="10395:38617" data-name="Chip — Away">
+          <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[16px] relative shrink-0 text-[#0d0e0e] text-[12px] tracking-[0.72px] uppercase whitespace-nowrap" data-node-id="10395:38618">
+            Away
+          </p>
+        </div>
+        <div className="bg-white border border-[#cfd8de] border-solid content-stretch flex items-center overflow-clip px-[18px] py-[12px] relative shrink-0" data-node-id="10395:38619" data-name="Chip — Third">
+          <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[16px] relative shrink-0 text-[#0d0e0e] text-[12px] tracking-[0.72px] uppercase whitespace-nowrap" data-node-id="10395:38620">
+            Third
+          </p>
+        </div>
+        <div className="bg-white border border-[#cfd8de] border-solid content-stretch flex items-center overflow-clip px-[18px] py-[12px] relative shrink-0" data-node-id="10395:38621" data-name="Chip — Goalkeeper">
+          <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[16px] relative shrink-0 text-[#0d0e0e] text-[12px] tracking-[0.72px] uppercase whitespace-nowrap" data-node-id="10395:38622">
+            Goalkeeper
+          </p>
+        </div>
+        <div className="bg-white border border-[#cfd8de] border-solid content-stretch flex items-center overflow-clip px-[18px] py-[12px] relative shrink-0" data-node-id="10395:38623" data-name="Chip — Long sleeve">
+          <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[16px] relative shrink-0 text-[#0d0e0e] text-[12px] tracking-[0.72px] uppercase whitespace-nowrap" data-node-id="10395:38624">
+            Long sleeve
+          </p>
+        </div>
+        <div className="bg-white border border-[#cfd8de] border-solid content-stretch flex items-center overflow-clip px-[18px] py-[12px] relative shrink-0" data-node-id="10395:38625" data-name="Chip — Authentic">
+          <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[16px] relative shrink-0 text-[#0d0e0e] text-[12px] tracking-[0.72px] uppercase whitespace-nowrap" data-node-id="10395:38626">
+            Authentic
+          </p>
+        </div>
+        <div className="bg-white border border-[#cfd8de] border-solid content-stretch flex items-center overflow-clip px-[18px] py-[12px] relative shrink-0" data-node-id="10395:38627" data-name="Chip — Women">
+          <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[16px] relative shrink-0 text-[#0d0e0e] text-[12px] tracking-[0.72px] uppercase whitespace-nowrap" data-node-id="10395:38628">
+            Women
+          </p>
+        </div>
+        <div className="bg-white border border-[#cfd8de] border-solid content-stretch flex items-center overflow-clip px-[18px] py-[12px] relative shrink-0" data-node-id="10395:38629" data-name="Chip — Junior">
+          <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[16px] relative shrink-0 text-[#0d0e0e] text-[12px] tracking-[0.72px] uppercase whitespace-nowrap" data-node-id="10395:38630">
+            Junior
+          </p>
+        </div>
+        <div className="bg-white border border-[#cfd8de] border-solid content-stretch flex items-center overflow-clip px-[18px] py-[12px] relative shrink-0" data-node-id="10395:38631" data-name="Chip — Shorts & socks">
+          <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[16px] relative shrink-0 text-[#0d0e0e] text-[12px] tracking-[0.72px] uppercase whitespace-nowrap" data-node-id="10395:38632">{`Shorts & socks`}</p>
+        </div>
+        <div className="bg-white border border-[#cfd8de] border-solid content-stretch flex items-center overflow-clip px-[18px] py-[12px] relative shrink-0" data-node-id="10395:38633" data-name="Chip — Mini kits">
+          <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[16px] relative shrink-0 text-[#0d0e0e] text-[12px] tracking-[0.72px] uppercase whitespace-nowrap" data-node-id="10395:38634">
+            Mini kits
+          </p>
+        </div>
+      </div>
+      <div className="bg-white content-stretch flex gap-[20px] items-center overflow-clip px-[56px] py-[26px] relative shrink-0 w-full" data-node-id="10395:38635" data-name="Toolbar">
+        <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] gap-[8px] items-baseline min-w-px overflow-clip relative whitespace-nowrap" data-node-id="10395:38636" data-name="Result Count">
+          <p className="font-['Manrope:ExtraBold'] font-extrabold leading-[23px] relative shrink-0 text-[#0d0e0e] text-[17px] tracking-[-0.17px]" data-node-id="10395:38637">
+            48
+          </p>
+          <p className="font-['Manrope:Regular'] font-normal leading-[19px] relative shrink-0 text-[#494f55] text-[14px]" data-node-id="10395:38638">
+            products
+          </p>
+        </div>
+        <div className="border-[#0d0e0e] border-[1.5px] border-solid content-stretch flex gap-[10px] items-center overflow-clip px-[20px] py-[13px] relative shrink-0" data-node-id="10395:38639" data-name="Filter Button">
+          <IconFilter className="relative shrink-0 size-[16px]" />
+          <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[16px] relative shrink-0 text-[#0d0e0e] text-[12px] tracking-[0.72px] uppercase whitespace-nowrap" data-node-id="10395:38641">
+            Filters
+          </p>
+          <div className="bg-[#0b61ac] content-stretch flex items-start overflow-clip pb-[2px] pt-[3px] px-[7px] relative shrink-0" data-node-id="10395:38642" data-name="Active Count">
+            <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[10px] text-white whitespace-nowrap" data-node-id="10395:38643">
+              2
+            </p>
+          </div>
+        </div>
+        <div className="border border-[#cfd8de] border-solid content-stretch flex gap-[12px] items-center overflow-clip pl-[20px] pr-[16px] py-[13px] relative shrink-0" data-node-id="10395:38644" data-name="Sort Dropdown">
+          <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[16px] relative shrink-0 text-[#0d0e0e] text-[12px] tracking-[0.48px] whitespace-nowrap" data-node-id="10395:38645">
+            Sort: Newest first
+          </p>
+          <IconChevronDown className="relative shrink-0 size-[16px]" />
+        </div>
+        <div className="border border-[#cfd8de] border-solid content-stretch flex items-start overflow-clip relative shrink-0" data-node-id="10395:38647" data-name="View Toggle">
+          <div className="bg-[#f2f4f6] content-stretch flex items-center overflow-clip px-[16px] py-[13px] relative shrink-0" data-node-id="10395:38648" data-name="View 3">
+            <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[16px] relative shrink-0 text-[#0d0e0e] text-[12px] tracking-[0.48px] whitespace-nowrap" data-node-id="10395:38649">
+              3 up
+            </p>
+          </div>
+          <div className="bg-white content-stretch flex items-center overflow-clip px-[16px] py-[13px] relative shrink-0" data-node-id="10395:38650" data-name="View 4">
+            <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[16px] relative shrink-0 text-[#a4b2c0] text-[12px] tracking-[0.48px] whitespace-nowrap" data-node-id="10395:38651">
+              4 up
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="bg-white content-stretch flex gap-[48px] items-start overflow-clip pb-[96px] pt-[8px] px-[56px] relative shrink-0 w-full" data-node-id="10395:38652" data-name="PLP Main">
+        <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-[280px]" data-node-id="10395:38653" data-name="Filter Sidebar">
+          <div className="[word-break:break-word] content-stretch flex gap-[12px] items-center overflow-clip pb-[18px] relative shrink-0 uppercase w-full" data-node-id="10395:38654" data-name="Sidebar Header">
+            <p className="flex-[1_0_0] font-['Manrope:ExtraBold'] font-extrabold leading-[26px] min-w-px relative text-[#0d0e0e] text-[19px] tracking-[-0.19px]" data-node-id="10395:38655">
+              Filters
+            </p>
+            <p className="font-['Manrope:Bold'] font-bold leading-[15px] relative shrink-0 text-[#0b61ac] text-[11px] tracking-[0.66px] whitespace-nowrap" data-node-id="10395:38656">
+              Clear all
+            </p>
+          </div>
+          <div className="[word-break:break-word] content-start flex flex-wrap gap-[8px] items-start overflow-clip pb-[22px] relative shrink-0 w-full whitespace-nowrap" data-node-id="10395:38657" data-name="Active Filters">
+            <div className="bg-[#f2f4f6] content-stretch flex gap-[8px] items-center overflow-clip pl-[12px] pr-[10px] py-[8px] relative shrink-0" data-node-id="10395:38658" data-name="Active — Home">
+              <p className="font-['Manrope:Bold'] font-bold leading-[15px] relative shrink-0 text-[#0d0e0e] text-[11px] tracking-[0.44px] uppercase" data-node-id="10395:38659">
+                Home
+              </p>
+              <p className="font-['Manrope:Regular'] font-normal leading-[14px] relative shrink-0 text-[#494f55] text-[10px]" data-node-id="10395:38660">
+                ✕
+              </p>
+            </div>
+            <div className="bg-[#f2f4f6] content-stretch flex gap-[8px] items-center overflow-clip pl-[12px] pr-[10px] py-[8px] relative shrink-0" data-node-id="10395:38661" data-name="Active — Size M">
+              <p className="font-['Manrope:Bold'] font-bold leading-[15px] relative shrink-0 text-[#0d0e0e] text-[11px] tracking-[0.44px] uppercase" data-node-id="10395:38662">
+                Size M
+              </p>
+              <p className="font-['Manrope:Regular'] font-normal leading-[14px] relative shrink-0 text-[#494f55] text-[10px]" data-node-id="10395:38663">
+                ✕
+              </p>
+            </div>
+          </div>
+          <div className="border-[#e5eaf0] border-solid border-t content-stretch flex flex-col items-start overflow-clip py-[20px] relative shrink-0 w-full" data-node-id="10395:38664" data-name="Filter Group — Category">
+            <div className="[word-break:break-word] content-stretch flex gap-[12px] items-center overflow-clip relative shrink-0 text-[#0d0e0e] w-full" data-node-id="10395:38665" data-name="Group Header">
+              <p className="flex-[1_0_0] font-['Manrope:Bold'] font-bold leading-[16px] min-w-px relative text-[12px] tracking-[0.72px] uppercase" data-node-id="10395:38666">
+                Category
+              </p>
+              <p className="font-['Manrope:Regular'] font-normal leading-[20px] relative shrink-0 text-[15px] whitespace-nowrap" data-node-id="10395:38667">
+                –
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col items-start overflow-clip pt-[10px] relative shrink-0 w-full" data-node-id="10395:38668" data-name="Options">
+              <div className="content-stretch flex gap-[11px] items-center overflow-clip py-[9px] relative shrink-0 w-full" data-node-id="10395:38669" data-name="Option — Home kit">
+                <div className="bg-[#0d0e0e] border border-[#0d0e0e] border-solid relative shrink-0 size-[16px]" data-node-id="10395:38670" data-name="Box" />
+                <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[18px] relative shrink-0 text-[#0d0e0e] text-[13px] whitespace-nowrap" data-node-id="10395:38671">
+                  Home kit
+                </p>
+                <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[16px] relative shrink-0 text-[#a4b2c0] text-[12px] whitespace-nowrap" data-node-id="10395:38672">
+                  (9)
+                </p>
+              </div>
+              <div className="content-stretch flex gap-[11px] items-center overflow-clip py-[9px] relative shrink-0 w-full" data-node-id="10395:38673" data-name="Option — Away kit">
+                <div className="border border-[#cfd8de] border-solid relative shrink-0 size-[16px]" data-node-id="10395:38674" data-name="Box" />
+                <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[18px] relative shrink-0 text-[#0d0e0e] text-[13px] whitespace-nowrap" data-node-id="10395:38675">
+                  Away kit
+                </p>
+                <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[16px] relative shrink-0 text-[#a4b2c0] text-[12px] whitespace-nowrap" data-node-id="10395:38676">
+                  (8)
+                </p>
+              </div>
+              <div className="content-stretch flex gap-[11px] items-center overflow-clip py-[9px] relative shrink-0 w-full" data-node-id="10395:38677" data-name="Option — Third kit">
+                <div className="border border-[#cfd8de] border-solid relative shrink-0 size-[16px]" data-node-id="10395:38678" data-name="Box" />
+                <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[18px] relative shrink-0 text-[#0d0e0e] text-[13px] whitespace-nowrap" data-node-id="10395:38679">
+                  Third kit
+                </p>
+                <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[16px] relative shrink-0 text-[#a4b2c0] text-[12px] whitespace-nowrap" data-node-id="10395:38680">
+                  (11)
+                </p>
+              </div>
+              <div className="content-stretch flex gap-[11px] items-center overflow-clip py-[9px] relative shrink-0 w-full" data-node-id="10395:38681" data-name="Option — Goalkeeper">
+                <div className="border border-[#cfd8de] border-solid relative shrink-0 size-[16px]" data-node-id="10395:38682" data-name="Box" />
+                <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[18px] relative shrink-0 text-[#0d0e0e] text-[13px] whitespace-nowrap" data-node-id="10395:38683">
+                  Goalkeeper
+                </p>
+                <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[16px] relative shrink-0 text-[#a4b2c0] text-[12px] whitespace-nowrap" data-node-id="10395:38684">
+                  (6)
+                </p>
+              </div>
+              <div className="content-stretch flex gap-[11px] items-center overflow-clip py-[9px] relative shrink-0 w-full" data-node-id="10395:38685" data-name="Option — Mini kits">
+                <div className="border border-[#cfd8de] border-solid relative shrink-0 size-[16px]" data-node-id="10395:38686" data-name="Box" />
+                <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[18px] relative shrink-0 text-[#0d0e0e] text-[13px] whitespace-nowrap" data-node-id="10395:38687">
+                  Mini kits
+                </p>
+                <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[16px] relative shrink-0 text-[#a4b2c0] text-[12px] whitespace-nowrap" data-node-id="10395:38688">
+                  (5)
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="border-[#e5eaf0] border-solid border-t content-stretch flex flex-col items-start overflow-clip py-[20px] relative shrink-0 w-full" data-node-id="10395:38689" data-name="Filter Group — Size">
+            <div className="[word-break:break-word] content-stretch flex gap-[12px] items-center overflow-clip relative shrink-0 text-[#0d0e0e] w-full" data-node-id="10395:38690" data-name="Group Header">
+              <p className="flex-[1_0_0] font-['Manrope:Bold'] font-bold leading-[16px] min-w-px relative text-[12px] tracking-[0.72px] uppercase" data-node-id="10395:38691">
+                Size
+              </p>
+              <p className="font-['Manrope:Regular'] font-normal leading-[20px] relative shrink-0 text-[15px] whitespace-nowrap" data-node-id="10395:38692">
+                –
+              </p>
+            </div>
+            <div className="content-start flex flex-wrap gap-[8px] items-start overflow-clip pt-[14px] relative shrink-0 w-full" data-node-id="10395:38693" data-name="Size Grid">
+              <div className="bg-white border border-[#cfd8de] border-solid content-stretch flex h-[42px] items-center justify-center overflow-clip relative shrink-0 w-[56px]" data-node-id="10395:38694" data-name="Size XS">
+                <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[16px] relative shrink-0 text-[#0d0e0e] text-[12px] tracking-[0.24px] uppercase whitespace-nowrap" data-node-id="10395:38695">
+                  XS
+                </p>
+              </div>
+              <div className="bg-white border border-[#cfd8de] border-solid content-stretch flex h-[42px] items-center justify-center overflow-clip relative shrink-0 w-[56px]" data-node-id="10395:38696" data-name="Size S">
+                <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[16px] relative shrink-0 text-[#0d0e0e] text-[12px] tracking-[0.24px] uppercase whitespace-nowrap" data-node-id="10395:38697">
+                  S
+                </p>
+              </div>
+              <div className="bg-[#0d0e0e] border border-[#0d0e0e] border-solid content-stretch flex h-[42px] items-center justify-center overflow-clip relative shrink-0 w-[56px]" data-node-id="10395:38698" data-name="Size M">
+                <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[16px] relative shrink-0 text-[12px] text-white tracking-[0.24px] uppercase whitespace-nowrap" data-node-id="10395:38699">
+                  M
+                </p>
+              </div>
+              <div className="bg-white border border-[#cfd8de] border-solid content-stretch flex h-[42px] items-center justify-center overflow-clip relative shrink-0 w-[56px]" data-node-id="10395:38700" data-name="Size L">
+                <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[16px] relative shrink-0 text-[#0d0e0e] text-[12px] tracking-[0.24px] uppercase whitespace-nowrap" data-node-id="10395:38701">
+                  L
+                </p>
+              </div>
+              <div className="bg-white border border-[#cfd8de] border-solid content-stretch flex h-[42px] items-center justify-center overflow-clip relative shrink-0 w-[56px]" data-node-id="10395:38702" data-name="Size XL">
+                <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[16px] relative shrink-0 text-[#0d0e0e] text-[12px] tracking-[0.24px] uppercase whitespace-nowrap" data-node-id="10395:38703">
+                  XL
+                </p>
+              </div>
+              <div className="bg-white border border-[#cfd8de] border-solid content-stretch flex h-[42px] items-center justify-center overflow-clip relative shrink-0 w-[56px]" data-node-id="10395:38704" data-name="Size XXL">
+                <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[16px] relative shrink-0 text-[#0d0e0e] text-[12px] tracking-[0.24px] uppercase whitespace-nowrap" data-node-id="10395:38705">
+                  XXL
+                </p>
+              </div>
+              <div className="bg-white border border-[#cfd8de] border-solid content-stretch flex h-[42px] items-center justify-center overflow-clip relative shrink-0 w-[56px]" data-node-id="10395:38706" data-name="Size 3XL">
+                <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[16px] relative shrink-0 text-[#0d0e0e] text-[12px] tracking-[0.24px] uppercase whitespace-nowrap" data-node-id="10395:38707">
+                  3XL
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="border-[#e5eaf0] border-solid border-t content-stretch flex flex-col items-start overflow-clip py-[20px] relative shrink-0 w-full" data-node-id="10395:38708" data-name="Filter Group — Colour">
+            <div className="[word-break:break-word] content-stretch flex gap-[12px] items-center overflow-clip relative shrink-0 text-[#0d0e0e] w-full" data-node-id="10395:38709" data-name="Group Header">
+              <p className="flex-[1_0_0] font-['Manrope:Bold'] font-bold leading-[16px] min-w-px relative text-[12px] tracking-[0.72px] uppercase" data-node-id="10395:38710">
+                Colour
+              </p>
+              <p className="font-['Manrope:Regular'] font-normal leading-[20px] relative shrink-0 text-[15px] whitespace-nowrap" data-node-id="10395:38711">
+                –
+              </p>
+            </div>
+            <div className="content-start flex flex-wrap gap-[12px] items-start overflow-clip pt-[14px] relative shrink-0 w-full" data-node-id="10395:38712" data-name="Swatches">
+              <div className="relative shrink-0 size-[26px]" data-node-id="10395:38713" data-name="Swatch — White">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSwatchWhite} />
+              </div>
+              <div className="relative shrink-0 size-[26px]" data-node-id="10395:38714" data-name="Swatch — Light blue">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSwatchLightBlue} />
+              </div>
+              <div className="relative shrink-0 size-[26px]" data-node-id="10395:38715" data-name="Swatch — Navy">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSwatchNavy} />
+              </div>
+              <div className="relative shrink-0 size-[26px]" data-node-id="10395:38716" data-name="Swatch — Blue">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSwatchBlue} />
+              </div>
+              <div className="relative shrink-0 size-[26px]" data-node-id="10395:38717" data-name="Swatch — Red">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSwatchRed} />
+              </div>
+              <div className="relative shrink-0 size-[26px]" data-node-id="10395:38718" data-name="Swatch — Gold">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSwatchGold} />
+              </div>
+              <div className="relative shrink-0 size-[26px]" data-node-id="10395:38719" data-name="Swatch — Beige">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSwatchBeige} />
+              </div>
+            </div>
+          </div>
+          <div className="border-[#e5eaf0] border-solid border-t content-stretch flex flex-col items-start overflow-clip py-[20px] relative shrink-0 w-full" data-node-id="10395:38720" data-name="Filter Group — Price">
+            <div className="[word-break:break-word] content-stretch flex gap-[12px] items-center overflow-clip relative shrink-0 text-[#0d0e0e] w-full" data-node-id="10395:38721" data-name="Group Header">
+              <p className="flex-[1_0_0] font-['Manrope:Bold'] font-bold leading-[16px] min-w-px relative text-[12px] tracking-[0.72px] uppercase" data-node-id="10395:38722">
+                Price
+              </p>
+              <p className="font-['Manrope:Regular'] font-normal leading-[20px] relative shrink-0 text-[15px] whitespace-nowrap" data-node-id="10395:38723">
+                –
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[12px] items-start overflow-clip pt-[18px] relative shrink-0 w-full" data-node-id="10395:38724" data-name="Range">
+              <div className="bg-[#e5eaf0] content-stretch flex h-[4px] items-start relative shrink-0 w-full" data-node-id="10395:38725" data-name="Track">
+                <div className="absolute bg-[#0d0e0e] h-[4px] left-[30px] top-0 w-[180px]" data-node-id="10395:38726" data-name="Selected" />
+                <div className="absolute left-[22px] size-[16px] top-[-6px]" data-node-id="10395:38727" data-name="Knob Min">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgKnobMin} />
+                </div>
+                <div className="absolute left-[202px] size-[16px] top-[-6px]" data-node-id="10395:38728" data-name="Knob Max">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgKnobMin} />
+                </div>
+              </div>
+              <div className="[word-break:break-word] content-stretch flex font-['Manrope:Bold'] font-bold gap-[12px] items-start leading-[16px] overflow-clip relative shrink-0 text-[#0d0e0e] text-[12px] w-full" data-node-id="10395:38729" data-name="Values">
+                <p className="flex-[1_0_0] min-w-px relative" data-node-id="10395:38730">
+                  €23
+                </p>
+                <p className="relative shrink-0 whitespace-nowrap" data-node-id="10395:38731">
+                  €150
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="border-[#e5eaf0] border-solid border-t content-stretch flex flex-col items-start overflow-clip py-[20px] relative shrink-0 w-full" data-node-id="10395:38732" data-name="Filter Group — Player">
+            <div className="[word-break:break-word] content-stretch flex gap-[12px] items-center overflow-clip relative shrink-0 text-[#0d0e0e] w-full" data-node-id="10395:38733" data-name="Group Header">
+              <p className="flex-[1_0_0] font-['Manrope:Bold'] font-bold leading-[16px] min-w-px relative text-[12px] tracking-[0.72px] uppercase" data-node-id="10395:38734">
+                Player
+              </p>
+              <p className="font-['Manrope:Regular'] font-normal leading-[20px] relative shrink-0 text-[15px] whitespace-nowrap" data-node-id="10395:38735">
+                +
+              </p>
+            </div>
+          </div>
+          <div className="border-[#e5eaf0] border-solid border-t content-stretch flex flex-col items-start overflow-clip py-[20px] relative shrink-0 w-full" data-node-id="10395:38736" data-name="Filter Group — Collection">
+            <div className="[word-break:break-word] content-stretch flex gap-[12px] items-center overflow-clip relative shrink-0 text-[#0d0e0e] w-full" data-node-id="10395:38737" data-name="Group Header">
+              <p className="flex-[1_0_0] font-['Manrope:Bold'] font-bold leading-[16px] min-w-px relative text-[12px] tracking-[0.72px] uppercase" data-node-id="10395:38738">
+                Collection
+              </p>
+              <p className="font-['Manrope:Regular'] font-normal leading-[20px] relative shrink-0 text-[15px] whitespace-nowrap" data-node-id="10395:38739">
+                +
+              </p>
+            </div>
+          </div>
+          <div className="border-[#e5eaf0] border-solid border-t content-stretch flex flex-col items-start overflow-clip py-[20px] relative shrink-0 w-full" data-node-id="10395:38740" data-name="Filter Group — Fit">
+            <div className="[word-break:break-word] content-stretch flex gap-[12px] items-center overflow-clip relative shrink-0 text-[#0d0e0e] w-full" data-node-id="10395:38741" data-name="Group Header">
+              <p className="flex-[1_0_0] font-['Manrope:Bold'] font-bold leading-[16px] min-w-px relative text-[12px] tracking-[0.72px] uppercase" data-node-id="10395:38742">
+                Fit
+              </p>
+              <p className="font-['Manrope:Regular'] font-normal leading-[20px] relative shrink-0 text-[15px] whitespace-nowrap" data-node-id="10395:38743">
+                +
+              </p>
+            </div>
+          </div>
+          <div className="border-[#e5eaf0] border-solid border-t content-stretch flex flex-col items-start overflow-clip py-[20px] relative shrink-0 w-full" data-node-id="10395:38744" data-name="Filter Group — Availability">
+            <div className="[word-break:break-word] content-stretch flex gap-[12px] items-center overflow-clip relative shrink-0 text-[#0d0e0e] w-full" data-node-id="10395:38745" data-name="Group Header">
+              <p className="flex-[1_0_0] font-['Manrope:Bold'] font-bold leading-[16px] min-w-px relative text-[12px] tracking-[0.72px] uppercase" data-node-id="10395:38746">
+                Availability
+              </p>
+              <p className="font-['Manrope:Regular'] font-normal leading-[20px] relative shrink-0 text-[15px] whitespace-nowrap" data-node-id="10395:38747">
+                +
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[44px] items-start min-w-px overflow-clip relative" data-node-id="10395:38748" data-name="Product Grid">
+          <div className="content-stretch flex gap-[20px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:38749" data-name="Grid Row 1">
+            <a className="content-stretch cursor-pointer flex flex-[1_0_0] flex-col gap-[14px] items-start min-w-px relative" data-node-id="10395:38750" data-name="Product Card — OM Home Jersey 26/27">
+              <div className="content-stretch flex flex-col h-[235px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:38751" data-name="Product Image">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgProductImage} />
+                <div className="absolute bg-[#0d0e0e] content-stretch flex items-start left-[14px] overflow-clip pb-[5px] pt-[6px] px-[10px] top-[14px]" data-node-id="10395:38752" data-name="Badge">
+                  <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[10px] text-left text-white tracking-[1px] uppercase whitespace-nowrap" data-node-id="10395:38753">
+                    Best Seller
+                  </p>
+                </div>
+                <div className="absolute bg-white content-stretch flex items-center justify-center overflow-clip right-[14px] rounded-[19px] size-[38px] top-[14px]" data-node-id="10395:38754" data-name="Wishlist">
+                  <IconHeart className="relative shrink-0 size-[19px]" />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col gap-[5px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:38756" data-name="Info">
+                <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#494f55] text-[10px] text-left tracking-[1px] uppercase whitespace-nowrap" data-node-id="10395:38757">
+                  Match Kits 26/27
+                </p>
+                <p className="[word-break:break-word] font-['Manrope:SemiBold'] font-semibold leading-[20px] min-w-full relative shrink-0 text-[#0d0e0e] text-[15px] text-left tracking-[-0.03px] w-[min-content]" data-node-id="10395:38758">
+                  OM Home Jersey 26/27
+                </p>
+                <div className="content-stretch flex gap-[8px] items-center overflow-clip relative shrink-0" data-node-id="10395:38759" data-name="Price">
+                  <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[20px] relative shrink-0 text-[#0d0e0e] text-[15px] text-left tracking-[-0.045px] whitespace-nowrap" data-node-id="10395:38760">
+                    €100.00
+                  </p>
+                </div>
+              </div>
+            </a>
+            <div className="content-stretch flex flex-[1_0_0] flex-col gap-[14px] items-start min-w-px relative" data-node-id="10395:38762" data-name="Product Card — OM Away Jersey 26/27">
+              <div className="content-stretch flex flex-col h-[235px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:38763" data-name="Product Image">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgProductImage1} />
+                <div className="absolute bg-[#0b61ac] content-stretch flex items-start left-[14px] overflow-clip pb-[5px] pt-[6px] px-[10px] top-[14px]" data-node-id="10395:38764" data-name="Badge">
+                  <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[10px] text-white tracking-[1px] uppercase whitespace-nowrap" data-node-id="10395:38765">
+                    New
+                  </p>
+                </div>
+                <div className="absolute bg-white content-stretch flex items-center justify-center overflow-clip right-[14px] rounded-[19px] size-[38px] top-[14px]" data-node-id="10395:38766" data-name="Wishlist">
+                  <IconHeart className="relative shrink-0 size-[19px]" />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col gap-[5px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:38768" data-name="Info">
+                <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#494f55] text-[10px] tracking-[1px] uppercase whitespace-nowrap" data-node-id="10395:38769">
+                  Match Kits 26/27
+                </p>
+                <p className="[word-break:break-word] font-['Manrope:SemiBold'] font-semibold leading-[20px] min-w-full relative shrink-0 text-[#0d0e0e] text-[15px] tracking-[-0.03px] w-[min-content]" data-node-id="10395:38770">
+                  OM Away Jersey 26/27
+                </p>
+                <div className="content-stretch flex gap-[8px] items-center overflow-clip relative shrink-0" data-node-id="10395:38771" data-name="Price">
+                  <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[20px] relative shrink-0 text-[#0d0e0e] text-[15px] tracking-[-0.045px] whitespace-nowrap" data-node-id="10395:38772">
+                    €100.00
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-[1_0_0] flex-col gap-[14px] items-start min-w-px relative" data-node-id="10395:38774" data-name="Product Card — OM Third Jersey 26/27">
+              <div className="content-stretch flex flex-col h-[235px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:38775" data-name="Product Image">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgProductImage2} />
+                <div className="absolute bg-[#0b61ac] content-stretch flex items-start left-[14px] overflow-clip pb-[5px] pt-[6px] px-[10px] top-[14px]" data-node-id="10395:38776" data-name="Badge">
+                  <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[10px] text-white tracking-[1px] uppercase whitespace-nowrap" data-node-id="10395:38777">
+                    New
+                  </p>
+                </div>
+                <div className="absolute bg-[#0d0e0e] content-stretch flex items-center justify-center overflow-clip right-[14px] rounded-[19px] size-[38px] top-[14px]" data-node-id="10395:38778" data-name="Wishlist">
+                  <div className="relative shrink-0 size-[19px]" data-node-id="10395:38779" data-name="Icon / heart">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconHeart1} />
+                  </div>
+                </div>
+                <div className="absolute bg-white bottom-0 content-stretch flex flex-col gap-[10px] items-start left-0 overflow-clip p-[14px] right-0" data-node-id="10395:38780" data-name="Quick Add">
+                  <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#494f55] text-[10px] tracking-[1px] uppercase whitespace-nowrap" data-node-id="10395:38781">
+                    Quick add
+                  </p>
+                  <div className="content-stretch flex gap-[6px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:38782" data-name="Sizes">
+                    <div className="bg-white border border-[#cfd8de] border-solid content-stretch flex flex-[1_0_0] h-[36px] items-center justify-center min-w-px overflow-clip relative" data-node-id="10395:38783" data-name="Size S">
+                      <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[16px] relative shrink-0 text-[#0d0e0e] text-[12px] tracking-[0.24px] uppercase whitespace-nowrap" data-node-id="10395:38784">
+                        S
+                      </p>
+                    </div>
+                    <div className="bg-white border border-[#cfd8de] border-solid content-stretch flex flex-[1_0_0] h-[36px] items-center justify-center min-w-px overflow-clip relative" data-node-id="10395:38785" data-name="Size M">
+                      <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[16px] relative shrink-0 text-[#0d0e0e] text-[12px] tracking-[0.24px] uppercase whitespace-nowrap" data-node-id="10395:38786">
+                        M
+                      </p>
+                    </div>
+                    <div className="bg-white border border-[#cfd8de] border-solid content-stretch flex flex-[1_0_0] h-[36px] items-center justify-center min-w-px overflow-clip relative" data-node-id="10395:38787" data-name="Size L">
+                      <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[16px] relative shrink-0 text-[#0d0e0e] text-[12px] tracking-[0.24px] uppercase whitespace-nowrap" data-node-id="10395:38788">
+                        L
+                      </p>
+                    </div>
+                    <div className="bg-white border border-[#cfd8de] border-solid content-stretch flex flex-[1_0_0] h-[36px] items-center justify-center min-w-px overflow-clip relative" data-node-id="10395:38789" data-name="Size XL">
+                      <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[16px] relative shrink-0 text-[#0d0e0e] text-[12px] tracking-[0.24px] uppercase whitespace-nowrap" data-node-id="10395:38790">
+                        XL
+                      </p>
+                    </div>
+                    <div className="bg-white border border-[#cfd8de] border-solid content-stretch flex flex-[1_0_0] h-[36px] items-center justify-center min-w-px overflow-clip relative" data-node-id="10395:38791" data-name="Size XXL">
+                      <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[16px] relative shrink-0 text-[#0d0e0e] text-[12px] tracking-[0.24px] uppercase whitespace-nowrap" data-node-id="10395:38792">
+                        XXL
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col gap-[5px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:38793" data-name="Info">
+                <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#494f55] text-[10px] tracking-[1px] uppercase whitespace-nowrap" data-node-id="10395:38794">
+                  Match Kits 26/27
+                </p>
+                <p className="[word-break:break-word] font-['Manrope:SemiBold'] font-semibold leading-[20px] min-w-full relative shrink-0 text-[#0d0e0e] text-[15px] tracking-[-0.03px] w-[min-content]" data-node-id="10395:38795">
+                  OM Third Jersey 26/27
+                </p>
+                <div className="content-stretch flex gap-[8px] items-center overflow-clip relative shrink-0" data-node-id="10395:38796" data-name="Price">
+                  <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[20px] relative shrink-0 text-[#0d0e0e] text-[15px] tracking-[-0.045px] whitespace-nowrap" data-node-id="10395:38797">
+                    €100.00
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-[1_0_0] flex-col gap-[14px] items-start min-w-px relative" data-node-id="10395:38799" data-name="Product Card — Authentic OM Third Jersey 26/27">
+              <div className="content-stretch flex flex-col h-[235px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:38800" data-name="Product Image">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgProductImage3} />
+                <div className="absolute bg-[#d7be69] content-stretch flex items-start left-[14px] overflow-clip pb-[5px] pt-[6px] px-[10px] top-[14px]" data-node-id="10395:38801" data-name="Badge">
+                  <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#0d0e0e] text-[10px] tracking-[1px] uppercase whitespace-nowrap" data-node-id="10395:38802">
+                    Limited Edition
+                  </p>
+                </div>
+                <div className="absolute bg-white content-stretch flex items-center justify-center overflow-clip right-[14px] rounded-[19px] size-[38px] top-[14px]" data-node-id="10395:38803" data-name="Wishlist">
+                  <IconHeart className="relative shrink-0 size-[19px]" />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col gap-[5px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:38805" data-name="Info">
+                <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#494f55] text-[10px] tracking-[1px] uppercase whitespace-nowrap" data-node-id="10395:38806">
+                  Authentic
+                </p>
+                <p className="[word-break:break-word] font-['Manrope:SemiBold'] font-semibold leading-[20px] min-w-full relative shrink-0 text-[#0d0e0e] text-[15px] tracking-[-0.03px] w-[min-content]" data-node-id="10395:38807">
+                  Authentic OM Third Jersey 26/27
+                </p>
+                <div className="content-stretch flex gap-[8px] items-center overflow-clip relative shrink-0" data-node-id="10395:38808" data-name="Price">
+                  <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[20px] relative shrink-0 text-[#0d0e0e] text-[15px] tracking-[-0.045px] whitespace-nowrap" data-node-id="10395:38809">
+                    €150.00
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex gap-[20px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:38811" data-name="Grid Row 2">
+            <div className="content-stretch flex flex-[1_0_0] flex-col gap-[14px] items-start min-w-px relative" data-node-id="10395:38812" data-name="Product Card — OM Home Long-Sleeve Jersey 26/27">
+              <div className="content-stretch flex flex-col h-[235px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:38813" data-name="Product Image">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgProductImage4} />
+                <div className="absolute bg-white content-stretch flex items-center justify-center overflow-clip right-[14px] rounded-[19px] size-[38px] top-[14px]" data-node-id="10395:38816" data-name="Wishlist">
+                  <IconHeart className="relative shrink-0 size-[19px]" />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col gap-[5px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:38818" data-name="Info">
+                <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#494f55] text-[10px] tracking-[1px] uppercase whitespace-nowrap" data-node-id="10395:38819">
+                  Match Kits 26/27
+                </p>
+                <p className="[word-break:break-word] font-['Manrope:SemiBold'] font-semibold leading-[20px] min-w-full relative shrink-0 text-[#0d0e0e] text-[15px] tracking-[-0.03px] w-[min-content]" data-node-id="10395:38820">
+                  OM Home Long-Sleeve Jersey 26/27
+                </p>
+                <div className="content-stretch flex gap-[8px] items-center overflow-clip relative shrink-0" data-node-id="10395:38821" data-name="Price">
+                  <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[20px] relative shrink-0 text-[#0d0e0e] text-[15px] tracking-[-0.045px] whitespace-nowrap" data-node-id="10395:38822">
+                    €110.00
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-[1_0_0] flex-col gap-[14px] items-start min-w-px relative" data-node-id="10395:38824" data-name="Product Card — OM Third Long-Sleeve Jersey 26/27">
+              <div className="content-stretch flex flex-col h-[235px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:38825" data-name="Product Image">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgProductImage5} />
+                <div className="absolute bg-white content-stretch flex items-center justify-center overflow-clip right-[14px] rounded-[19px] size-[38px] top-[14px]" data-node-id="10395:38828" data-name="Wishlist">
+                  <IconHeart className="relative shrink-0 size-[19px]" />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col gap-[5px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:38830" data-name="Info">
+                <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#494f55] text-[10px] tracking-[1px] uppercase whitespace-nowrap" data-node-id="10395:38831">
+                  Match Kits 26/27
+                </p>
+                <p className="[word-break:break-word] font-['Manrope:SemiBold'] font-semibold leading-[20px] min-w-full relative shrink-0 text-[#0d0e0e] text-[15px] tracking-[-0.03px] w-[min-content]" data-node-id="10395:38832">
+                  OM Third Long-Sleeve Jersey 26/27
+                </p>
+                <div className="content-stretch flex gap-[8px] items-center overflow-clip relative shrink-0" data-node-id="10395:38833" data-name="Price">
+                  <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[20px] relative shrink-0 text-[#0d0e0e] text-[15px] tracking-[-0.045px] whitespace-nowrap" data-node-id="10395:38834">
+                    €110.00
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-[1_0_0] flex-col gap-[14px] items-start min-w-px relative" data-node-id="10395:38836" data-name="Product Card — OM Red Goalkeeper Jersey 26/27">
+              <div className="content-stretch flex flex-col h-[235px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:38837" data-name="Product Image">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgProductImage6} />
+                <div className="absolute bg-white content-stretch flex items-center justify-center overflow-clip right-[14px] rounded-[19px] size-[38px] top-[14px]" data-node-id="10395:38840" data-name="Wishlist">
+                  <IconHeart className="relative shrink-0 size-[19px]" />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col gap-[5px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:38842" data-name="Info">
+                <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#494f55] text-[10px] tracking-[1px] uppercase whitespace-nowrap" data-node-id="10395:38843">
+                  Goalkeeper
+                </p>
+                <p className="[word-break:break-word] font-['Manrope:SemiBold'] font-semibold leading-[20px] min-w-full relative shrink-0 text-[#0d0e0e] text-[15px] tracking-[-0.03px] w-[min-content]" data-node-id="10395:38844">
+                  OM Red Goalkeeper Jersey 26/27
+                </p>
+                <div className="content-stretch flex gap-[8px] items-center overflow-clip relative shrink-0" data-node-id="10395:38845" data-name="Price">
+                  <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[20px] relative shrink-0 text-[#0d0e0e] text-[15px] tracking-[-0.045px] whitespace-nowrap" data-node-id="10395:38846">
+                    €100.00
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-[1_0_0] flex-col gap-[14px] items-start min-w-px relative" data-node-id="10395:38848" data-name="Product Card — OM Women’s Home Jersey 26/27">
+              <div className="content-stretch flex flex-col h-[235px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:38849" data-name="Product Image">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgProductImage7} />
+                <div className="absolute bg-white content-stretch flex items-center justify-center overflow-clip right-[14px] rounded-[19px] size-[38px] top-[14px]" data-node-id="10395:38852" data-name="Wishlist">
+                  <IconHeart className="relative shrink-0 size-[19px]" />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col gap-[5px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:38854" data-name="Info">
+                <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#494f55] text-[10px] tracking-[1px] uppercase whitespace-nowrap" data-node-id="10395:38855">
+                  Women
+                </p>
+                <p className="[word-break:break-word] font-['Manrope:SemiBold'] font-semibold leading-[20px] min-w-full relative shrink-0 text-[#0d0e0e] text-[15px] tracking-[-0.03px] w-[min-content]" data-node-id="10395:38856">
+                  OM Women’s Home Jersey 26/27
+                </p>
+                <div className="content-stretch flex gap-[8px] items-center overflow-clip relative shrink-0" data-node-id="10395:38857" data-name="Price">
+                  <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[20px] relative shrink-0 text-[#0d0e0e] text-[15px] tracking-[-0.045px] whitespace-nowrap" data-node-id="10395:38858">
+                    €100.00
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bg-[#072f55] content-stretch flex h-[280px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:38860" data-name="Promo — Europa League Personalisation">
+            <div className="absolute h-[280px] left-0 top-0 w-[1000px]" data-node-id="10395:38861" data-name="IMG:e-hero-d1">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImgEHeroD1} />
+            </div>
+            <div className="absolute bg-gradient-to-r from-[rgba(7,47,85,0.94)] h-[280px] left-0 to-[72%] to-[rgba(7,47,85,0.1)] top-0 w-[1000px]" data-node-id="10395:38862" data-name="Scrim" />
+            <div className="absolute content-stretch flex flex-col gap-[16px] items-start left-[48px] overflow-clip top-[44.5px] w-[640px]" data-node-id="10395:38863" data-name="Promo Copy">
+              <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[15px] relative shrink-0 text-[#d7be69] text-[11px] tracking-[1.1px] uppercase whitespace-nowrap" data-node-id="10395:38864">
+                Now available
+              </p>
+              <p className="[word-break:break-word] font-['Zilla_Slab:Bold'] leading-[38px] min-w-full not-italic relative shrink-0 text-[36px] text-white tracking-[-0.36px] uppercase w-[min-content]" data-node-id="10395:38865">
+                Europa League flocking
+              </p>
+              <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[22px] min-w-full opacity-85 relative shrink-0 text-[14px] text-white w-[min-content]" data-node-id="10395:38866">
+                Add the official European competition name and number to any 26/27 match jersey. +€20, applied in Marseille.
+              </p>
+              <div className="bg-white content-stretch flex items-start overflow-clip px-[28px] py-[15px] relative shrink-0" data-node-id="10395:38867" data-name="Button">
+                <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[16px] relative shrink-0 text-[#0d0e0e] text-[12px] tracking-[0.72px] uppercase whitespace-nowrap" data-node-id="10395:38868">
+                  Personalise now
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex gap-[20px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:38869" data-name="Grid Row 3">
+            <div className="content-stretch flex flex-[1_0_0] flex-col gap-[14px] items-start min-w-px relative" data-node-id="10395:38870" data-name="Product Card — OM Home Long Sleeve Shirt 25/26">
+              <div className="content-stretch flex flex-col h-[235px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:38871" data-name="Product Image">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgProductImage8} />
+                <div className="absolute bg-[#c90d00] content-stretch flex items-start left-[14px] overflow-clip pb-[5px] pt-[6px] px-[10px] top-[14px]" data-node-id="10395:38872" data-name="Badge">
+                  <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[10px] text-white tracking-[1px] uppercase whitespace-nowrap" data-node-id="10395:38873">
+                    -50%
+                  </p>
+                </div>
+                <div className="absolute bg-white content-stretch flex items-center justify-center overflow-clip right-[14px] rounded-[19px] size-[38px] top-[14px]" data-node-id="10395:38874" data-name="Wishlist">
+                  <IconHeart className="relative shrink-0 size-[19px]" />
+                </div>
+              </div>
+              <div className="[word-break:break-word] content-stretch flex flex-col gap-[5px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:38876" data-name="Info">
+                <p className="font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#494f55] text-[10px] tracking-[1px] uppercase whitespace-nowrap" data-node-id="10395:38877">
+                  Match Kits 25/26
+                </p>
+                <p className="font-['Manrope:SemiBold'] font-semibold leading-[20px] min-w-full relative shrink-0 text-[#0d0e0e] text-[15px] tracking-[-0.03px] w-[min-content]" data-node-id="10395:38878">
+                  OM Home Long Sleeve Shirt 25/26
+                </p>
+                <div className="content-stretch flex gap-[8px] items-center overflow-clip relative shrink-0 whitespace-nowrap" data-node-id="10395:38879" data-name="Price">
+                  <p className="font-['Manrope:Bold'] font-bold leading-[20px] relative shrink-0 text-[#c90d00] text-[15px] tracking-[-0.045px]" data-node-id="10395:38880">
+                    €55.00
+                  </p>
+                  <p className="[text-decoration-skip-ink:none] [text-underline-position:from-font] decoration-from-font decoration-solid font-['Manrope:Regular'] font-normal leading-[18px] line-through relative shrink-0 text-[#a4b2c0] text-[13px]" data-node-id="10395:38881">
+                    €110.00
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-[1_0_0] flex-col gap-[14px] items-start min-w-px relative" data-node-id="10395:38882" data-name="Product Card — Authentic OM Away Shirt 25/26">
+              <div className="content-stretch flex flex-col h-[235px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:38883" data-name="Product Image">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgProductImage9} />
+                <div className="absolute bg-[#c90d00] content-stretch flex items-start left-[14px] overflow-clip pb-[5px] pt-[6px] px-[10px] top-[14px]" data-node-id="10395:38884" data-name="Badge">
+                  <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[10px] text-white tracking-[1px] uppercase whitespace-nowrap" data-node-id="10395:38885">
+                    -50%
+                  </p>
+                </div>
+                <div className="absolute bg-white content-stretch flex items-center justify-center overflow-clip right-[14px] rounded-[19px] size-[38px] top-[14px]" data-node-id="10395:38886" data-name="Wishlist">
+                  <IconHeart className="relative shrink-0 size-[19px]" />
+                </div>
+              </div>
+              <div className="[word-break:break-word] content-stretch flex flex-col gap-[5px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:38888" data-name="Info">
+                <p className="font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#494f55] text-[10px] tracking-[1px] uppercase whitespace-nowrap" data-node-id="10395:38889">
+                  Authentic
+                </p>
+                <p className="font-['Manrope:SemiBold'] font-semibold leading-[20px] min-w-full relative shrink-0 text-[#0d0e0e] text-[15px] tracking-[-0.03px] w-[min-content]" data-node-id="10395:38890">
+                  Authentic OM Away Shirt 25/26
+                </p>
+                <div className="content-stretch flex gap-[8px] items-center overflow-clip relative shrink-0 whitespace-nowrap" data-node-id="10395:38891" data-name="Price">
+                  <p className="font-['Manrope:Bold'] font-bold leading-[20px] relative shrink-0 text-[#c90d00] text-[15px] tracking-[-0.045px]" data-node-id="10395:38892">
+                    €75.00
+                  </p>
+                  <p className="[text-decoration-skip-ink:none] [text-underline-position:from-font] decoration-from-font decoration-solid font-['Manrope:Regular'] font-normal leading-[18px] line-through relative shrink-0 text-[#a4b2c0] text-[13px]" data-node-id="10395:38893">
+                    €150.00
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-[1_0_0] flex-col gap-[14px] items-start min-w-px relative" data-node-id="10395:38894" data-name="Product Card — OM Junior Third Jersey 26/27">
+              <div className="content-stretch flex flex-col h-[235px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:38895" data-name="Product Image">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgProductImage10} />
+                <div className="absolute bg-white content-stretch flex items-center justify-center overflow-clip right-[14px] rounded-[19px] size-[38px] top-[14px]" data-node-id="10395:38898" data-name="Wishlist">
+                  <IconHeart className="relative shrink-0 size-[19px]" />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col gap-[5px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:38900" data-name="Info">
+                <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#494f55] text-[10px] tracking-[1px] uppercase whitespace-nowrap" data-node-id="10395:38901">
+                  Junior
+                </p>
+                <p className="[word-break:break-word] font-['Manrope:SemiBold'] font-semibold leading-[20px] min-w-full relative shrink-0 text-[#0d0e0e] text-[15px] tracking-[-0.03px] w-[min-content]" data-node-id="10395:38902">
+                  OM Junior Third Jersey 26/27
+                </p>
+                <div className="content-stretch flex gap-[8px] items-center overflow-clip relative shrink-0" data-node-id="10395:38903" data-name="Price">
+                  <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[20px] relative shrink-0 text-[#0d0e0e] text-[15px] tracking-[-0.045px] whitespace-nowrap" data-node-id="10395:38904">
+                    €80.00
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-[1_0_0] flex-col gap-[14px] items-start min-w-px relative" data-node-id="10395:38906" data-name="Product Card — OM Women’s Third Jersey 26/27">
+              <div className="content-stretch flex flex-col h-[235px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:38907" data-name="Product Image">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgProductImage11} />
+                <div className="absolute bg-white content-stretch flex items-center justify-center overflow-clip right-[14px] rounded-[19px] size-[38px] top-[14px]" data-node-id="10395:38910" data-name="Wishlist">
+                  <IconHeart className="relative shrink-0 size-[19px]" />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col gap-[5px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:38912" data-name="Info">
+                <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#494f55] text-[10px] tracking-[1px] uppercase whitespace-nowrap" data-node-id="10395:38913">
+                  Women
+                </p>
+                <p className="[word-break:break-word] font-['Manrope:SemiBold'] font-semibold leading-[20px] min-w-full relative shrink-0 text-[#0d0e0e] text-[15px] tracking-[-0.03px] w-[min-content]" data-node-id="10395:38914">
+                  OM Women’s Third Jersey 26/27
+                </p>
+                <div className="content-stretch flex gap-[8px] items-center overflow-clip relative shrink-0" data-node-id="10395:38915" data-name="Price">
+                  <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[20px] relative shrink-0 text-[#0d0e0e] text-[15px] tracking-[-0.045px] whitespace-nowrap" data-node-id="10395:38916">
+                    €100.00
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col gap-[20px] items-center overflow-clip pt-[28px] relative shrink-0 w-full" data-node-id="10395:38918" data-name="Pagination">
+            <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[18px] relative shrink-0 text-[#494f55] text-[13px] whitespace-nowrap" data-node-id="10395:38919">
+              Showing 12 of 48 products
+            </p>
+            <div className="bg-[#e5eaf0] content-stretch flex h-[3px] items-start overflow-clip relative shrink-0 w-[300px]" data-node-id="10395:38920" data-name="Progress">
+              <div className="absolute bg-[#0d0e0e] h-[3px] left-0 top-0 w-[75px]" data-node-id="10395:38921" data-name="Filled" />
+            </div>
+            <div className="border-[#0d0e0e] border-[1.5px] border-solid content-stretch flex items-start overflow-clip px-[48px] py-[19px] relative shrink-0" data-node-id="10395:38922" data-name="Button — Load more">
+              <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[18px] relative shrink-0 text-[#0d0e0e] text-[13px] tracking-[0.78px] uppercase whitespace-nowrap" data-node-id="10395:38923">
+                Load more
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="bg-[#072f55] content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="10395:38924" data-name="Footer">
+        <div className="content-stretch flex gap-[80px] items-start overflow-clip pb-[56px] pt-[72px] px-[56px] relative shrink-0 w-full" data-node-id="I10395:38924;10038:22" data-name="Footer Main">
+          <div className="content-stretch flex flex-col gap-[20px] items-start overflow-clip relative shrink-0 w-[340px]" data-node-id="I10395:38924;10038:23" data-name="Club Block">
+            <LogoOmCrestWhite className="relative shrink-0 size-[56px]" />
+            <div className="[word-break:break-word] content-stretch flex flex-col gap-[4px] items-start overflow-clip relative shrink-0 uppercase whitespace-nowrap" data-node-id="I10395:38924;10038:27" data-name="Club Name">
+              <p className="font-['Manrope:ExtraBold'] font-extrabold leading-[26px] relative shrink-0 text-[17px] text-white tracking-[-0.17px]" data-node-id="I10395:38924;10038:28">
+                Olympique de Marseille
+              </p>
+              <p className="font-['Manrope:Bold'] font-bold leading-[17px] relative shrink-0 text-[#d7be69] text-[11px] tracking-[0.88px]" data-node-id="I10395:38924;10038:29">
+                Droit au but — since 1899
+              </p>
+            </div>
+            <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[20px] min-w-full relative shrink-0 text-[#a4b2c0] text-[13px] w-[min-content]" data-node-id="I10395:38924;10038:30">
+              The official store of Olympique de Marseille. Every kit, every collection, shipped from the Vélodrome to fans worldwide.
+            </p>
+          </div>
+          <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[14px] items-start min-w-px overflow-clip relative whitespace-nowrap" data-node-id="I10395:38924;10038:42" data-name="Column — Shop">
+            <p className="font-['Manrope:Bold'] font-bold leading-[17px] relative shrink-0 text-[11px] text-white tracking-[1.1px] uppercase" data-node-id="I10395:38924;10038:43">
+              Shop
+            </p>
+            <div className="content-stretch flex flex-col font-['Manrope:Regular'] font-normal gap-[11px] items-start leading-[20px] overflow-clip relative shrink-0 text-[#a4b2c0] text-[13px]" data-node-id="I10395:38924;10038:44" data-name="Links">
+              <p className="relative shrink-0" data-node-id="I10395:38924;10038:45">
+                New Arrivals
+              </p>
+              <p className="relative shrink-0" data-node-id="I10395:38924;10038:46">
+                Match Kits 26/27
+              </p>
+              <p className="relative shrink-0" data-node-id="I10395:38924;10038:47">
+                Shop by Player
+              </p>
+              <p className="relative shrink-0" data-node-id="I10395:38924;10038:48">{`Pre-Match & Training`}</p>
+              <p className="relative shrink-0" data-node-id="I10395:38924;10038:49">
+                Lifestyle
+              </p>
+              <p className="relative shrink-0" data-node-id="I10395:38924;10038:50">{`Kids & Baby`}</p>
+              <p className="relative shrink-0" data-node-id="I10395:38924;10038:51">{`Fans & Gifts`}</p>
+              <p className="relative shrink-0" data-node-id="I10395:38924;10038:52">
+                Sale — up to 60% off
+              </p>
+            </div>
+          </div>
+          <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[14px] items-start min-w-px overflow-clip relative whitespace-nowrap" data-node-id="I10395:38924;10038:53" data-name="Column — Help & Support">
+            <p className="font-['Manrope:Bold'] font-bold leading-[17px] relative shrink-0 text-[11px] text-white tracking-[1.1px] uppercase" data-node-id="I10395:38924;10038:54">{`Help & Support`}</p>
+            <div className="content-stretch flex flex-col font-['Manrope:Regular'] font-normal gap-[11px] items-start leading-[20px] overflow-clip relative shrink-0 text-[#a4b2c0] text-[13px]" data-node-id="I10395:38924;10038:55" data-name="Links">
+              <p className="relative shrink-0" data-node-id="I10395:38924;10038:56">{`Delivery & Shipping`}</p>
+              <p className="relative shrink-0" data-node-id="I10395:38924;10038:57">{`Returns & Exchanges`}</p>
+              <p className="relative shrink-0" data-node-id="I10395:38924;10038:58">
+                Size Guide
+              </p>
+              <p className="relative shrink-0" data-node-id="I10395:38924;10038:59">{`Personalisation & Flocking`}</p>
+              <p className="relative shrink-0" data-node-id="I10395:38924;10038:60">
+                Track My Order
+              </p>
+              <p className="relative shrink-0" data-node-id="I10395:38924;10038:61">
+                Contact Us
+              </p>
+              <p className="relative shrink-0" data-node-id="I10395:38924;10038:62">
+                FAQ
+              </p>
+            </div>
+          </div>
+          <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[14px] items-start min-w-px overflow-clip relative whitespace-nowrap" data-node-id="I10395:38924;10038:63" data-name="Column — The Club">
+            <p className="font-['Manrope:Bold'] font-bold leading-[17px] relative shrink-0 text-[11px] text-white tracking-[1.1px] uppercase" data-node-id="I10395:38924;10038:64">
+              The Club
+            </p>
+            <div className="content-stretch flex flex-col font-['Manrope:Regular'] font-normal gap-[11px] items-start leading-[20px] overflow-clip relative shrink-0 text-[#a4b2c0] text-[13px]" data-node-id="I10395:38924;10038:65" data-name="Links">
+              <p className="relative shrink-0" data-node-id="I10395:38924;10038:66">
+                OM.fr
+              </p>
+              <p className="relative shrink-0" data-node-id="I10395:38924;10038:67">{`Tickets & Hospitality`}</p>
+              <p className="relative shrink-0" data-node-id="I10395:38924;10038:68">
+                Membership
+              </p>
+              <p className="relative shrink-0" data-node-id="I10395:38924;10038:69">
+                OM TV
+              </p>
+              <p className="relative shrink-0" data-node-id="I10395:38924;10038:70">
+                Orange Vélodrome
+              </p>
+              <p className="relative shrink-0" data-node-id="I10395:38924;10038:71">
+                Our Partners
+              </p>
+              <p className="relative shrink-0" data-node-id="I10395:38924;10038:72">
+                Careers
+              </p>
+            </div>
+          </div>
+          <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[14px] items-start min-w-px overflow-clip relative whitespace-nowrap" data-node-id="I10395:38924;10038:73" data-name="Column — My Account">
+            <p className="font-['Manrope:Bold'] font-bold leading-[17px] relative shrink-0 text-[11px] text-white tracking-[1.1px] uppercase" data-node-id="I10395:38924;10038:74">
+              My Account
+            </p>
+            <div className="content-stretch flex flex-col font-['Manrope:Regular'] font-normal gap-[11px] items-start leading-[20px] overflow-clip relative shrink-0 text-[#a4b2c0] text-[13px]" data-node-id="I10395:38924;10038:75" data-name="Links">
+              <p className="relative shrink-0" data-node-id="I10395:38924;10038:76">
+                Sign In
+              </p>
+              <p className="relative shrink-0" data-node-id="I10395:38924;10038:77">
+                Create an Account
+              </p>
+              <p className="relative shrink-0" data-node-id="I10395:38924;10038:78">
+                My Orders
+              </p>
+              <p className="relative shrink-0" data-node-id="I10395:38924;10038:79">
+                Wishlist
+              </p>
+              <p className="relative shrink-0" data-node-id="I10395:38924;10038:80">
+                Loyalty Programme
+              </p>
+              <p className="relative shrink-0" data-node-id="I10395:38924;10038:81">
+                Gift Cards
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="[word-break:break-word] content-stretch flex font-['Manrope:Regular'] font-normal gap-[24px] items-center leading-[18px] overflow-clip px-[56px] py-[24px] relative shrink-0 text-[#a4b2c0] text-[12px] w-full whitespace-nowrap" data-node-id="I10395:38924;10038:82" data-name="Legal Bar">
+          <p className="relative shrink-0" data-node-id="I10395:38924;10038:83">
+            © 2026 Olympique de Marseille. All rights reserved.
+          </p>
+          <div className="content-stretch flex flex-[1_0_0] gap-[20px] items-start justify-end min-w-px overflow-clip relative" data-node-id="I10395:38924;10038:84" data-name="Legal Links">
+            <p className="relative shrink-0" data-node-id="I10395:38924;10038:85">
+              Legal Notice
+            </p>
+            <p className="relative shrink-0" data-node-id="I10395:38924;10038:86">
+              Privacy Policy
+            </p>
+            <p className="relative shrink-0" data-node-id="I10395:38924;10038:87">
+              Terms of Sale
+            </p>
+            <p className="relative shrink-0" data-node-id="I10395:38924;10038:88">
+              Cookies
+            </p>
+            <p className="relative shrink-0" data-node-id="I10395:38924;10038:89">
+              Accessibility
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## Nav / Header — Desktop
+**Node ID:** 10036:8
+
+Global desktop header. Announcement bar + crest lockup + primary category nav + utility icons.
+
+## Logo / OM Crest / Blue
+**Node ID:** 10032:9
+
+Official Olympique de Marseille crest (2026 identity). Source: om.fr logo-om-blue.svg. Blue colourway.
+
+## Footer — Desktop
+**Node ID:** 10038:21
+
+Global desktop footer: full commerce navigation, club links, socials, payment methods and legal bar.
+
+## Logo / OM Crest / White
+**Node ID:** 10032:10
+
+Official Olympique de Marseille crest (2026 identity). Source: om.fr logo-om-blue.svg. White colourway.
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

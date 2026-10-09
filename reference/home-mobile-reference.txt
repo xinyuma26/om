@@ -1,0 +1,1189 @@
+const imgLogoOmCrestWhite = "https://www.figma.com/api/mcp/asset/98b33bca-0990-4d2c-ba32-e4bc2f3fd35d.svg";
+const imgIconHeart = "https://www.figma.com/api/mcp/asset/fd8f3792-1711-41cf-bcfd-1725cb5210d0.svg";
+const imgIconBag = "https://www.figma.com/api/mcp/asset/245a2865-b9b1-453a-802f-a9e2dc3f704b.svg";
+const imgIconSearch = "https://www.figma.com/api/mcp/asset/c76f1ee2-9f16-436a-a446-842ff05e871a.svg";
+const imgIconMenu = "https://www.figma.com/api/mcp/asset/8831afa9-2c8d-4325-b829-7b0fa8be1b40.svg";
+const imgCrest = "https://www.figma.com/api/mcp/asset/1fd51495-55af-4b72-a799-941ed4603b7d.svg";
+const imgImgEHeroM2 = "https://www.figma.com/api/mcp/asset/265ca148-bff0-4837-a179-6e037a65cb57.png";
+const imgImgPHome1 = "https://www.figma.com/api/mcp/asset/b88685bf-657f-43f5-abc7-dbefe477a0b0.png";
+const imgImgPTrainingNavy = "https://www.figma.com/api/mcp/asset/1cb4794e-e6ac-4a21-9cde-59b0bf504cc2.png";
+const imgImgPHoodieTravel = "https://www.figma.com/api/mcp/asset/158e07eb-5580-4978-9ccd-4a3d768b75f8.png";
+const imgImgPScarfDab = "https://www.figma.com/api/mcp/asset/0548332e-808c-44d3-8b6d-e629e04ac49a.png";
+const imgImgPBagChabrand = "https://www.figma.com/api/mcp/asset/57b9c143-114c-473e-ad27-472f90ab8d29.png";
+const imgImgPHomeKids = "https://www.figma.com/api/mcp/asset/bc95313b-01fc-4c4a-bfc7-47e9b16e2a61.png";
+const imgImgKitHome = "https://www.figma.com/api/mcp/asset/40cff840-1d96-4743-b294-79dff237b0d3.png";
+const imgImgKitAway = "https://www.figma.com/api/mcp/asset/7dbbe0df-9072-4cf0-ba89-0026bf60cbe8.png";
+const imgNameplate = "https://www.figma.com/api/mcp/asset/5fa32ab1-97c9-4dca-891a-4b26d3f36368.png";
+const imgNameplate1 = "https://www.figma.com/api/mcp/asset/44a954c0-78b8-4ce6-944f-e236297561cf.png";
+const imgNameplate2 = "https://www.figma.com/api/mcp/asset/2de046a8-56aa-4332-be16-3f6bcc323a9e.png";
+const imgNameplate3 = "https://www.figma.com/api/mcp/asset/7cbf4b43-fee8-4f0c-8fd2-b2d4bcbd126e.png";
+const imgNameplate4 = "https://www.figma.com/api/mcp/asset/ddf3f0b4-e081-4aa5-b9f3-f6c560f5f679.png";
+const imgNameplate5 = "https://www.figma.com/api/mcp/asset/a98b86e4-5057-40eb-9107-76134c206a28.png";
+const imgNameplate6 = "https://www.figma.com/api/mcp/asset/a91d6cf8-2f10-4097-94cf-7b08837c31ab.png";
+const imgNameplate7 = "https://www.figma.com/api/mcp/asset/5ae314b3-d475-43dd-bec6-b819bdc0df9d.png";
+const imgImgEMob1 = "https://www.figma.com/api/mcp/asset/887d20b5-642e-43db-9b51-310865246e8c.png";
+const imgImgEMob2 = "https://www.figma.com/api/mcp/asset/1c20de34-a6f9-44bb-a56b-620c040b8758.png";
+const imgImgEEdit2 = "https://www.figma.com/api/mcp/asset/59994c9e-c7f7-4f59-b17f-99c17cbfa9d5.png";
+const imgProductImage = "https://www.figma.com/api/mcp/asset/eea604fe-d234-4b10-9f8a-b0e7850e53a5.png";
+const imgProductImage1 = "https://www.figma.com/api/mcp/asset/f1a35f7d-a998-46b7-9213-55574d0c3a45.png";
+const imgProductImage2 = "https://www.figma.com/api/mcp/asset/1da58b69-03df-41b0-b712-994bcd3936c5.png";
+const imgImgEHeroM1 = "https://www.figma.com/api/mcp/asset/767c5d6d-0dde-41b0-b9ba-8a4f2da4c4e5.png";
+const imgProductImage3 = "https://www.figma.com/api/mcp/asset/6efd4dd1-c9b0-43a7-aeeb-db1fbd9aa205.png";
+const imgProductImage4 = "https://www.figma.com/api/mcp/asset/fe5a677a-c01f-408f-b2d0-e5d5fa84bd2f.png";
+const imgImgEEdit5 = "https://www.figma.com/api/mcp/asset/2c74cc23-4f21-497b-857b-02abb0c89cf7.png";
+const imgEllipse = "https://www.figma.com/api/mcp/asset/d98d83ba-3347-49a3-a1ee-80062b419576.svg";
+const imgEllipse1 = "https://www.figma.com/api/mcp/asset/16126a83-4fe7-423d-8171-fa5d0446e3c0.svg";
+const imgEllipse2 = "https://www.figma.com/api/mcp/asset/28d10f74-8f6a-4973-859d-fb76611d62e7.svg";
+const imgEllipse3 = "https://www.figma.com/api/mcp/asset/3a05cb28-1c63-4fc7-9ab2-babcfb5342ab.svg";
+
+function LogoOmCrestWhite({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[64px]"} data-node-id="10032:10" data-name="Logo / OM Crest / White">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgLogoOmCrestWhite} />
+    </div>
+  );
+}
+
+function IconHeart({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="10035:18" data-name="Icon / heart">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconHeart} />
+    </div>
+  );
+}
+
+function IconBag({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="10035:22" data-name="Icon / bag">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconBag} />
+    </div>
+  );
+}
+
+function IconSearch({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="10035:11" data-name="Icon / search">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconSearch} />
+    </div>
+  );
+}
+
+function IconMenu({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="10035:63" data-name="Icon / menu">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconMenu} />
+    </div>
+  );
+}
+
+function NavHeaderMobile({ className }: { className?: string }) {
+  return (
+    <div className={className || "bg-white content-stretch drop-shadow-[0px_2px_5px_rgba(0,0,0,0.06)] flex flex-col items-start relative w-[390px]"} data-node-id="10056:878" data-name="Nav / Header — Mobile">
+      <div className="bg-[#0b61ac] content-stretch flex items-center justify-center overflow-clip py-[8px] relative shrink-0 w-full" data-node-id="10100:6202" data-name="Announcement Bar">
+        <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[12px] relative shrink-0 text-[9px] text-white tracking-[0.72px] uppercase whitespace-nowrap" data-node-id="10100:6203">
+          Free delivery over €79
+        </p>
+      </div>
+      <div className="bg-white content-stretch flex items-center overflow-clip px-[14px] py-[12px] relative shrink-0 w-full" data-node-id="10100:6204" data-name="Main Bar">
+        <div className="content-stretch flex items-center justify-center overflow-clip relative shrink-0 size-[44px]" data-node-id="10100:6205" data-name="Menu">
+          <IconMenu className="relative shrink-0 size-[22px]" />
+        </div>
+        <div className="-translate-x-1/2 -translate-y-1/2 absolute left-1/2 size-[30px] top-1/2" data-node-id="10100:6209" data-name="Crest">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCrest} />
+        </div>
+        <div className="content-stretch flex flex-[1_0_0] gap-[2px] items-center justify-end min-w-px relative" data-node-id="10100:6212" data-name="Utilities">
+          <IconSearch className="relative shrink-0 size-[19px]" />
+          <div className="content-stretch flex items-center justify-center relative shrink-0 size-[44px]" data-node-id="10100:6217" data-name="Bag">
+            <IconBag className="relative shrink-0 size-[19px]" />
+            <div className="absolute bg-[#0b61ac] content-stretch flex items-start left-[24px] overflow-clip pb-px pt-[2px] px-[5px] rounded-[8px] top-[-3px]" data-node-id="10100:6222" data-name="Count">
+              <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[11px] relative shrink-0 text-[8px] text-white whitespace-nowrap" data-node-id="10100:6223">
+                2
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default function Component04HomepageMobile() {
+  return (
+    <div className="bg-white content-stretch flex flex-col items-start relative size-full" data-node-id="10395:42254" data-name="04 · Homepage — Mobile">
+      <NavHeaderMobile className="bg-white content-stretch drop-shadow-[0px_2px_5px_rgba(0,0,0,0.06)] flex flex-col items-start relative shrink-0 w-full" />
+      <div className="bg-[#072f55] content-stretch flex flex-col h-[620px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:42256" data-name="Hero — 26/27 Campaign">
+        <div className="absolute h-[620px] left-0 top-0 w-[390px]" data-node-id="10395:42257" data-name="IMG:e-hero-m2">
+          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+            <img alt="" className="absolute h-full left-[-148.88%] max-w-none top-0 w-[423.93%]" src={imgImgEHeroM2} />
+          </div>
+        </div>
+        <div className="absolute bg-gradient-to-b from-[rgba(5,13,23,0.15)] h-[620px] left-0 to-[rgba(5,13,23,0.9)] top-0 via-1/2 via-[rgba(5,13,23,0.5)] w-[390px]" data-node-id="10395:42258" data-name="Scrim" />
+        <div className="absolute content-stretch flex flex-col gap-[12px] items-start left-[24px] overflow-clip top-[240px] w-[342px]" data-node-id="10395:42259" data-name="Hero Copy">
+          <div className="h-[16px] overflow-clip relative shrink-0 w-[90px]" data-node-id="10395:42260" data-name="Stripe Accent">
+            <div className="absolute flex h-[29.481px] items-center justify-center left-[-22px] top-[-7px] w-[21.062px]" data-node-id="10395:42261">
+              <div className="flex-none rotate-30">
+                <div className="bg-[#d7be69] h-[30px] relative w-[7px]" data-name="Rectangle" />
+              </div>
+            </div>
+            <div className="absolute flex h-[29.481px] items-center justify-center left-[-4px] top-[-7px] w-[21.062px]" data-node-id="10395:42262">
+              <div className="flex-none rotate-30">
+                <div className="bg-[#d7be69] h-[30px] relative w-[7px]" data-name="Rectangle" />
+              </div>
+            </div>
+            <div className="absolute flex h-[29.481px] items-center justify-center left-[14px] top-[-7px] w-[21.062px]" data-node-id="10395:42263">
+              <div className="flex-none rotate-30">
+                <div className="bg-[#d7be69] h-[30px] relative w-[7px]" data-name="Rectangle" />
+              </div>
+            </div>
+            <div className="absolute flex h-[29.481px] items-center justify-center left-[32px] top-[-7px] w-[21.062px]" data-node-id="10395:42264">
+              <div className="flex-none rotate-30">
+                <div className="bg-[#d7be69] h-[30px] relative w-[7px]" data-name="Rectangle" />
+              </div>
+            </div>
+            <div className="absolute flex h-[29.481px] items-center justify-center left-[50px] top-[-7px] w-[21.062px]" data-node-id="10395:42265">
+              <div className="flex-none rotate-30">
+                <div className="bg-[#d7be69] h-[30px] relative w-[7px]" data-name="Rectangle" />
+              </div>
+            </div>
+            <div className="absolute flex h-[29.481px] items-center justify-center left-[68px] top-[-7px] w-[21.062px]" data-node-id="10395:42266">
+              <div className="flex-none rotate-30">
+                <div className="bg-[#d7be69] h-[30px] relative w-[7px]" data-name="Rectangle" />
+              </div>
+            </div>
+          </div>
+          <div className="border border-[#d7be69] border-solid content-stretch flex gap-[6px] items-center overflow-clip px-[10px] py-[6px] relative shrink-0" data-node-id="10395:42267" data-name="Match Kicker">
+            <div className="relative shrink-0 size-[5px]" data-node-id="10395:42268" data-name="Ellipse">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse} />
+            </div>
+            <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[normal] relative shrink-0 text-[#d7be69] text-[9px] tracking-[0.54px] whitespace-nowrap" data-node-id="10395:42269">
+              NEXT MATCH · OM—LYON · SAT 20:45
+            </p>
+          </div>
+          <div className="[word-break:break-word] font-['Zilla_Slab:Bold'] leading-[0] not-italic relative shrink-0 text-[38px] text-white tracking-[-0.57px] w-[342px]" data-node-id="10395:42270">
+            <p className="leading-[38px] mb-0">GEAR UP</p>
+            <p className="leading-[38px]">FOR KICK-OFF.</p>
+          </div>
+          <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[12px] text-[rgba(255,255,255,0.8)] w-[342px]" data-node-id="10395:42271">
+            Ligue 1 · Matchday 6 at the Vélodrome.
+          </p>
+          <div className="content-stretch flex gap-[14px] items-center overflow-clip relative shrink-0" data-node-id="10395:42272" data-name="Match Stats">
+            <div className="[word-break:break-word] content-stretch flex flex-col gap-px items-start leading-[normal] overflow-clip relative shrink-0 whitespace-nowrap" data-node-id="10395:42273" data-name="Frame">
+              <p className="font-['Zilla_Slab:Bold'] not-italic relative shrink-0 text-[14px] text-white" data-node-id="10395:42274">
+                3 DAYS
+              </p>
+              <p className="font-['Manrope:Bold'] font-bold relative shrink-0 text-[7px] text-[rgba(255,255,255,0.65)] tracking-[0.42px]" data-node-id="10395:42275">
+                KICK-OFF
+              </p>
+            </div>
+            <div className="bg-[rgba(255,255,255,0.25)] h-[24px] relative shrink-0 w-px" data-node-id="10395:42276" data-name="Rectangle" />
+            <div className="[word-break:break-word] content-stretch flex flex-col gap-px items-start leading-[normal] overflow-clip relative shrink-0 whitespace-nowrap" data-node-id="10395:42277" data-name="Frame">
+              <p className="font-['Zilla_Slab:Bold'] not-italic relative shrink-0 text-[14px] text-white" data-node-id="10395:42278">
+                3W 1D 1L
+              </p>
+              <p className="font-['Manrope:Bold'] font-bold relative shrink-0 text-[7px] text-[rgba(255,255,255,0.65)] tracking-[0.42px]" data-node-id="10395:42279">
+                VS LYON
+              </p>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col gap-[10px] items-start overflow-clip relative shrink-0 w-[342px]" data-node-id="10395:42280" data-name="CTAs">
+            <a className="bg-[#d7be69] content-stretch cursor-pointer flex items-center justify-center overflow-clip py-[15px] relative shrink-0 w-[342px]" data-node-id="10395:42281" data-name="Frame">
+              <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[normal] relative shrink-0 text-[#050d17] text-[13px] text-center tracking-[1.04px] whitespace-nowrap" data-node-id="10395:42282">
+                SHOP MATCH KITS
+              </p>
+            </a>
+            <div className="border border-solid border-white content-stretch flex items-center justify-center overflow-clip py-[15px] relative shrink-0 w-[342px]" data-node-id="10395:42283" data-name="Frame">
+              <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[normal] relative shrink-0 text-[13px] text-center text-white tracking-[1.04px] whitespace-nowrap" data-node-id="10395:42284">
+                GET TICKETS
+              </p>
+            </div>
+          </div>
+          <div className="content-stretch flex gap-[16px] items-center overflow-clip relative shrink-0" data-node-id="10395:42285" data-name="Trust Strip">
+            <div className="content-stretch flex gap-[8px] items-center overflow-clip relative shrink-0" data-node-id="10395:42286" data-name="Frame">
+              <div className="relative shrink-0 size-[3px]" data-node-id="10395:42287" data-name="Ellipse">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse1} />
+              </div>
+              <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[10px] text-[rgba(255,255,255,0.8)] whitespace-nowrap" data-node-id="10395:42288">
+                Free delivery over €79
+              </p>
+            </div>
+            <div className="content-stretch flex gap-[8px] items-center overflow-clip relative shrink-0" data-node-id="10395:42289" data-name="Frame">
+              <div className="relative shrink-0 size-[3px]" data-node-id="10395:42290" data-name="Ellipse">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse1} />
+              </div>
+              <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[10px] text-[rgba(255,255,255,0.8)] whitespace-nowrap" data-node-id="10395:42291">
+                30-day returns
+              </p>
+            </div>
+            <div className="content-stretch flex gap-[8px] items-center overflow-clip relative shrink-0" data-node-id="10395:42292" data-name="Frame">
+              <div className="relative shrink-0 size-[3px]" data-node-id="10395:42293" data-name="Ellipse">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse1} />
+              </div>
+              <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[normal] relative shrink-0 text-[10px] text-[rgba(255,255,255,0.8)] whitespace-nowrap" data-node-id="10395:42294">
+                Official product
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="absolute content-stretch flex gap-[6px] items-start left-[24px] overflow-clip top-[24px]" data-node-id="10395:42295" data-name="Pagination">
+          <div className="bg-white h-[3px] relative shrink-0 w-[22px]" data-node-id="10395:42296" data-name="Rectangle" />
+          <div className="bg-white h-[3px] opacity-40 relative shrink-0 w-[8px]" data-node-id="10395:42297" data-name="Rectangle" />
+          <div className="bg-white h-[3px] opacity-40 relative shrink-0 w-[8px]" data-node-id="10395:42298" data-name="Rectangle" />
+          <div className="bg-white h-[3px] opacity-40 relative shrink-0 w-[8px]" data-node-id="10395:42299" data-name="Rectangle" />
+        </div>
+      </div>
+      <div className="bg-white content-stretch flex flex-col gap-[16px] items-start overflow-clip py-[32px] relative shrink-0 w-full" data-node-id="10395:42300" data-name="Section — Shop by Category">
+        <div className="content-stretch flex flex-col items-start overflow-clip px-[20px] relative shrink-0 w-full" data-node-id="10395:42301" data-name="Header">
+          <p className="[word-break:break-word] font-['Manrope:ExtraBold'] font-extrabold leading-[26px] relative shrink-0 text-[#0d0e0e] text-[19px] tracking-[-0.19px] uppercase whitespace-nowrap" data-node-id="10395:42302">
+            Shop by category
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[12px] items-start overflow-clip px-[20px] relative shrink-0 w-full" data-node-id="10395:42303" data-name="Category Scroller">
+          <div className="content-stretch flex flex-col gap-[9px] items-center overflow-clip relative shrink-0" data-node-id="10395:42304" data-name="Category — Match kits">
+            <div className="bg-[#f2f4f6] overflow-clip relative rounded-[37px] shrink-0 size-[74px]" data-node-id="10395:42305" data-name="Thumb">
+              <div className="absolute left-0 size-[74px] top-0" data-node-id="10395:42306" data-name="IMG:p-home-1">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImgPHome1} />
+              </div>
+            </div>
+            <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#0d0e0e] text-[10px] tracking-[0.4px] uppercase whitespace-nowrap" data-node-id="10395:42307">
+              Match kits
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col gap-[9px] items-center overflow-clip relative shrink-0" data-node-id="10395:42308" data-name="Category — Training">
+            <div className="bg-[#f2f4f6] overflow-clip relative rounded-[37px] shrink-0 size-[74px]" data-node-id="10395:42309" data-name="Thumb">
+              <div className="absolute left-0 size-[74px] top-0" data-node-id="10395:42310" data-name="IMG:p-training-navy">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImgPTrainingNavy} />
+              </div>
+            </div>
+            <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#0d0e0e] text-[10px] tracking-[0.4px] uppercase whitespace-nowrap" data-node-id="10395:42311">
+              Training
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col gap-[9px] items-center overflow-clip relative shrink-0" data-node-id="10395:42312" data-name="Category — Lifestyle">
+            <div className="bg-[#f2f4f6] overflow-clip relative rounded-[37px] shrink-0 size-[74px]" data-node-id="10395:42313" data-name="Thumb">
+              <div className="absolute left-0 size-[74px] top-0" data-node-id="10395:42314" data-name="IMG:p-hoodie-travel">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImgPHoodieTravel} />
+              </div>
+            </div>
+            <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#0d0e0e] text-[10px] tracking-[0.4px] uppercase whitespace-nowrap" data-node-id="10395:42315">
+              Lifestyle
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col gap-[9px] items-center overflow-clip relative shrink-0" data-node-id="10395:42316" data-name="Category — Fans">
+            <div className="bg-[#f2f4f6] overflow-clip relative rounded-[37px] shrink-0 size-[74px]" data-node-id="10395:42317" data-name="Thumb">
+              <div className="absolute left-0 size-[74px] top-0" data-node-id="10395:42318" data-name="IMG:p-scarf-dab">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImgPScarfDab} />
+              </div>
+            </div>
+            <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#0d0e0e] text-[10px] tracking-[0.4px] uppercase whitespace-nowrap" data-node-id="10395:42319">
+              Fans
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col gap-[9px] items-center overflow-clip relative shrink-0" data-node-id="10395:42320" data-name="Category — Accessories">
+            <div className="bg-[#f2f4f6] overflow-clip relative rounded-[37px] shrink-0 size-[74px]" data-node-id="10395:42321" data-name="Thumb">
+              <div className="absolute left-0 size-[74px] top-0" data-node-id="10395:42322" data-name="IMG:p-bag-chabrand">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImgPBagChabrand} />
+              </div>
+            </div>
+            <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#0d0e0e] text-[10px] tracking-[0.4px] uppercase whitespace-nowrap" data-node-id="10395:42323">
+              Accessories
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col gap-[9px] items-center overflow-clip relative shrink-0" data-node-id="10395:42324" data-name="Category — Kids">
+            <div className="bg-[#f2f4f6] overflow-clip relative rounded-[37px] shrink-0 size-[74px]" data-node-id="10395:42325" data-name="Thumb">
+              <div className="absolute left-0 size-[74px] top-0" data-node-id="10395:42326" data-name="IMG:p-home-kids">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImgPHomeKids} />
+              </div>
+            </div>
+            <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#0d0e0e] text-[10px] tracking-[0.4px] uppercase whitespace-nowrap" data-node-id="10395:42327">
+              Kids
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="bg-white content-stretch flex flex-col gap-[20px] items-start overflow-clip px-[20px] py-[44px] relative shrink-0 w-[390px]" data-node-id="10395:42328" data-name="Section — Home & Away Kits">
+        <div className="content-stretch flex flex-col gap-[6px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:42329" data-name="Section Header">
+          <div className="content-stretch flex gap-[10px] items-center overflow-clip relative shrink-0" data-node-id="10395:42330" data-name="Kicker">
+            <div className="bg-[#d7be69] h-[3px] relative shrink-0 w-[22px]" data-node-id="10395:42331" data-name="Rectangle" />
+            <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[normal] relative shrink-0 text-[#d7be69] text-[10px] tracking-[1px] whitespace-nowrap" data-node-id="10395:42332">
+              Shop the kits
+            </p>
+          </div>
+          <p className="[word-break:break-word] font-['Zilla_Slab:Bold'] leading-[normal] min-w-full not-italic relative shrink-0 text-[#0d0e0e] text-[26px] tracking-[-0.195px] w-[min-content]" data-node-id="10395:42333">
+            United in Blue and White
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[4px] items-start relative shrink-0 w-[370px]" data-node-id="10395:42334" data-name="Kit Cards">
+          <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-[350px]" data-node-id="10395:42335" data-name="Kit Card — Home">
+            <div className="h-[350px] relative shrink-0 w-full" data-node-id="10395:42336" data-name="IMG:kit-home">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImgKitHome} />
+            </div>
+            <div className="bg-[#f2f4f6] content-stretch flex flex-col gap-[14px] items-start overflow-clip p-[24px] relative shrink-0 w-full" data-node-id="10395:42337" data-name="Copy">
+              <p className="[word-break:break-word] font-['Zilla_Slab:Bold'] leading-[normal] min-w-full not-italic relative shrink-0 text-[#0d0e0e] text-[22px] tracking-[-0.165px] w-[min-content]" data-node-id="10395:42338">
+                Carry the Pride of Marseille
+              </p>
+              <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[20px] min-w-full relative shrink-0 text-[#494f55] text-[13px] w-[min-content]" data-node-id="10395:42339">{`More than a jersey, it's a symbol of belonging. Wear the Home Kit 26/27 and stand with OM.`}</p>
+              <div className="border border-[#0d0e0e] border-solid content-stretch flex items-center justify-center overflow-clip px-[24px] py-[13px] relative shrink-0" data-node-id="10395:42340" data-name="Button — Shop Now">
+                <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[normal] relative shrink-0 text-[#0d0e0e] text-[11px] tracking-[0.88px] whitespace-nowrap" data-node-id="10395:42341">
+                  SHOP NOW
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-[350px]" data-node-id="10395:42342" data-name="Kit Card — Away">
+            <div className="h-[350px] relative shrink-0 w-full" data-node-id="10395:42343" data-name="IMG:kit-away">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImgKitAway} />
+            </div>
+            <div className="bg-[#0b61ac] content-stretch flex flex-col gap-[14px] items-start overflow-clip p-[24px] relative shrink-0 w-full" data-node-id="10395:42344" data-name="Copy">
+              <p className="[word-break:break-word] font-['Zilla_Slab:Bold'] leading-[normal] min-w-full not-italic relative shrink-0 text-[22px] text-white tracking-[-0.165px] w-[min-content]" data-node-id="10395:42345">
+                Take Marseille Everywhere
+              </p>
+              <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[20px] min-w-full relative shrink-0 text-[13px] text-[rgba(255,255,255,0.85)] w-[min-content]" data-node-id="10395:42346">
+                Wherever the season leads, carry the colors of OM with you, beyond home ground.
+              </p>
+              <div className="border border-solid border-white content-stretch flex items-center justify-center overflow-clip px-[24px] py-[13px] relative shrink-0" data-node-id="10395:42347" data-name="Button — Shop Now">
+                <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[normal] relative shrink-0 text-[11px] text-white tracking-[0.88px] whitespace-nowrap" data-node-id="10395:42348">
+                  SHOP NOW
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="bg-white content-stretch flex flex-col gap-[20px] items-start overflow-clip py-[44px] relative shrink-0 w-full" data-node-id="10395:42349" data-name="Section — Shop by Player">
+        <div className="content-stretch flex flex-col gap-[18px] items-start relative shrink-0 w-full" data-node-id="10395:42350">
+          <div className="content-stretch flex flex-col gap-[10px] items-start overflow-clip px-[20px] relative shrink-0 w-full" data-node-id="10395:42351" data-name="Section Header">
+            <div className="content-stretch flex gap-[9px] items-center overflow-clip relative shrink-0" data-node-id="10395:42352" data-name="Kicker">
+              <div className="bg-[#0b61ac] h-[3px] relative shrink-0 w-[22px]" data-node-id="10395:42353" data-name="Rectangle" />
+              <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#0b61ac] text-[10px] tracking-[1px] uppercase whitespace-nowrap" data-node-id="10395:42354">
+                Wear their number
+              </p>
+            </div>
+            <p className="[word-break:break-word] font-['Zilla_Slab:Bold'] leading-[29px] not-italic relative shrink-0 text-[#0d0e0e] text-[26px] tracking-[-0.26px] uppercase whitespace-nowrap" data-node-id="10395:42355">
+              Shop by player
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col items-start overflow-clip px-[20px] relative shrink-0 w-full" data-node-id="10395:42356" data-name="SubWrap">
+            <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[20px] relative shrink-0 text-[#494f55] text-[13px] w-full" data-node-id="10395:42357">
+              Pick a player — we’ll set up your jersey with their name and number.
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex gap-[12px] items-start overflow-clip px-[20px] relative shrink-0 w-full" data-node-id="10395:42358" data-name="Player Scroller">
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[158px]" data-node-id="10395:42359" data-name="Player Card — de Lange">
+            <div className="content-stretch flex flex-col h-[198px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:42360" data-name="Nameplate">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgNameplate} />
+              <div className="absolute bg-gradient-to-b from-[rgba(0,0,0,0)] h-[108.9px] left-0 to-[rgba(5,5,5,0.85)] top-[89.1px] w-[158px]" data-node-id="10395:42361" data-name="Scrim" />
+              <p className="[word-break:break-word] absolute font-['Manrope:ExtraBold'] font-extrabold leading-[43px] left-[16px] text-[48px] text-white top-[132.8px] tracking-[-0.96px] whitespace-nowrap" data-node-id="10395:42362">
+                1
+              </p>
+              <div className="[word-break:break-word] absolute bg-[#d7be69] content-stretch flex font-['Manrope:Bold'] font-bold gap-[3px] items-center leading-[normal] left-[8px] overflow-clip px-[6px] py-[4px] rounded-[3px] text-[#0d0e0e] text-[7px] top-[8px] whitespace-nowrap" data-node-id="10395:42365" data-name="Award Tag">
+                <p className="relative shrink-0" data-node-id="10395:42366">
+                  ★
+                </p>
+                <p className="relative shrink-0" data-node-id="10395:42367">
+                  TEAM OF THE WEEK
+                </p>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col gap-[2px] items-start overflow-clip pt-[12px] relative shrink-0 w-full" data-node-id="10395:42368" data-name="Info">
+              <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#0b61ac] text-[10px] tracking-[0.6px] uppercase whitespace-nowrap" data-node-id="10395:42369">
+                JEFFREY
+              </p>
+              <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[20px] relative shrink-0 text-[#0d0e0e] text-[15px] tracking-[-0.075px] whitespace-nowrap" data-node-id="10395:42370">
+                de Lange
+              </p>
+              <div className="content-stretch flex gap-[10px] items-start overflow-clip relative shrink-0" data-node-id="10395:42371" data-name="Stats">
+                <div className="[word-break:break-word] content-stretch flex flex-col items-start leading-[normal] overflow-clip relative shrink-0 whitespace-nowrap" data-node-id="10395:42372" data-name="9">
+                  <p className="font-['Zilla_Slab:Bold'] not-italic relative shrink-0 text-[#0d0e0e] text-[16px]" data-node-id="10395:42373">
+                    9
+                  </p>
+                  <p className="font-['Manrope:Bold'] font-bold relative shrink-0 text-[#6c727a] text-[7px]" data-node-id="10395:42374">
+                    APPS
+                  </p>
+                </div>
+                <div className="bg-[rgba(108,114,122,0.4)] h-[18px] relative shrink-0 w-px" data-node-id="10395:42375" data-name="Rectangle" />
+                <div className="[word-break:break-word] content-stretch flex flex-col items-start leading-[normal] overflow-clip relative shrink-0 whitespace-nowrap" data-node-id="10395:42376" data-name="4">
+                  <p className="font-['Zilla_Slab:Bold'] not-italic relative shrink-0 text-[#0d0e0e] text-[16px]" data-node-id="10395:42377">
+                    4
+                  </p>
+                  <p className="font-['Manrope:Bold'] font-bold relative shrink-0 text-[#6c727a] text-[7px]" data-node-id="10395:42378">
+                    CLEAN SHEETS
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[158px]" data-node-id="10395:42379" data-name="Player Card — Egan-Riley">
+            <div className="content-stretch flex flex-col h-[198px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:42380" data-name="Nameplate">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgNameplate1} />
+              <div className="absolute bg-gradient-to-b from-[rgba(0,0,0,0)] h-[108.9px] left-0 to-[rgba(5,5,5,0.85)] top-[89.1px] w-[158px]" data-node-id="10395:42381" data-name="Scrim" />
+              <p className="[word-break:break-word] absolute font-['Manrope:ExtraBold'] font-extrabold leading-[43px] left-[16px] text-[48px] text-white top-[132.8px] tracking-[-0.96px] whitespace-nowrap" data-node-id="10395:42382">
+                4
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[2px] items-start overflow-clip pt-[12px] relative shrink-0 w-full" data-node-id="10395:42385" data-name="Info">
+              <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#0b61ac] text-[10px] tracking-[0.6px] uppercase whitespace-nowrap" data-node-id="10395:42386">
+                CJ
+              </p>
+              <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[20px] relative shrink-0 text-[#0d0e0e] text-[15px] tracking-[-0.075px] whitespace-nowrap" data-node-id="10395:42387">
+                Egan-Riley
+              </p>
+              <div className="content-stretch flex gap-[10px] items-start overflow-clip relative shrink-0" data-node-id="10395:42388" data-name="Stats">
+                <div className="[word-break:break-word] content-stretch flex flex-col items-start leading-[normal] overflow-clip relative shrink-0 whitespace-nowrap" data-node-id="10395:42389" data-name="10">
+                  <p className="font-['Zilla_Slab:Bold'] not-italic relative shrink-0 text-[#0d0e0e] text-[16px]" data-node-id="10395:42390">
+                    10
+                  </p>
+                  <p className="font-['Manrope:Bold'] font-bold relative shrink-0 text-[#6c727a] text-[7px]" data-node-id="10395:42391">
+                    APPS
+                  </p>
+                </div>
+                <div className="bg-[rgba(108,114,122,0.4)] h-[18px] relative shrink-0 w-px" data-node-id="10395:42392" data-name="Rectangle" />
+                <div className="[word-break:break-word] content-stretch flex flex-col items-start leading-[normal] overflow-clip relative shrink-0 whitespace-nowrap" data-node-id="10395:42393" data-name="24">
+                  <p className="font-['Zilla_Slab:Bold'] not-italic relative shrink-0 text-[#0d0e0e] text-[16px]" data-node-id="10395:42394">
+                    24
+                  </p>
+                  <p className="font-['Manrope:Bold'] font-bold relative shrink-0 text-[#6c727a] text-[7px]" data-node-id="10395:42395">
+                    CLEARANCES
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[158px]" data-node-id="10395:42396" data-name="Player Card — Gouiri">
+            <div className="content-stretch flex flex-col h-[198px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:42397" data-name="Nameplate">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgNameplate2} />
+              <div className="absolute bg-gradient-to-b from-[rgba(0,0,0,0)] h-[108.9px] left-0 to-[rgba(5,5,5,0.85)] top-[89.1px] w-[158px]" data-node-id="10395:42398" data-name="Scrim" />
+              <p className="[word-break:break-word] absolute font-['Manrope:ExtraBold'] font-extrabold leading-[43px] left-[16px] text-[48px] text-white top-[132.8px] tracking-[-0.96px] whitespace-nowrap" data-node-id="10395:42399">
+                9
+              </p>
+              <div className="[word-break:break-word] absolute bg-[#d7be69] content-stretch flex font-['Manrope:Bold'] font-bold gap-[3px] items-center leading-[normal] left-[8px] overflow-clip px-[6px] py-[4px] rounded-[3px] text-[#0d0e0e] text-[7px] top-[8px] whitespace-nowrap" data-node-id="10395:42402" data-name="Award Tag">
+                <p className="relative shrink-0" data-node-id="10395:42403">
+                  ★
+                </p>
+                <p className="relative shrink-0" data-node-id="10395:42404">
+                  PLAYER OF THE MONTH
+                </p>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col gap-[2px] items-start overflow-clip pt-[12px] relative shrink-0 w-full" data-node-id="10395:42405" data-name="Info">
+              <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#0b61ac] text-[10px] tracking-[0.6px] uppercase whitespace-nowrap" data-node-id="10395:42406">
+                AMINE
+              </p>
+              <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[20px] relative shrink-0 text-[#0d0e0e] text-[15px] tracking-[-0.075px] whitespace-nowrap" data-node-id="10395:42407">
+                Gouiri
+              </p>
+              <div className="content-stretch flex gap-[10px] items-start overflow-clip relative shrink-0" data-node-id="10395:42408" data-name="Stats">
+                <div className="[word-break:break-word] content-stretch flex flex-col items-start leading-[normal] overflow-clip relative shrink-0 whitespace-nowrap" data-node-id="10395:42409" data-name="9">
+                  <p className="font-['Zilla_Slab:Bold'] not-italic relative shrink-0 text-[#0d0e0e] text-[16px]" data-node-id="10395:42410">
+                    9
+                  </p>
+                  <p className="font-['Manrope:Bold'] font-bold relative shrink-0 text-[#6c727a] text-[7px]" data-node-id="10395:42411">
+                    APPS
+                  </p>
+                </div>
+                <div className="bg-[rgba(108,114,122,0.4)] h-[18px] relative shrink-0 w-px" data-node-id="10395:42412" data-name="Rectangle" />
+                <div className="[word-break:break-word] content-stretch flex flex-col items-start leading-[normal] overflow-clip relative shrink-0 whitespace-nowrap" data-node-id="10395:42413" data-name="6">
+                  <p className="font-['Zilla_Slab:Bold'] not-italic relative shrink-0 text-[#0d0e0e] text-[16px]" data-node-id="10395:42414">
+                    6
+                  </p>
+                  <p className="font-['Manrope:Bold'] font-bold relative shrink-0 text-[#6c727a] text-[7px]" data-node-id="10395:42415">
+                    GOALS
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[158px]" data-node-id="10395:42416" data-name="Player Card — Cornelius">
+            <div className="content-stretch flex flex-col h-[198px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:42417" data-name="Nameplate">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgNameplate3} />
+              <div className="absolute bg-gradient-to-b from-[rgba(0,0,0,0)] h-[108.9px] left-0 to-[rgba(5,5,5,0.85)] top-[89.1px] w-[158px]" data-node-id="10395:42418" data-name="Scrim" />
+              <p className="[word-break:break-word] absolute font-['Manrope:ExtraBold'] font-extrabold leading-[43px] left-[16px] text-[48px] text-white top-[132.8px] tracking-[-0.96px] whitespace-nowrap" data-node-id="10395:42419">
+                13
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[2px] items-start overflow-clip pt-[12px] relative shrink-0 w-full" data-node-id="10395:42422" data-name="Info">
+              <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#0b61ac] text-[10px] tracking-[0.6px] uppercase whitespace-nowrap" data-node-id="10395:42423">
+                DEREK
+              </p>
+              <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[20px] relative shrink-0 text-[#0d0e0e] text-[15px] tracking-[-0.075px] whitespace-nowrap" data-node-id="10395:42424">
+                Cornelius
+              </p>
+              <div className="content-stretch flex gap-[10px] items-start overflow-clip relative shrink-0" data-node-id="10395:42425" data-name="Stats">
+                <div className="[word-break:break-word] content-stretch flex flex-col items-start leading-[normal] overflow-clip relative shrink-0 whitespace-nowrap" data-node-id="10395:42426" data-name="9">
+                  <p className="font-['Zilla_Slab:Bold'] not-italic relative shrink-0 text-[#0d0e0e] text-[16px]" data-node-id="10395:42427">
+                    9
+                  </p>
+                  <p className="font-['Manrope:Bold'] font-bold relative shrink-0 text-[#6c727a] text-[7px]" data-node-id="10395:42428">
+                    APPS
+                  </p>
+                </div>
+                <div className="bg-[rgba(108,114,122,0.4)] h-[18px] relative shrink-0 w-px" data-node-id="10395:42429" data-name="Rectangle" />
+                <div className="[word-break:break-word] content-stretch flex flex-col items-start leading-[normal] overflow-clip relative shrink-0 whitespace-nowrap" data-node-id="10395:42430" data-name="22">
+                  <p className="font-['Zilla_Slab:Bold'] not-italic relative shrink-0 text-[#0d0e0e] text-[16px]" data-node-id="10395:42431">
+                    22
+                  </p>
+                  <p className="font-['Manrope:Bold'] font-bold relative shrink-0 text-[#6c727a] text-[7px]" data-node-id="10395:42432">
+                    TACKLES
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[158px]" data-node-id="10395:42433" data-name="Player Card — Kondogbia">
+            <div className="content-stretch flex flex-col h-[198px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:42434" data-name="Nameplate">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgNameplate4} />
+              <div className="absolute bg-gradient-to-b from-[rgba(0,0,0,0)] h-[108.9px] left-0 to-[rgba(5,5,5,0.85)] top-[89.1px] w-[158px]" data-node-id="10395:42435" data-name="Scrim" />
+              <p className="[word-break:break-word] absolute font-['Manrope:ExtraBold'] font-extrabold leading-[43px] left-[16px] text-[48px] text-white top-[132.8px] tracking-[-0.96px] whitespace-nowrap" data-node-id="10395:42436">
+                19
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[2px] items-start overflow-clip pt-[12px] relative shrink-0 w-full" data-node-id="10395:42439" data-name="Info">
+              <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#0b61ac] text-[10px] tracking-[0.6px] uppercase whitespace-nowrap" data-node-id="10395:42440">
+                GEOFFREY
+              </p>
+              <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[20px] relative shrink-0 text-[#0d0e0e] text-[15px] tracking-[-0.075px] whitespace-nowrap" data-node-id="10395:42441">
+                Kondogbia
+              </p>
+              <div className="content-stretch flex gap-[10px] items-start overflow-clip relative shrink-0" data-node-id="10395:42442" data-name="Stats">
+                <div className="[word-break:break-word] content-stretch flex flex-col items-start leading-[normal] overflow-clip relative shrink-0 whitespace-nowrap" data-node-id="10395:42443" data-name="8">
+                  <p className="font-['Zilla_Slab:Bold'] not-italic relative shrink-0 text-[#0d0e0e] text-[16px]" data-node-id="10395:42444">
+                    8
+                  </p>
+                  <p className="font-['Manrope:Bold'] font-bold relative shrink-0 text-[#6c727a] text-[7px]" data-node-id="10395:42445">
+                    APPS
+                  </p>
+                </div>
+                <div className="bg-[rgba(108,114,122,0.4)] h-[18px] relative shrink-0 w-px" data-node-id="10395:42446" data-name="Rectangle" />
+                <div className="[word-break:break-word] content-stretch flex flex-col items-start leading-[normal] overflow-clip relative shrink-0 whitespace-nowrap" data-node-id="10395:42447" data-name="15">
+                  <p className="font-['Zilla_Slab:Bold'] not-italic relative shrink-0 text-[#0d0e0e] text-[16px]" data-node-id="10395:42448">
+                    15
+                  </p>
+                  <p className="font-['Manrope:Bold'] font-bold relative shrink-0 text-[#6c727a] text-[7px]" data-node-id="10395:42449">
+                    INTERCEPTIONS
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[158px]" data-node-id="10395:42450" data-name="Player Card — Gomes">
+            <div className="content-stretch flex flex-col h-[198px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:42451" data-name="Nameplate">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgNameplate5} />
+              <div className="absolute bg-gradient-to-b from-[rgba(0,0,0,0)] h-[108.9px] left-0 to-[rgba(5,5,5,0.85)] top-[89.1px] w-[158px]" data-node-id="10395:42452" data-name="Scrim" />
+              <p className="[word-break:break-word] absolute font-['Manrope:ExtraBold'] font-extrabold leading-[43px] left-[16px] text-[48px] text-white top-[132.8px] tracking-[-0.96px] whitespace-nowrap" data-node-id="10395:42453">
+                7
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[2px] items-start overflow-clip pt-[12px] relative shrink-0 w-full" data-node-id="10395:42456" data-name="Info">
+              <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#0b61ac] text-[10px] tracking-[0.6px] uppercase whitespace-nowrap" data-node-id="10395:42457">
+                ANGEL
+              </p>
+              <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[20px] relative shrink-0 text-[#0d0e0e] text-[15px] tracking-[-0.075px] whitespace-nowrap" data-node-id="10395:42458">
+                Gomes
+              </p>
+              <div className="content-stretch flex gap-[10px] items-start overflow-clip relative shrink-0" data-node-id="10395:42459" data-name="Stats">
+                <div className="[word-break:break-word] content-stretch flex flex-col items-start leading-[normal] overflow-clip relative shrink-0 whitespace-nowrap" data-node-id="10395:42460" data-name="10">
+                  <p className="font-['Zilla_Slab:Bold'] not-italic relative shrink-0 text-[#0d0e0e] text-[16px]" data-node-id="10395:42461">
+                    10
+                  </p>
+                  <p className="font-['Manrope:Bold'] font-bold relative shrink-0 text-[#6c727a] text-[7px]" data-node-id="10395:42462">
+                    APPS
+                  </p>
+                </div>
+                <div className="bg-[rgba(108,114,122,0.4)] h-[18px] relative shrink-0 w-px" data-node-id="10395:42463" data-name="Rectangle" />
+                <div className="[word-break:break-word] content-stretch flex flex-col items-start leading-[normal] overflow-clip relative shrink-0 whitespace-nowrap" data-node-id="10395:42464" data-name="3">
+                  <p className="font-['Zilla_Slab:Bold'] not-italic relative shrink-0 text-[#0d0e0e] text-[16px]" data-node-id="10395:42465">
+                    3
+                  </p>
+                  <p className="font-['Manrope:Bold'] font-bold relative shrink-0 text-[#6c727a] text-[7px]" data-node-id="10395:42466">
+                    ASSISTS
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[158px]" data-node-id="10395:42467" data-name="Player Card — Paixão">
+            <div className="content-stretch flex flex-col h-[198px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:42468" data-name="Nameplate">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgNameplate6} />
+              <div className="absolute bg-gradient-to-b from-[rgba(0,0,0,0)] h-[108.9px] left-0 to-[rgba(5,5,5,0.85)] top-[89.1px] w-[158px]" data-node-id="10395:42469" data-name="Scrim" />
+              <p className="[word-break:break-word] absolute font-['Manrope:ExtraBold'] font-extrabold leading-[43px] left-[16px] text-[48px] text-white top-[132.8px] tracking-[-0.96px] whitespace-nowrap" data-node-id="10395:42470">
+                14
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[2px] items-start overflow-clip pt-[12px] relative shrink-0 w-full" data-node-id="10395:42473" data-name="Info">
+              <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#0b61ac] text-[10px] tracking-[0.6px] uppercase whitespace-nowrap" data-node-id="10395:42474">
+                IGOR
+              </p>
+              <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[20px] relative shrink-0 text-[#0d0e0e] text-[15px] tracking-[-0.075px] whitespace-nowrap" data-node-id="10395:42475">
+                Paixão
+              </p>
+              <div className="content-stretch flex gap-[10px] items-start overflow-clip relative shrink-0" data-node-id="10395:42476" data-name="Stats">
+                <div className="[word-break:break-word] content-stretch flex flex-col items-start leading-[normal] overflow-clip relative shrink-0 whitespace-nowrap" data-node-id="10395:42477" data-name="10">
+                  <p className="font-['Zilla_Slab:Bold'] not-italic relative shrink-0 text-[#0d0e0e] text-[16px]" data-node-id="10395:42478">
+                    10
+                  </p>
+                  <p className="font-['Manrope:Bold'] font-bold relative shrink-0 text-[#6c727a] text-[7px]" data-node-id="10395:42479">
+                    APPS
+                  </p>
+                </div>
+                <div className="bg-[rgba(108,114,122,0.4)] h-[18px] relative shrink-0 w-px" data-node-id="10395:42480" data-name="Rectangle" />
+                <div className="[word-break:break-word] content-stretch flex flex-col items-start leading-[normal] overflow-clip relative shrink-0 whitespace-nowrap" data-node-id="10395:42481" data-name="5">
+                  <p className="font-['Zilla_Slab:Bold'] not-italic relative shrink-0 text-[#0d0e0e] text-[16px]" data-node-id="10395:42482">
+                    5
+                  </p>
+                  <p className="font-['Manrope:Bold'] font-bold relative shrink-0 text-[#6c727a] text-[7px]" data-node-id="10395:42483">
+                    GOALS
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[158px]" data-node-id="10395:42484" data-name="Player Card — Moumbagna">
+            <div className="content-stretch flex flex-col h-[198px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:42485" data-name="Nameplate">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgNameplate7} />
+              <div className="absolute bg-gradient-to-b from-[rgba(0,0,0,0)] h-[108.9px] left-0 to-[rgba(5,5,5,0.85)] top-[89.1px] w-[158px]" data-node-id="10395:42486" data-name="Scrim" />
+              <p className="[word-break:break-word] absolute font-['Manrope:ExtraBold'] font-extrabold leading-[43px] left-[16px] text-[48px] text-white top-[132.8px] tracking-[-0.96px] whitespace-nowrap" data-node-id="10395:42487">
+                29
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[2px] items-start overflow-clip pt-[12px] relative shrink-0 w-full" data-node-id="10395:42490" data-name="Info">
+              <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#0b61ac] text-[10px] tracking-[0.6px] uppercase whitespace-nowrap" data-node-id="10395:42491">
+                FARIS
+              </p>
+              <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[20px] relative shrink-0 text-[#0d0e0e] text-[15px] tracking-[-0.075px] whitespace-nowrap" data-node-id="10395:42492">
+                Moumbagna
+              </p>
+              <div className="content-stretch flex gap-[10px] items-start overflow-clip relative shrink-0" data-node-id="10395:42493" data-name="Stats">
+                <div className="[word-break:break-word] content-stretch flex flex-col items-start leading-[normal] overflow-clip relative shrink-0 whitespace-nowrap" data-node-id="10395:42494" data-name="7">
+                  <p className="font-['Zilla_Slab:Bold'] not-italic relative shrink-0 text-[#0d0e0e] text-[16px]" data-node-id="10395:42495">
+                    7
+                  </p>
+                  <p className="font-['Manrope:Bold'] font-bold relative shrink-0 text-[#6c727a] text-[7px]" data-node-id="10395:42496">
+                    APPS
+                  </p>
+                </div>
+                <div className="bg-[rgba(108,114,122,0.4)] h-[18px] relative shrink-0 w-px" data-node-id="10395:42497" data-name="Rectangle" />
+                <div className="[word-break:break-word] content-stretch flex flex-col items-start leading-[normal] overflow-clip relative shrink-0 whitespace-nowrap" data-node-id="10395:42498" data-name="4">
+                  <p className="font-['Zilla_Slab:Bold'] not-italic relative shrink-0 text-[#0d0e0e] text-[16px]" data-node-id="10395:42499">
+                    4
+                  </p>
+                  <p className="font-['Manrope:Bold'] font-bold relative shrink-0 text-[#6c727a] text-[7px]" data-node-id="10395:42500">
+                    GOALS
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex gap-[6px] items-start overflow-clip pl-[20px] relative shrink-0" data-node-id="10395:42501" data-name="Pagination">
+          <div className="bg-[#0d0e0e] h-[3px] relative shrink-0 w-[22px]" data-node-id="10395:42502" data-name="Dot 1" />
+          <div className="bg-[rgba(13,14,14,0.25)] h-[3px] relative shrink-0 w-[8px]" data-node-id="10395:42503" data-name="Dot 2" />
+          <div className="bg-[rgba(13,14,14,0.25)] h-[3px] relative shrink-0 w-[8px]" data-node-id="10395:42504" data-name="Dot 3" />
+          <div className="bg-[rgba(13,14,14,0.25)] h-[3px] relative shrink-0 w-[8px]" data-node-id="10395:42505" data-name="Dot 4" />
+        </div>
+      </div>
+      <div className="bg-white content-stretch flex flex-col gap-[20px] items-start overflow-clip pb-[44px] pt-[20px] px-[20px] relative shrink-0 w-full" data-node-id="10395:42506" data-name="Section — Featured Collections">
+        <div className="content-stretch flex flex-col gap-[10px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:42507" data-name="Section Header">
+          <div className="content-stretch flex gap-[9px] items-center overflow-clip relative shrink-0" data-node-id="10395:42508" data-name="Kicker">
+            <div className="bg-[#0b61ac] h-[3px] relative shrink-0 w-[22px]" data-node-id="10395:42509" data-name="Rectangle" />
+            <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#0b61ac] text-[10px] tracking-[1px] uppercase whitespace-nowrap" data-node-id="10395:42510">
+              Collections
+            </p>
+          </div>
+          <div className="[word-break:break-word] content-stretch flex gap-[12px] items-center overflow-clip relative shrink-0 text-[#0d0e0e] uppercase w-full" data-node-id="10395:42511" data-name="Title Row">
+            <p className="flex-[1_0_0] font-['Zilla_Slab:Bold'] leading-[29px] min-w-px not-italic relative text-[26px] tracking-[-0.195px]" data-node-id="10395:42512">
+              Wear the city
+            </p>
+            <p className="font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[10px] tracking-[0.6px] whitespace-nowrap" data-node-id="10395:42513">
+              All →
+            </p>
+          </div>
+        </div>
+        <div className="bg-[#f2f4f6] content-stretch flex flex-col h-[420px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:42514" data-name="Collection — The 26/27 Range">
+          <div className="absolute h-[420px] left-0 top-0 w-[350px]" data-node-id="10395:42515" data-name="IMG:e-mob-1">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImgEMob1} />
+          </div>
+          <div className="absolute bg-gradient-to-b from-[35%] from-[rgba(5,13,23,0)] h-[420px] left-0 to-[rgba(5,13,23,0.88)] top-0 w-[350px]" data-node-id="10395:42516" data-name="Scrim" />
+          <div className="absolute content-stretch flex flex-col gap-[8px] items-start left-[24px] overflow-clip top-[288px] w-[302px]" data-node-id="10395:42517" data-name="Copy">
+            <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#d7be69] text-[10px] tracking-[1px] uppercase whitespace-nowrap" data-node-id="10395:42518">
+              Match Kits
+            </p>
+            <p className="[word-break:break-word] font-['Zilla_Slab:Bold'] leading-[27px] min-w-full not-italic relative shrink-0 text-[26px] text-white tracking-[-0.26px] uppercase w-[min-content]" data-node-id="10395:42519">
+              The 26/27 Range
+            </p>
+            <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[18px] min-w-full opacity-85 relative shrink-0 text-[12px] text-white w-[min-content]" data-node-id="10395:42520">
+              Home · Away · Third · GK
+            </p>
+            <div className="content-stretch flex gap-[7px] items-center overflow-clip pt-[4px] relative shrink-0" data-node-id="10395:42521" data-name="Shop Link">
+              <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[10px] text-white tracking-[0.6px] uppercase whitespace-nowrap" data-node-id="10395:42522">
+                Shop now
+              </p>
+              <div className="bg-white h-[1.5px] relative shrink-0 w-[14px]" data-node-id="10395:42523" data-name="Rectangle" />
+            </div>
+          </div>
+        </div>
+        <div className="bg-[#f2f4f6] content-stretch flex flex-col h-[300px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:42524" data-name="Collection — Made in Marseille">
+          <div className="absolute h-[300px] left-0 top-0 w-[350px]" data-node-id="10395:42525" data-name="IMG:e-mob-2">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImgEMob2} />
+          </div>
+          <div className="absolute bg-gradient-to-b from-[35%] from-[rgba(5,13,23,0)] h-[300px] left-0 to-[rgba(5,13,23,0.88)] top-0 w-[350px]" data-node-id="10395:42526" data-name="Scrim" />
+          <div className="absolute content-stretch flex flex-col gap-[8px] items-start left-[24px] overflow-clip top-[175px] w-[302px]" data-node-id="10395:42527" data-name="Copy">
+            <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#d7be69] text-[10px] tracking-[1px] uppercase whitespace-nowrap" data-node-id="10395:42528">
+              Lifestyle
+            </p>
+            <p className="[word-break:break-word] font-['Zilla_Slab:Bold'] leading-[27px] min-w-full not-italic relative shrink-0 text-[26px] text-white tracking-[-0.26px] uppercase w-[min-content]" data-node-id="10395:42529">
+              Made in Marseille
+            </p>
+            <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[18px] min-w-full opacity-85 relative shrink-0 text-[12px] text-white w-[min-content]" data-node-id="10395:42530">
+              Everyday pieces from the Vieux-Port
+            </p>
+            <div className="content-stretch flex gap-[7px] items-center overflow-clip pt-[4px] relative shrink-0" data-node-id="10395:42531" data-name="Shop Link">
+              <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[10px] text-white tracking-[0.6px] uppercase whitespace-nowrap" data-node-id="10395:42532">
+                Shop now
+              </p>
+              <div className="bg-white h-[1.5px] relative shrink-0 w-[14px]" data-node-id="10395:42533" data-name="Rectangle" />
+            </div>
+          </div>
+        </div>
+        <div className="bg-[#f2f4f6] content-stretch flex flex-col h-[300px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:42534" data-name="Collection — OM × Chabrand">
+          <div className="absolute h-[300px] left-0 top-0 w-[350px]" data-node-id="10395:42535" data-name="IMG:e-edit-2">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImgEEdit2} />
+          </div>
+          <div className="absolute bg-gradient-to-b from-[35%] from-[rgba(5,13,23,0)] h-[300px] left-0 to-[rgba(5,13,23,0.88)] top-0 w-[350px]" data-node-id="10395:42536" data-name="Scrim" />
+          <div className="absolute content-stretch flex flex-col gap-[8px] items-start left-[24px] overflow-clip top-[175px] w-[302px]" data-node-id="10395:42537" data-name="Copy">
+            <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#d7be69] text-[10px] tracking-[1px] uppercase whitespace-nowrap" data-node-id="10395:42538">
+              Collab
+            </p>
+            <p className="[word-break:break-word] font-['Zilla_Slab:Bold'] leading-[27px] min-w-full not-italic relative shrink-0 text-[26px] text-white tracking-[-0.26px] uppercase w-[min-content]" data-node-id="10395:42539">
+              OM × Chabrand
+            </p>
+            <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[18px] min-w-full opacity-85 relative shrink-0 text-[12px] text-white w-[min-content]" data-node-id="10395:42540">
+              Leather goods, made in France
+            </p>
+            <div className="content-stretch flex gap-[7px] items-center overflow-clip pt-[4px] relative shrink-0" data-node-id="10395:42541" data-name="Shop Link">
+              <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[10px] text-white tracking-[0.6px] uppercase whitespace-nowrap" data-node-id="10395:42542">
+                Shop now
+              </p>
+              <div className="bg-white h-[1.5px] relative shrink-0 w-[14px]" data-node-id="10395:42543" data-name="Rectangle" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="bg-white content-stretch flex flex-col gap-[20px] items-start overflow-clip pb-[44px] pt-[8px] relative shrink-0 w-full" data-node-id="10395:42544" data-name="Section — New Arrivals">
+        <div className="content-stretch flex flex-col items-start overflow-clip px-[20px] relative shrink-0 w-full" data-node-id="10395:42545" data-name="Header">
+          <div className="content-stretch flex flex-col gap-[10px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:42546" data-name="Section Header">
+            <div className="content-stretch flex gap-[9px] items-center overflow-clip relative shrink-0" data-node-id="10395:42547" data-name="Kicker">
+              <div className="bg-[#0b61ac] h-[3px] relative shrink-0 w-[22px]" data-node-id="10395:42548" data-name="Rectangle" />
+              <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#0b61ac] text-[10px] tracking-[1px] uppercase whitespace-nowrap" data-node-id="10395:42549">
+                Just landed
+              </p>
+            </div>
+            <div className="[word-break:break-word] content-stretch flex gap-[12px] items-center overflow-clip relative shrink-0 text-[#0d0e0e] uppercase w-full" data-node-id="10395:42550" data-name="Title Row">
+              <p className="flex-[1_0_0] font-['Zilla_Slab:Bold'] leading-[29px] min-w-px not-italic relative text-[26px] tracking-[-0.195px]" data-node-id="10395:42551">
+                New arrivals
+              </p>
+              <p className="font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[10px] tracking-[0.6px] whitespace-nowrap" data-node-id="10395:42552">
+                All →
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex gap-[12px] items-start overflow-clip px-[20px] relative shrink-0 w-full" data-node-id="10395:42553" data-name="Product Scroller">
+          <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0 w-[170px]" data-node-id="10395:42554" data-name="Product Card — OM Away Jersey 26/27">
+            <div className="content-stretch flex flex-col h-[170px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:42555" data-name="Product Image">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgProductImage} />
+              <div className="absolute bg-[#0b61ac] content-stretch flex items-start left-[8px] overflow-clip px-[7px] py-[4px] top-[8px]" data-node-id="10395:42556" data-name="Badge">
+                <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[12px] relative shrink-0 text-[9px] text-white tracking-[0.9px] uppercase whitespace-nowrap" data-node-id="10395:42557">
+                  New
+                </p>
+              </div>
+              <div className="absolute bg-white content-stretch flex items-center justify-center overflow-clip right-[8px] rounded-[16px] size-[32px] top-[8px]" data-node-id="10395:42558" data-name="Wishlist">
+                <IconHeart className="relative shrink-0 size-[19px]" />
+              </div>
+            </div>
+            <div className="[word-break:break-word] content-stretch flex flex-col gap-[3px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:42560" data-name="Info">
+              <p className="font-['Manrope:Bold'] font-bold leading-[12px] relative shrink-0 text-[#494f55] text-[9px] tracking-[0.9px] uppercase whitespace-nowrap" data-node-id="10395:42561">
+                Match Kits 26/27
+              </p>
+              <p className="font-['Manrope:SemiBold'] font-semibold leading-[18px] min-w-full relative shrink-0 text-[#0d0e0e] text-[13px] tracking-[-0.026px] w-[min-content]" data-node-id="10395:42562">
+                OM Away Jersey 26/27
+              </p>
+              <p className="font-['Manrope:Bold'] font-bold leading-[18px] relative shrink-0 text-[#0d0e0e] text-[13px] tracking-[-0.039px] whitespace-nowrap" data-node-id="10395:42563">
+                €100.00
+              </p>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0 w-[170px]" data-node-id="10395:42564" data-name="Product Card — OM Royal Blue Pre-Match Jersey">
+            <div className="content-stretch flex flex-col h-[170px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:42565" data-name="Product Image">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgProductImage1} />
+              <div className="absolute bg-[#0b61ac] content-stretch flex items-start left-[8px] overflow-clip px-[7px] py-[4px] top-[8px]" data-node-id="10395:42566" data-name="Badge">
+                <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[12px] relative shrink-0 text-[9px] text-white tracking-[0.9px] uppercase whitespace-nowrap" data-node-id="10395:42567">
+                  New
+                </p>
+              </div>
+              <div className="absolute bg-white content-stretch flex items-center justify-center overflow-clip right-[8px] rounded-[16px] size-[32px] top-[8px]" data-node-id="10395:42568" data-name="Wishlist">
+                <IconHeart className="relative shrink-0 size-[19px]" />
+              </div>
+            </div>
+            <div className="[word-break:break-word] content-stretch flex flex-col gap-[3px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:42570" data-name="Info">
+              <p className="font-['Manrope:Bold'] font-bold leading-[12px] relative shrink-0 text-[#494f55] text-[9px] tracking-[0.9px] uppercase whitespace-nowrap" data-node-id="10395:42571">
+                Pre-Match
+              </p>
+              <p className="font-['Manrope:SemiBold'] font-semibold leading-[18px] min-w-full relative shrink-0 text-[#0d0e0e] text-[13px] tracking-[-0.026px] w-[min-content]" data-node-id="10395:42572">
+                OM Royal Blue Pre-Match Jersey
+              </p>
+              <p className="font-['Manrope:Bold'] font-bold leading-[18px] relative shrink-0 text-[#0d0e0e] text-[13px] tracking-[-0.039px] whitespace-nowrap" data-node-id="10395:42573">
+                €65.00
+              </p>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0 w-[170px]" data-node-id="10395:42574" data-name="Product Card — OM King White Long-Sleeved Jersey">
+            <div className="content-stretch flex flex-col h-[170px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:42575" data-name="Product Image">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgProductImage2} />
+              <div className="absolute bg-[#0b61ac] content-stretch flex items-start left-[8px] overflow-clip px-[7px] py-[4px] top-[8px]" data-node-id="10395:42576" data-name="Badge">
+                <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[12px] relative shrink-0 text-[9px] text-white tracking-[0.9px] uppercase whitespace-nowrap" data-node-id="10395:42577">
+                  New
+                </p>
+              </div>
+              <div className="absolute bg-white content-stretch flex items-center justify-center overflow-clip right-[8px] rounded-[16px] size-[32px] top-[8px]" data-node-id="10395:42578" data-name="Wishlist">
+                <IconHeart className="relative shrink-0 size-[19px]" />
+              </div>
+            </div>
+            <div className="[word-break:break-word] content-stretch flex flex-col gap-[3px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:42580" data-name="Info">
+              <p className="font-['Manrope:Bold'] font-bold leading-[12px] relative shrink-0 text-[#494f55] text-[9px] tracking-[0.9px] uppercase whitespace-nowrap" data-node-id="10395:42581">
+                Lifestyle · King
+              </p>
+              <p className="font-['Manrope:SemiBold'] font-semibold leading-[18px] min-w-full relative shrink-0 text-[#0d0e0e] text-[13px] tracking-[-0.026px] w-[min-content]" data-node-id="10395:42582">
+                OM King White Long-Sleeved Jersey
+              </p>
+              <p className="font-['Manrope:Bold'] font-bold leading-[18px] relative shrink-0 text-[#0d0e0e] text-[13px] tracking-[-0.039px] whitespace-nowrap" data-node-id="10395:42583">
+                €85.00
+              </p>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0 w-[170px]" data-node-id="10395:42584" data-name="Product Card — OM × Chabrand Logo Bag">
+            <div className="content-stretch flex flex-col h-[170px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:42585" data-name="Product Image">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImgPBagChabrand} />
+              <div className="absolute bg-[#d7be69] content-stretch flex items-start left-[8px] overflow-clip px-[7px] py-[4px] top-[8px]" data-node-id="10395:42586" data-name="Badge">
+                <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[12px] relative shrink-0 text-[#0d0e0e] text-[9px] tracking-[0.9px] uppercase whitespace-nowrap" data-node-id="10395:42587">
+                  Limited
+                </p>
+              </div>
+              <div className="absolute bg-white content-stretch flex items-center justify-center overflow-clip right-[8px] rounded-[16px] size-[32px] top-[8px]" data-node-id="10395:42588" data-name="Wishlist">
+                <IconHeart className="relative shrink-0 size-[19px]" />
+              </div>
+            </div>
+            <div className="[word-break:break-word] content-stretch flex flex-col gap-[3px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:42590" data-name="Info">
+              <p className="font-['Manrope:Bold'] font-bold leading-[12px] relative shrink-0 text-[#494f55] text-[9px] tracking-[0.9px] uppercase whitespace-nowrap" data-node-id="10395:42591">
+                OM × Chabrand
+              </p>
+              <p className="font-['Manrope:SemiBold'] font-semibold leading-[18px] min-w-full relative shrink-0 text-[#0d0e0e] text-[13px] tracking-[-0.026px] w-[min-content]" data-node-id="10395:42592">
+                OM × Chabrand Logo Bag
+              </p>
+              <p className="font-['Manrope:Bold'] font-bold leading-[18px] relative shrink-0 text-[#0d0e0e] text-[13px] tracking-[-0.039px] whitespace-nowrap" data-node-id="10395:42593">
+                €169.00
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="bg-[#0b61ac] content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:42594" data-name="Section — Jersey Personalisation">
+        <div className="bg-[#f2f4f6] content-stretch flex flex-col h-[330px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:42595" data-name="Personalisation Image">
+          <div className="h-[330px] relative shrink-0 w-[390px]" data-node-id="10395:42596" data-name="IMG:e-hero-m1">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImgEHeroM1} />
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[18px] items-start overflow-clip pb-[40px] pt-[36px] px-[20px] relative shrink-0 w-full" data-node-id="10395:42597" data-name="Panel">
+          <div className="content-stretch flex gap-[9px] items-center overflow-clip relative shrink-0" data-node-id="10395:42598" data-name="Kicker">
+            <div className="bg-[#d7be69] h-[3px] relative shrink-0 w-[22px]" data-node-id="10395:42599" data-name="Rectangle" />
+            <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#d7be69] text-[10px] tracking-[1px] uppercase whitespace-nowrap" data-node-id="10395:42600">
+              Personalisation
+            </p>
+          </div>
+          <div className="[word-break:break-word] font-['Zilla_Slab:Bold'] leading-[0] min-w-full not-italic relative shrink-0 text-[32px] text-white tracking-[-0.32px] uppercase w-[min-content]" data-node-id="10395:42601">
+            <p className="leading-[34px] mb-0">Put your name</p>
+            <p className="leading-[34px]">on the shirt</p>
+          </div>
+          <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[22px] min-w-full opacity-90 relative shrink-0 text-[14px] text-white w-[min-content]" data-node-id="10395:42602">
+            Official Ligue 1 and Europa League flocking, applied in Marseille. Any name, any number from 1 to 99.
+          </p>
+          <div className="content-stretch flex flex-col gap-[10px] items-start overflow-clip relative shrink-0" data-node-id="10395:42603" data-name="Benefits">
+            <div className="content-stretch flex gap-[10px] items-center overflow-clip relative shrink-0" data-node-id="10395:42604" data-name="Benefit">
+              <div className="relative shrink-0 size-[4px]" data-node-id="10395:42605" data-name="Ellipse">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse2} />
+              </div>
+              <p className="[word-break:break-word] font-['Manrope:Medium'] font-medium leading-[18px] relative shrink-0 text-[13px] text-white whitespace-nowrap" data-node-id="10395:42606">{`Ligue 1 & Europa League typefaces`}</p>
+            </div>
+            <div className="content-stretch flex gap-[10px] items-center overflow-clip relative shrink-0" data-node-id="10395:42607" data-name="Benefit">
+              <div className="relative shrink-0 size-[4px]" data-node-id="10395:42608" data-name="Ellipse">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse2} />
+              </div>
+              <p className="[word-break:break-word] font-['Manrope:Medium'] font-medium leading-[18px] relative shrink-0 text-[13px] text-white whitespace-nowrap" data-node-id="10395:42609">
+                Applied in 48h · +€20
+              </p>
+            </div>
+            <div className="content-stretch flex gap-[10px] items-center overflow-clip relative shrink-0" data-node-id="10395:42610" data-name="Benefit">
+              <div className="relative shrink-0 size-[4px]" data-node-id="10395:42611" data-name="Ellipse">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse2} />
+              </div>
+              <p className="[word-break:break-word] font-['Manrope:Medium'] font-medium leading-[18px] relative shrink-0 text-[13px] text-white whitespace-nowrap" data-node-id="10395:42612">
+                All 26/27 match kits
+              </p>
+            </div>
+          </div>
+          <div className="bg-white content-stretch flex items-center justify-center overflow-clip py-[17px] relative shrink-0 w-full" data-node-id="10395:42613" data-name="Button">
+            <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[16px] relative shrink-0 text-[#0d0e0e] text-[12px] tracking-[0.72px] uppercase whitespace-nowrap" data-node-id="10395:42614">
+              Start personalising
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="bg-white content-stretch flex flex-col gap-[20px] items-start overflow-clip px-[20px] py-[44px] relative shrink-0 w-full" data-node-id="10395:42615" data-name="Section — Best Sellers">
+        <div className="content-stretch flex flex-col gap-[10px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:42616" data-name="Section Header">
+          <div className="content-stretch flex gap-[9px] items-center overflow-clip relative shrink-0" data-node-id="10395:42617" data-name="Kicker">
+            <div className="bg-[#0b61ac] h-[3px] relative shrink-0 w-[22px]" data-node-id="10395:42618" data-name="Rectangle" />
+            <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#0b61ac] text-[10px] tracking-[1px] uppercase whitespace-nowrap" data-node-id="10395:42619">
+              The fans’ choice
+            </p>
+          </div>
+          <div className="[word-break:break-word] content-stretch flex gap-[12px] items-center overflow-clip relative shrink-0 text-[#0d0e0e] uppercase w-full" data-node-id="10395:42620" data-name="Title Row">
+            <p className="flex-[1_0_0] font-['Zilla_Slab:Bold'] leading-[29px] min-w-px not-italic relative text-[26px] tracking-[-0.195px]" data-node-id="10395:42621">
+              Best sellers
+            </p>
+            <p className="font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[10px] tracking-[0.6px] whitespace-nowrap" data-node-id="10395:42622">
+              Top 20 →
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[24px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:42623" data-name="Grid">
+          <div className="content-stretch flex gap-[12px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:42624" data-name="Grid Row">
+            <div className="content-stretch flex flex-[1_0_0] flex-col gap-[10px] items-start min-w-px relative" data-node-id="10395:42625" data-name="Product Card — OM Home Jersey 26/27">
+              <div className="content-stretch flex flex-col h-[169px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:42626" data-name="Product Image">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImgPHome1} />
+                <div className="absolute bg-[#0d0e0e] content-stretch flex items-start left-[8px] overflow-clip px-[7px] py-[4px] top-[8px]" data-node-id="10395:42627" data-name="Badge">
+                  <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[12px] relative shrink-0 text-[9px] text-white tracking-[0.9px] uppercase whitespace-nowrap" data-node-id="10395:42628">
+                    Best Seller
+                  </p>
+                </div>
+                <div className="absolute bg-white content-stretch flex items-center justify-center overflow-clip right-[8px] rounded-[16px] size-[32px] top-[8px]" data-node-id="10395:42629" data-name="Wishlist">
+                  <IconHeart className="relative shrink-0 size-[19px]" />
+                </div>
+              </div>
+              <div className="[word-break:break-word] content-stretch flex flex-col gap-[3px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:42631" data-name="Info">
+                <p className="font-['Manrope:Bold'] font-bold leading-[12px] relative shrink-0 text-[#494f55] text-[9px] tracking-[0.9px] uppercase whitespace-nowrap" data-node-id="10395:42632">
+                  Match Kits 26/27
+                </p>
+                <p className="font-['Manrope:SemiBold'] font-semibold leading-[18px] min-w-full relative shrink-0 text-[#0d0e0e] text-[13px] tracking-[-0.026px] w-[min-content]" data-node-id="10395:42633">
+                  OM Home Jersey 26/27
+                </p>
+                <p className="font-['Manrope:Bold'] font-bold leading-[18px] relative shrink-0 text-[#0d0e0e] text-[13px] tracking-[-0.039px] whitespace-nowrap" data-node-id="10395:42634">
+                  €100.00
+                </p>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-[1_0_0] flex-col gap-[10px] items-start min-w-px relative" data-node-id="10395:42635" data-name="Product Card — OM Third Jersey 26/27">
+              <div className="content-stretch flex flex-col h-[169px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:42636" data-name="Product Image">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgProductImage3} />
+                <div className="absolute bg-[#0d0e0e] content-stretch flex items-start left-[8px] overflow-clip px-[7px] py-[4px] top-[8px]" data-node-id="10395:42637" data-name="Badge">
+                  <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[12px] relative shrink-0 text-[9px] text-white tracking-[0.9px] uppercase whitespace-nowrap" data-node-id="10395:42638">
+                    Best Seller
+                  </p>
+                </div>
+                <div className="absolute bg-white content-stretch flex items-center justify-center overflow-clip right-[8px] rounded-[16px] size-[32px] top-[8px]" data-node-id="10395:42639" data-name="Wishlist">
+                  <IconHeart className="relative shrink-0 size-[19px]" />
+                </div>
+              </div>
+              <div className="[word-break:break-word] content-stretch flex flex-col gap-[3px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:42641" data-name="Info">
+                <p className="font-['Manrope:Bold'] font-bold leading-[12px] relative shrink-0 text-[#494f55] text-[9px] tracking-[0.9px] uppercase whitespace-nowrap" data-node-id="10395:42642">
+                  Match Kits 26/27
+                </p>
+                <p className="font-['Manrope:SemiBold'] font-semibold leading-[18px] min-w-full relative shrink-0 text-[#0d0e0e] text-[13px] tracking-[-0.026px] w-[min-content]" data-node-id="10395:42643">
+                  OM Third Jersey 26/27
+                </p>
+                <p className="font-['Manrope:Bold'] font-bold leading-[18px] relative shrink-0 text-[#0d0e0e] text-[13px] tracking-[-0.039px] whitespace-nowrap" data-node-id="10395:42644">
+                  €100.00
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex gap-[12px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:42645" data-name="Grid Row">
+            <div className="content-stretch flex flex-[1_0_0] flex-col gap-[10px] items-start min-w-px relative" data-node-id="10395:42646" data-name="Product Card — OM “Droit Au But” Scarf">
+              <div className="content-stretch flex flex-col h-[169px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:42647" data-name="Product Image">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImgPScarfDab} />
+                <div className="absolute bg-[#0d0e0e] content-stretch flex items-start left-[8px] overflow-clip px-[7px] py-[4px] top-[8px]" data-node-id="10395:42648" data-name="Badge">
+                  <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[12px] relative shrink-0 text-[9px] text-white tracking-[0.9px] uppercase whitespace-nowrap" data-node-id="10395:42649">
+                    Best Seller
+                  </p>
+                </div>
+                <div className="absolute bg-white content-stretch flex items-center justify-center overflow-clip right-[8px] rounded-[16px] size-[32px] top-[8px]" data-node-id="10395:42650" data-name="Wishlist">
+                  <IconHeart className="relative shrink-0 size-[19px]" />
+                </div>
+              </div>
+              <div className="[word-break:break-word] content-stretch flex flex-col gap-[3px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:42652" data-name="Info">
+                <p className="font-['Manrope:Bold'] font-bold leading-[12px] relative shrink-0 text-[#494f55] text-[9px] tracking-[0.9px] uppercase whitespace-nowrap" data-node-id="10395:42653">{`Fans & Gifts`}</p>
+                <p className="font-['Manrope:SemiBold'] font-semibold leading-[18px] min-w-full relative shrink-0 text-[#0d0e0e] text-[13px] tracking-[-0.026px] w-[min-content]" data-node-id="10395:42654">
+                  OM “Droit Au But” Scarf
+                </p>
+                <p className="font-['Manrope:Bold'] font-bold leading-[18px] relative shrink-0 text-[#0d0e0e] text-[13px] tracking-[-0.039px] whitespace-nowrap" data-node-id="10395:42655">
+                  €15.00
+                </p>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-[1_0_0] flex-col gap-[10px] items-start min-w-px relative" data-node-id="10395:42656" data-name="Product Card — OM Culture Deep Blue Cap">
+              <div className="content-stretch flex flex-col h-[169px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:42657" data-name="Product Image">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgProductImage4} />
+                <div className="absolute bg-[#0d0e0e] content-stretch flex items-start left-[8px] overflow-clip px-[7px] py-[4px] top-[8px]" data-node-id="10395:42658" data-name="Badge">
+                  <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[12px] relative shrink-0 text-[9px] text-white tracking-[0.9px] uppercase whitespace-nowrap" data-node-id="10395:42659">
+                    Best Seller
+                  </p>
+                </div>
+                <div className="absolute bg-white content-stretch flex items-center justify-center overflow-clip right-[8px] rounded-[16px] size-[32px] top-[8px]" data-node-id="10395:42660" data-name="Wishlist">
+                  <IconHeart className="relative shrink-0 size-[19px]" />
+                </div>
+              </div>
+              <div className="[word-break:break-word] content-stretch flex flex-col gap-[3px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:42662" data-name="Info">
+                <p className="font-['Manrope:Bold'] font-bold leading-[12px] relative shrink-0 text-[#494f55] text-[9px] tracking-[0.9px] uppercase whitespace-nowrap" data-node-id="10395:42663">
+                  Lifestyle
+                </p>
+                <p className="font-['Manrope:SemiBold'] font-semibold leading-[18px] min-w-full relative shrink-0 text-[#0d0e0e] text-[13px] tracking-[-0.026px] w-[min-content]" data-node-id="10395:42664">
+                  OM Culture Deep Blue Cap
+                </p>
+                <p className="font-['Manrope:Bold'] font-bold leading-[18px] relative shrink-0 text-[#0d0e0e] text-[13px] tracking-[-0.039px] whitespace-nowrap" data-node-id="10395:42665">
+                  €28.00
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="bg-[#f2f4f6] content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:42666" data-name="Section — Editorial Story">
+        <div className="bg-[#f2f4f6] content-stretch flex flex-col h-[420px] items-start overflow-clip relative shrink-0 w-full" data-node-id="10395:42667" data-name="Editorial Image">
+          <div className="h-[420px] relative shrink-0 w-[390px]" data-node-id="10395:42668" data-name="IMG:e-edit-5">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+              <img alt="" className="absolute h-[123.84%] left-0 max-w-none top-[0.07%] w-full" src={imgImgEEdit5} />
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[16px] items-start overflow-clip pb-[44px] pt-[32px] px-[20px] relative shrink-0 w-full" data-node-id="10395:42669" data-name="Copy">
+          <div className="bg-[#0d0e0e] content-stretch flex items-start overflow-clip pb-[5px] pt-[6px] px-[12px] relative shrink-0" data-node-id="10395:42670" data-name="Journal Tag">
+            <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[12px] relative shrink-0 text-[9px] text-white tracking-[0.9px] uppercase whitespace-nowrap" data-node-id="10395:42671">
+              OM Journal · Issue 07
+            </p>
+          </div>
+          <div className="[word-break:break-word] font-['Zilla_Slab:Bold'] leading-[0] min-w-full not-italic relative shrink-0 text-[#0d0e0e] text-[32px] tracking-[-0.32px] uppercase w-[min-content]" data-node-id="10395:42672">
+            <p className="leading-[34px] mb-0">The city wears</p>
+            <p className="leading-[34px]">it differently</p>
+          </div>
+          <p className="[word-break:break-word] font-['Manrope:Regular'] font-normal leading-[23px] min-w-full relative shrink-0 text-[#494f55] text-[14px] w-[min-content]" data-node-id="10395:42673">
+            From the Vieux-Port to the Calanques, Marseille doesn’t just support a club — it wears one. We followed five fans across the city.
+          </p>
+          <div className="content-stretch flex gap-[12px] items-center overflow-clip relative shrink-0" data-node-id="10395:42674" data-name="Meta">
+            <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#494f55] text-[10px] tracking-[0.6px] uppercase whitespace-nowrap" data-node-id="10395:42675">
+              OM Editorial
+            </p>
+            <div className="relative shrink-0 size-[3px]" data-node-id="10395:42676" data-name="Ellipse">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse3} />
+            </div>
+            <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#494f55] text-[10px] tracking-[0.6px] uppercase whitespace-nowrap" data-node-id="10395:42677">
+              6 min read
+            </p>
+          </div>
+          <div className="bg-[#0d0e0e] content-stretch flex items-center justify-center overflow-clip py-[17px] relative shrink-0 w-full" data-node-id="10395:42678" data-name="Button">
+            <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[16px] relative shrink-0 text-[12px] text-white tracking-[0.72px] uppercase whitespace-nowrap" data-node-id="10395:42679">
+              Read the story
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="bg-[#072f55] content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="10395:42680" data-name="Footer">
+        <div className="content-stretch flex flex-col gap-[16px] items-start overflow-clip pb-[28px] pt-[44px] px-[20px] relative shrink-0 w-full" data-node-id="I10395:42680;10056:941" data-name="Club Block">
+          <LogoOmCrestWhite className="relative shrink-0 size-[44px]" />
+          <p className="[word-break:break-word] font-['Manrope:ExtraBold'] font-extrabold leading-[20px] relative shrink-0 text-[15px] text-white tracking-[-0.15px] uppercase whitespace-nowrap" data-node-id="I10395:42680;10056:945">
+            Olympique de Marseille
+          </p>
+          <p className="[word-break:break-word] font-['Manrope:Bold'] font-bold leading-[14px] relative shrink-0 text-[#d7be69] text-[10px] tracking-[0.8px] uppercase whitespace-nowrap" data-node-id="I10395:42680;10056:946">
+            Droit au but — since 1899
+          </p>
+        </div>
+        <div className="[word-break:break-word] border-[#143c63] border-solid border-t content-stretch flex gap-[12px] items-center overflow-clip p-[20px] relative shrink-0 w-full" data-node-id="I10395:42680;10056:958" data-name="Accordion — Shop">
+          <p className="flex-[1_0_0] font-['Manrope:Bold'] font-bold leading-[16px] min-w-px relative text-[12px] text-white tracking-[0.72px] uppercase" data-node-id="I10395:42680;10056:959">
+            Shop
+          </p>
+          <p className="font-['Manrope:Regular'] font-normal leading-[23px] relative shrink-0 text-[#a4b2c0] text-[17px] whitespace-nowrap" data-node-id="I10395:42680;10056:960">
+            +
+          </p>
+        </div>
+        <div className="[word-break:break-word] border-[#143c63] border-solid border-t content-stretch flex gap-[12px] items-center overflow-clip p-[20px] relative shrink-0 w-full" data-node-id="I10395:42680;10056:961" data-name="Accordion — Help & Support">
+          <p className="flex-[1_0_0] font-['Manrope:Bold'] font-bold leading-[16px] min-w-px relative text-[12px] text-white tracking-[0.72px] uppercase" data-node-id="I10395:42680;10056:962">{`Help & Support`}</p>
+          <p className="font-['Manrope:Regular'] font-normal leading-[23px] relative shrink-0 text-[#a4b2c0] text-[17px] whitespace-nowrap" data-node-id="I10395:42680;10056:963">
+            +
+          </p>
+        </div>
+        <div className="[word-break:break-word] border-[#143c63] border-solid border-t content-stretch flex gap-[12px] items-center overflow-clip p-[20px] relative shrink-0 w-full" data-node-id="I10395:42680;10056:964" data-name="Accordion — The Club">
+          <p className="flex-[1_0_0] font-['Manrope:Bold'] font-bold leading-[16px] min-w-px relative text-[12px] text-white tracking-[0.72px] uppercase" data-node-id="I10395:42680;10056:965">
+            The Club
+          </p>
+          <p className="font-['Manrope:Regular'] font-normal leading-[23px] relative shrink-0 text-[#a4b2c0] text-[17px] whitespace-nowrap" data-node-id="I10395:42680;10056:966">
+            +
+          </p>
+        </div>
+        <div className="[word-break:break-word] border-[#143c63] border-solid border-t content-stretch flex gap-[12px] items-center overflow-clip p-[20px] relative shrink-0 w-full" data-node-id="I10395:42680;10056:967" data-name="Accordion — My Account">
+          <p className="flex-[1_0_0] font-['Manrope:Bold'] font-bold leading-[16px] min-w-px relative text-[12px] text-white tracking-[0.72px] uppercase" data-node-id="I10395:42680;10056:968">
+            My Account
+          </p>
+          <p className="font-['Manrope:Regular'] font-normal leading-[23px] relative shrink-0 text-[#a4b2c0] text-[17px] whitespace-nowrap" data-node-id="I10395:42680;10056:969">
+            +
+          </p>
+        </div>
+        <div className="[word-break:break-word] content-stretch flex flex-col font-['Manrope:Regular'] font-normal gap-[10px] items-start leading-[15px] overflow-clip pb-[34px] pt-[18px] px-[20px] relative shrink-0 text-[#a4b2c0] text-[11px] w-full whitespace-nowrap" data-node-id="I10395:42680;10056:983" data-name="Legal">
+          <div className="content-start flex flex-wrap gap-[8px_14px] items-start overflow-clip relative shrink-0 w-full" data-node-id="I10395:42680;10056:984" data-name="Links">
+            <p className="relative shrink-0" data-node-id="I10395:42680;10056:985">
+              Legal Notice
+            </p>
+            <p className="relative shrink-0" data-node-id="I10395:42680;10056:986">
+              Privacy
+            </p>
+            <p className="relative shrink-0" data-node-id="I10395:42680;10056:987">
+              Terms of Sale
+            </p>
+            <p className="relative shrink-0" data-node-id="I10395:42680;10056:988">
+              Cookies
+            </p>
+          </div>
+          <p className="relative shrink-0" data-node-id="I10395:42680;10056:989">
+            © 2026 Olympique de Marseille
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## Nav / Header — Mobile
+**Node ID:** 10056:878
+
+Mobile global header: announcement ticker, hamburger, centred crest lockup and utility icons. 56px bar keeps targets ≥44px.
+
+## Logo / OM Crest / Blue
+**Node ID:** 10032:9
+
+Official Olympique de Marseille crest (2026 identity). Source: om.fr logo-om-blue.svg. Blue colourway.
+
+## Footer — Mobile
+**Node ID:** 10056:940
+
+Mobile footer: collapsible navigation accordions, socials, payments and legal.
+
+## Logo / OM Crest / White
+**Node ID:** 10032:10
+
+Official Olympique de Marseille crest (2026 identity). Source: om.fr logo-om-blue.svg. White colourway.
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.
