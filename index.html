@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Olympique de Marseille — Official Store</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="home.css" />
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header desktop-only">
+    <div class="announcement-bar">
+      <p>Free standard delivery over &euro;79</p>
+      <span class="dot"></span>
+      <p class="accent">Europa League personalisation now available</p>
+    </div>
+    <div class="main-bar">
+      <a href="index.html" class="logo-lockup">
+        <img src="assets/home-logo-om-crest-blue.svg" alt="" width="38" height="38" />
+        <div class="wordmark">
+          <span class="club-name">Olympique de Marseille</span>
+          <span class="store-name">Official Store</span>
+        </div>
+      </a>
+      <div class="spacer"></div>
+      <nav class="nav-pill">
+        <a href="index.html" class="active">New Arrivals</a>
+        <a href="plp.html">Match Kits</a>
+        <a href="#">Players</a>
+        <a href="#">Pre-Match &amp; Training</a>
+        <a href="#">Lifestyle</a>
+        <a href="#">Kids</a>
+        <a href="#">Fans &amp; Gifts</a>
+        <a href="#" class="sale">Sale</a>
+      </nav>
+      <div class="spacer"></div>
+      <div class="utilities">
+        <button aria-label="Search"><img src="assets/home-icon-search.svg" alt="" width="19" height="19" /></button>
+        <button aria-label="Account"><img src="assets/home-icon-account.svg" alt="" width="19" height="19" /></button>
+        <button aria-label="Wishlist"><img src="assets/home-icon-heart.svg" alt="" width="19" height="19" /></button>
+        <a href="#" aria-label="Bag">
+          <img src="assets/home-icon-bag.svg" alt="" width="19" height="19" />
+          <span class="bag-count">2</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <header class="site-header-mobile mobile-only">
+    <div class="announcement-bar-mobile"><p>Free delivery over &euro;79</p></div>
+    <div class="main-bar-mobile">
+      <button class="menu-btn" data-menu-open aria-label="Menu">
+        <img src="assets/home-m-icon-menu.svg" alt="" width="22" height="22" />
+      </button>
+      <a href="index.html" class="crest-center"><img src="assets/home-m-crest.svg" alt="OM" width="30" height="30" /></a>
+      <div class="utilities-mobile">
+        <button aria-label="Search"><img src="assets/home-m-icon-search.svg" alt="" width="19" height="19" /></button>
+        <a href="#" aria-label="Bag">
+          <img src="assets/home-m-icon-bag.svg" alt="" width="19" height="19" />
+          <span class="bag-count-mobile">2</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu-overlay" data-menu-overlay>
+    <nav class="mobile-menu-panel">
+      <button class="close-btn" data-menu-close aria-label="Close menu">&#10005;</button>
+      <a href="index.html">New Arrivals</a>
+      <a href="plp.html">Match Kits</a>
+      <a href="#">Players</a>
+      <a href="#">Pre-Match &amp; Training</a>
+      <a href="#">Lifestyle</a>
+      <a href="#">Kids</a>
+      <a href="#">Fans &amp; Gifts</a>
+      <a href="#" class="sale">Sale</a>
+    </nav>
+  </div>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <img src="assets/home-img-ehero-d4.png" alt="" class="hero-img desktop-only" />
+    <img src="assets/home-m-img-ehero-m2.png" alt="" class="hero-img mobile-only" />
+    <div class="hero-scrim"></div>
+
+    <div class="hero-copy">
+      <div class="stripe-accent" aria-hidden="true">
+        <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+      </div>
+      <div class="match-kicker"><span class="dot"></span><span>Next match &middot; OM &mdash; Lyon &middot; Sat 20:45</span></div>
+      <h1 class="hero-title"><span>Gear up</span><span>for kick-off.</span></h1>
+      <p class="hero-desc desktop-only">Ligue 1 &middot; Matchday 6. OM host Lyon at the V&eacute;lodrome looking to extend an unbeaten home run against les Gones.</p>
+      <p class="hero-desc mobile-only">Ligue 1 &middot; Matchday 6 at the V&eacute;lodrome.</p>
+
+      <div class="match-stats">
+        <div class="stat"><span class="value">3 Days</span><span class="label">Kick-off</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="value">3W 1D 1L</span><span class="label desktop-only">Last 5 vs Lyon</span><span class="label mobile-only">vs Lyon</span></div>
+        <div class="stat-divider desktop-only"></div>
+        <div class="stat desktop-only"><span class="value">67,394</span><span class="label">V&eacute;lodrome Capacity</span></div>
+      </div>
+
+      <div class="hero-ctas">
+        <a href="plp.html" class="btn btn-gold">Shop Match Kits</a>
+        <a href="#" class="btn btn-outline-white">Get Tickets</a>
+      </div>
+
+      <div class="trust-strip">
+        <span><span class="dot"></span>Free delivery over &euro;79</span>
+        <span><span class="dot"></span>30-day returns</span>
+        <span><span class="dot"></span>Official product</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SHOP BY CATEGORY (mobile only) ============ -->
+  <section class="shop-by-category mobile-only">
+    <h2>Shop by category</h2>
+    <div class="category-scroller">
+      <a href="plp.html" class="category-item"><span class="thumb"><img src="assets/home-m-img-phome1.png" alt="" /></span><span class="label">Match kits</span></a>
+      <a href="#" class="category-item"><span class="thumb"><img src="assets/home-m-img-ptraining-navy.png" alt="" /></span><span class="label">Training</span></a>
+      <a href="#" class="category-item"><span class="thumb"><img src="assets/home-m-img-phoodie-travel.png" alt="" /></span><span class="label">Lifestyle</span></a>
+      <a href="#" class="category-item"><span class="thumb"><img src="assets/home-m-img-pscarf-dab.png" alt="" /></span><span class="label">Fans</span></a>
+      <a href="#" class="category-item"><span class="thumb"><img src="assets/home-m-img-pbag-chabrand.png" alt="" /></span><span class="label">Accessories</span></a>
+      <a href="#" class="category-item"><span class="thumb"><img src="assets/home-m-img-phome-kids.png" alt="" /></span><span class="label">Kids</span></a>
+    </div>
+  </section>
+
+  <!-- ============ HOME & AWAY KITS ============ -->
+  <section class="kits-section">
+    <div class="section-header">
+      <div class="kicker"><span class="rule gold"></span><span class="gold">Shop the kits</span></div>
+      <h2 class="section-title">United in Blue and White</h2>
+    </div>
+    <div class="kit-cards">
+      <div class="kit-card">
+        <div class="kit-img"><img src="assets/home-img-kit-home.png" alt="OM Home Kit 26/27" /></div>
+        <div class="kit-copy kit-copy--light">
+          <h3>Carry the Pride of Marseille</h3>
+          <p>More than a jersey, it&rsquo;s a symbol of belonging. Wear the Home Kit 26/27 and stand with OM, united by passion, pride, and the spirit of Marseille.</p>
+          <a href="plp.html" class="btn btn-outline-dark">Shop Now</a>
+        </div>
+      </div>
+      <div class="kit-card">
+        <div class="kit-img"><img src="assets/home-img-kit-away.png" alt="OM Away Kit 26/27" /></div>
+        <div class="kit-copy kit-copy--blue">
+          <h3>Take Marseille Everywhere</h3>
+          <p>Wherever the season leads, carry the colors of OM with you. The Away Kit 26/27 is made for supporters who proudly represent Marseille beyond home ground.</p>
+          <a href="plp.html" class="btn btn-outline-white">Shop Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SHOP BY PLAYER ============ -->
+  <section class="player-section">
+    <div class="player-header">
+      <div class="section-header">
+        <div class="kicker"><span class="rule"></span><span>Wear their number</span></div>
+        <h2 class="section-title">Shop by player</h2>
+      </div>
+      <p class="player-sub">Pick a player and we&rsquo;ll set up your jersey with their name and number &mdash; Ligue 1 flocking, applied in Marseille.</p>
+    </div>
+
+    <div class="player-rail">
+      <a href="pdp.html" class="player-card">
+        <div class="nameplate">
+          <img src="assets/home-nameplate.png" alt="Jeffrey de Lange" />
+          <div class="scrim"></div>
+          <span class="jersey-number">1</span>
+          <span class="award-tag">&#9733; Team of the Week</span>
+        </div>
+        <div class="player-info">
+          <span class="first-name">Jeffrey</span>
+          <span class="surname">de Lange</span>
+          <div class="stats"><div class="stat"><strong>9</strong><span>Apps</span></div><div class="stat-div"></div><div class="stat"><strong>4</strong><span>Clean Sheets</span></div></div>
+        </div>
+      </a>
+      <a href="pdp.html" class="player-card">
+        <div class="nameplate">
+          <img src="assets/home-nameplate1.png" alt="CJ Egan-Riley" />
+          <div class="scrim"></div>
+          <span class="jersey-number">4</span>
+        </div>
+        <div class="player-info">
+          <span class="first-name">CJ</span>
+          <span class="surname">Egan-Riley</span>
+          <div class="stats"><div class="stat"><strong>10</strong><span>Apps</span></div><div class="stat-div"></div><div class="stat"><strong>24</strong><span>Clearances</span></div></div>
+        </div>
+      </a>
+      <a href="pdp.html" class="player-card">
+        <div class="nameplate">
+          <img src="assets/home-nameplate2.png" alt="Derek Cornelius" />
+          <div class="scrim"></div>
+          <span class="jersey-number">13</span>
+        </div>
+        <div class="player-info">
+          <span class="first-name">Derek</span>
+          <span class="surname">Cornelius</span>
+          <div class="stats"><div class="stat"><strong>9</strong><span>Apps</span></div><div class="stat-div"></div><div class="stat"><strong>22</strong><span>Tackles</span></div></div>
+        </div>
+      </a>
+      <a href="pdp.html" class="player-card">
+        <div class="nameplate">
+          <img src="assets/home-nameplate3.png" alt="Geoffrey Kondogbia" />
+          <div class="scrim"></div>
+          <span class="jersey-number">19</span>
+        </div>
+        <div class="player-info">
+          <span class="first-name">Geoffrey</span>
+          <span class="surname">Kondogbia</span>
+          <div class="stats"><div class="stat"><strong>8</strong><span>Apps</span></div><div class="stat-div"></div><div class="stat"><strong>15</strong><span>Interceptions</span></div></div>
+        </div>
+      </a>
+      <a href="pdp.html" class="player-card">
+        <div class="nameplate">
+          <img src="assets/home-nameplate4.png" alt="Angel Gomes" />
+          <div class="scrim"></div>
+          <span class="jersey-number">7</span>
+        </div>
+        <div class="player-info">
+          <span class="first-name">Angel</span>
+          <span class="surname">Gomes</span>
+          <div class="stats"><div class="stat"><strong>10</strong><span>Apps</span></div><div class="stat-div"></div><div class="stat"><strong>3</strong><span>Assists</span></div></div>
+        </div>
+      </a>
+      <a href="pdp.html" class="player-card">
+        <div class="nameplate">
+          <img src="assets/home-nameplate5.png" alt="Amine Gouiri" />
+          <div class="scrim"></div>
+          <span class="jersey-number">9</span>
+          <span class="award-tag">&#9733; Player of the Month</span>
+        </div>
+        <div class="player-info">
+          <span class="first-name">Amine</span>
+          <span class="surname">Gouiri</span>
+          <div class="stats"><div class="stat"><strong>9</strong><span>Apps</span></div><div class="stat-div"></div><div class="stat"><strong>6</strong><span>Goals</span></div></div>
+        </div>
+      </a>
+      <a href="pdp.html" class="player-card">
+        <div class="nameplate">
+          <img src="assets/home-nameplate6.png" alt="Igor Paix&atilde;o" />
+          <div class="scrim"></div>
+          <span class="jersey-number">14</span>
+        </div>
+        <div class="player-info">
+          <span class="first-name">Igor</span>
+          <span class="surname">Paix&atilde;o</span>
+          <div class="stats"><div class="stat"><strong>10</strong><span>Apps</span></div><div class="stat-div"></div><div class="stat"><strong>5</strong><span>Goals</span></div></div>
+        </div>
+      </a>
+      <a href="pdp.html" class="player-card">
+        <div class="nameplate">
+          <img src="assets/home-nameplate7.png" alt="Faris Moumbagna" />
+          <div class="scrim"></div>
+          <span class="jersey-number">29</span>
+        </div>
+        <div class="player-info">
+          <span class="first-name">Faris</span>
+          <span class="surname">Moumbagna</span>
+          <div class="stats"><div class="stat"><strong>7</strong><span>Apps</span></div><div class="stat-div"></div><div class="stat"><strong>4</strong><span>Goals</span></div></div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ FEATURED COLLECTIONS ============ -->
+  <section class="collections-section">
+    <div class="section-header desktop-only">
+      <div class="titles">
+        <div class="kicker"><span class="rule"></span><span>Collections</span></div>
+        <h2 class="section-title">Wear the city</h2>
+      </div>
+      <a href="plp.html" class="link-underline">Explore all collections</a>
+    </div>
+    <div class="section-header mobile-only">
+      <div class="kicker"><span class="rule"></span><span>Collections</span></div>
+      <div class="title-row-mobile">
+        <h2 class="section-title">Wear the city</h2>
+        <a href="plp.html" class="all-link-mobile">All &rarr;</a>
+      </div>
+    </div>
+    <div class="collection-grid">
+      <a href="plp.html" class="collection-card collection-card--1">
+        <img src="assets/home-img-ecoll3.png" alt="" class="desktop-only" />
+        <img src="assets/home-m-img-emob1.png" alt="" class="mobile-only" />
+        <div class="collection-scrim"></div>
+        <div class="collection-copy">
+          <p class="eyebrow gold">Match Kits</p>
+          <h3>The 26/27 Range</h3>
+          <p class="sub">Home &middot; Away &middot; Third &middot; Goalkeeper</p>
+          <span class="shop-link">Shop now</span>
+        </div>
+      </a>
+      <a href="plp.html" class="collection-card collection-card--2">
+        <img src="assets/home-img-eedit1.png" alt="" class="desktop-only" />
+        <img src="assets/home-m-img-emob2.png" alt="" class="mobile-only" />
+        <div class="collection-scrim"></div>
+        <div class="collection-copy">
+          <p class="eyebrow gold">Lifestyle</p>
+          <h3>Made in Marseille</h3>
+          <p class="sub">Everyday pieces from the Vieux-Port</p>
+          <span class="shop-link">Shop now</span>
+        </div>
+      </a>
+      <a href="plp.html" class="collection-card collection-card--3">
+        <img src="assets/home-img-eedit2.png" alt="" />
+        <div class="collection-scrim"></div>
+        <div class="collection-copy">
+          <p class="eyebrow gold">Collab</p>
+          <h3>OM &times; Chabrand</h3>
+          <p class="sub">Leather goods, made in France</p>
+          <span class="shop-link">Shop now</span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ NEW ARRIVALS ============ -->
+  <section class="new-arrivals-section">
+    <div class="section-header">
+      <div class="titles">
+        <div class="kicker"><span class="rule"></span><span>Just landed</span></div>
+        <h2 class="section-title">New arrivals</h2>
+      </div>
+      <a href="plp.html" class="link-underline desktop-only">Shop all new in</a>
+    </div>
+    <div class="product-rail">
+      <a href="pdp.html" class="product-card">
+        <div class="image-wrap"><img src="assets/home-product-image.png" alt="OM Away Jersey 26/27" /><span class="product-badge blue">New</span><button class="wishlist-btn"><img src="assets/home-icon-heart.svg" alt="" width="19" height="19" /></button></div>
+        <div class="info"><span class="category">Match Kits 26/27</span><span class="title">OM Away Jersey 26/27</span><span class="price">&euro;100.00</span></div>
+      </a>
+      <a href="pdp.html" class="product-card">
+        <div class="image-wrap"><img src="assets/home-product-image1.png" alt="OM Royal Blue Pre-Match Jersey" /><span class="product-badge blue">New</span><button class="wishlist-btn"><img src="assets/home-icon-heart.svg" alt="" width="19" height="19" /></button></div>
+        <div class="info"><span class="category">Pre-Match &amp; Training</span><span class="title">OM Royal Blue Pre-Match Jersey</span><span class="price">&euro;65.00</span></div>
+      </a>
+      <a href="pdp.html" class="product-card">
+        <div class="image-wrap"><img src="assets/home-product-image2.png" alt="OM King White Long-Sleeved Jersey" /><button class="wishlist-btn"><img src="assets/home-icon-heart.svg" alt="" width="19" height="19" /></button></div>
+        <div class="info"><span class="category">Lifestyle</span><span class="title">OM King White Long-Sleeved Jersey</span><span class="price">&euro;85.00</span></div>
+      </a>
+      <a href="pdp.html" class="product-card">
+        <div class="image-wrap"><img src="assets/home-product-image3.png" alt="OM &times; Chabrand Logo Bag" /><button class="wishlist-btn"><img src="assets/home-icon-heart.svg" alt="" width="19" height="19" /></button></div>
+        <div class="info"><span class="category">OM &times; Chabrand</span><span class="title">OM &times; Chabrand Logo Bag</span><span class="price">&euro;169.00</span></div>
+      </a>
+      <a href="pdp.html" class="product-card">
+        <div class="image-wrap"><img src="assets/home-product-image4.png" alt="OM T7 Beige Jacket" /><button class="wishlist-btn"><img src="assets/home-icon-heart.svg" alt="" width="19" height="19" /></button></div>
+        <div class="info"><span class="category">Lifestyle</span><span class="title">OM T7 Beige Jacket</span><span class="price">&euro;80.00</span></div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ JERSEY PERSONALISATION ============ -->
+  <section class="personalisation-section">
+    <div class="personalisation-image">
+      <img src="assets/home-img-ehero-d1.png" alt="" class="desktop-only" />
+      <img src="assets/home-m-img-ehero-m1.png" alt="" class="mobile-only" />
+    </div>
+    <div class="personalisation-panel">
+      <div class="kicker"><span class="rule gold"></span><span class="gold">Personalisation</span></div>
+      <h2 class="personalisation-title"><span>Put your name</span><span>on the shirt</span></h2>
+      <p class="personalisation-desc desktop-only">Official Ligue 1 and Europa League flocking, applied in Marseille. Add any name and number from 1 to 99 &mdash; or pick your player from the squad.</p>
+      <p class="personalisation-desc mobile-only">Official Ligue 1 and Europa League flocking, applied in Marseille. Any name, any number from 1 to 99.</p>
+      <ul class="benefits">
+        <li><span class="bdot"></span>Ligue 1 &amp; Europa League typefaces</li>
+        <li><span class="bdot"></span>Applied in 48h &middot; +&euro;20</li>
+        <li><span class="bdot"></span><span class="desktop-only">Available on all 26/27 match kits</span><span class="mobile-only">All 26/27 match kits</span></li>
+      </ul>
+      <a href="pdp.html" class="btn btn-white">Start personalising</a>
+    </div>
+  </section>
+
+  <!-- ============ BEST SELLERS ============ -->
+  <section class="best-sellers-section">
+    <div class="section-header">
+      <div class="titles">
+        <div class="kicker"><span class="rule"></span><span>The fans&rsquo; choice</span></div>
+        <h2 class="section-title">Best sellers</h2>
+      </div>
+      <a href="plp.html" class="link-underline desktop-only">See the full top 20</a>
+    </div>
+    <div class="best-seller-grid">
+      <a href="pdp.html" class="product-card">
+        <div class="image-wrap"><img src="assets/home-product-image5.png" alt="OM Home Jersey 26/27" /><span class="product-badge">Best Seller</span><button class="wishlist-btn"><img src="assets/home-icon-heart.svg" alt="" width="19" height="19" /></button></div>
+        <div class="info"><span class="category">Match Kits 26/27</span><span class="title">OM Home Jersey 26/27</span><span class="price">&euro;100.00</span></div>
+      </a>
+      <a href="pdp.html" class="product-card">
+        <div class="image-wrap"><img src="assets/home-product-image6.png" alt="OM Third Jersey 26/27" /><span class="product-badge">Best Seller</span><button class="wishlist-btn"><img src="assets/home-icon-heart.svg" alt="" width="19" height="19" /></button></div>
+        <div class="info"><span class="category">Match Kits 26/27</span><span class="title">OM Third Jersey 26/27</span><span class="price">&euro;100.00</span></div>
+      </a>
+      <a href="pdp.html" class="product-card">
+        <div class="image-wrap"><img src="assets/home-product-image7.png" alt="OM &ldquo;Droit Au But&rdquo; Scarf" /><span class="product-badge">Best Seller</span><button class="wishlist-btn"><img src="assets/home-icon-heart.svg" alt="" width="19" height="19" /></button></div>
+        <div class="info"><span class="category">Fans &amp; Gifts</span><span class="title">OM &ldquo;Droit Au But&rdquo; Scarf</span><span class="price">&euro;15.00</span></div>
+      </a>
+      <a href="pdp.html" class="product-card">
+        <div class="image-wrap"><img src="assets/home-product-image8.png" alt="OM Culture Deep Blue Cap" /><span class="product-badge">Best Seller</span><button class="wishlist-btn"><img src="assets/home-icon-heart.svg" alt="" width="19" height="19" /></button></div>
+        <div class="info"><span class="category">Lifestyle &middot; Culture</span><span class="title">OM Culture Deep Blue Cap</span><span class="price">&euro;28.00</span></div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ EDITORIAL STORY ============ -->
+  <section class="editorial-section">
+    <div class="editorial-copy">
+      <span class="journal-tag">OM Journal &middot; Issue 07</span>
+      <h2 class="editorial-title"><span>The city wears</span><span>it differently</span></h2>
+      <p>From the Vieux-Port to the Calanques, from the Caneb&iegrave;re to the north stands &mdash; Marseille doesn&rsquo;t just support a club, it wears one. We followed five fans across the city to see how the 26/27 collection lives outside the stadium.</p>
+      <div class="editorial-meta"><span>Words by OM Editorial</span><span class="dot"></span><span>6 min read</span></div>
+      <a href="#" class="btn btn-dark">Read the story</a>
+    </div>
+    <div class="editorial-image">
+      <img src="assets/home-img-eedit5.png" alt="" class="desktop-only" />
+      <img src="assets/home-m-img-eedit5.png" alt="" class="mobile-only" />
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer desktop-only">
+    <div class="footer-main">
+      <div class="footer-club-block">
+        <img src="assets/home-logo-om-crest-white.svg" alt="" width="56" height="56" />
+        <div class="footer-club-name">
+          <span class="name">Olympique de Marseille</span>
+          <span class="motto">Droit au but &mdash; since 1899</span>
+        </div>
+        <p class="desc">The official store of Olympique de Marseille. Every kit, every collection, shipped from the V&eacute;lodrome to fans worldwide.</p>
+      </div>
+      <div class="footer-column">
+        <h4>Shop</h4>
+        <a href="#">New Arrivals</a><a href="plp.html">Match Kits 26/27</a><a href="#">Shop by Player</a><a href="#">Pre-Match &amp; Training</a><a href="#">Lifestyle</a><a href="#">Kids &amp; Baby</a><a href="#">Fans &amp; Gifts</a><a href="#">Sale &mdash; up to 60% off</a>
+      </div>
+      <div class="footer-column">
+        <h4>Help &amp; Support</h4>
+        <a href="#">Delivery &amp; Shipping</a><a href="#">Returns &amp; Exchanges</a><a href="#">Size Guide</a><a href="#">Personalisation &amp; Flocking</a><a href="#">Track My Order</a><a href="#">Contact Us</a><a href="#">FAQ</a>
+      </div>
+      <div class="footer-column">
+        <h4>The Club</h4>
+        <a href="#">OM.fr</a><a href="#">Tickets &amp; Hospitality</a><a href="#">Membership</a><a href="#">OM TV</a><a href="#">Orange V&eacute;lodrome</a><a href="#">Our Partners</a><a href="#">Careers</a>
+      </div>
+      <div class="footer-column">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a><a href="#">Create an Account</a><a href="#">My Orders</a><a href="#">Wishlist</a><a href="#">Loyalty Programme</a><a href="#">Gift Cards</a>
+      </div>
+    </div>
+    <div class="footer-legal">
+      <span>&copy; 2026 Olympique de Marseille</span>
+      <div class="legal-links"><a href="#">Legal Notice</a><a href="#">Privacy</a><a href="#">Terms of Sale</a><a href="#">Cookies</a><a href="#">Accessibility</a></div>
+    </div>
+  </footer>
+
+  <footer class="site-footer mobile-only">
+    <div class="footer-club-block-mobile">
+      <img src="assets/home-m-logo-om-crest-white.svg" alt="" width="44" height="44" />
+      <span class="name">Olympique de Marseille</span>
+      <span class="motto">Droit au but &mdash; since 1899</span>
+    </div>
+    <div class="footer-accordion">
+      <button data-accordion-trigger><h4>Shop</h4><span class="toggle">+</span></button>
+    </div>
+    <div class="footer-accordion-content">
+      <a href="#">New Arrivals</a><a href="plp.html">Match Kits 26/27</a><a href="#">Shop by Player</a><a href="#">Pre-Match &amp; Training</a><a href="#">Lifestyle</a><a href="#">Kids &amp; Baby</a><a href="#">Fans &amp; Gifts</a><a href="#">Sale</a>
+    </div>
+    <div class="footer-accordion">
+      <button data-accordion-trigger><h4>Help &amp; Support</h4><span class="toggle">+</span></button>
+    </div>
+    <div class="footer-accordion-content">
+      <a href="#">Delivery &amp; Shipping</a><a href="#">Returns &amp; Exchanges</a><a href="#">Size Guide</a><a href="#">Track My Order</a><a href="#">Contact Us</a><a href="#">FAQ</a>
+    </div>
+    <div class="footer-accordion">
+      <button data-accordion-trigger><h4>The Club</h4><span class="toggle">+</span></button>
+    </div>
+    <div class="footer-accordion-content">
+      <a href="#">OM.fr</a><a href="#">Tickets &amp; Hospitality</a><a href="#">Membership</a><a href="#">OM TV</a><a href="#">Our Partners</a><a href="#">Careers</a>
+    </div>
+    <div class="footer-accordion">
+      <button data-accordion-trigger><h4>My Account</h4><span class="toggle">+</span></button>
+    </div>
+    <div class="footer-accordion-content">
+      <a href="#">Sign In</a><a href="#">Create an Account</a><a href="#">My Orders</a><a href="#">Wishlist</a><a href="#">Gift Cards</a>
+    </div>
+    <div class="footer-legal-mobile">
+      <div class="links"><a href="#">Legal Notice</a><a href="#">Privacy</a><a href="#">Terms of Sale</a><a href="#">Cookies</a></div>
+      <span>&copy; 2026 Olympique de Marseille</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,795 @@
+/* =========================================================
+   PLP — Product Listing Page
+   ========================================================= */
+
+.breadcrumb-bar {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 18px var(--gutter-desktop);
+  font-size: 12px;
+}
+
+.breadcrumb-bar span:not(.sep):not(.current) {
+  color: var(--slate-700);
+}
+
+.breadcrumb-bar .sep {
+  color: var(--slate-300);
+}
+
+.breadcrumb-bar .current {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.back-bar {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px 20px 10px 14px;
+}
+
+.back-btn {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back-bar span {
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.48px;
+  color: var(--slate-700);
+}
+
+.category-header {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 32px var(--gutter-desktop);
+}
+
+.plp-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 44px;
+  letter-spacing: -0.66px;
+  color: var(--ink);
+}
+
+.plp-desc {
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--slate-700);
+  max-width: 760px;
+}
+
+.category-nav {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  overflow-x: auto;
+  border-bottom: 1px solid var(--divider);
+  padding: 28px var(--gutter-desktop);
+  scrollbar-width: none;
+}
+
+.category-nav::-webkit-scrollbar {
+  display: none;
+}
+
+.chip {
+  background: var(--white);
+  border: 1px solid var(--slate-300);
+  padding: 12px 18px;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.72px;
+  text-transform: uppercase;
+  color: var(--ink);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.chip.active {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--white);
+}
+
+.toolbar {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 26px var(--gutter-desktop);
+}
+
+.result-count {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+  flex: 1;
+}
+
+.result-count strong {
+  font-weight: 800;
+  font-size: 17px;
+  letter-spacing: -0.17px;
+}
+
+.result-count span {
+  font-size: 14px;
+  color: var(--slate-700);
+}
+
+.filter-button {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  height: 46px;
+  border: 1.5px solid var(--ink);
+  padding: 0 20px;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.72px;
+  text-transform: uppercase;
+}
+
+.active-count {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--marseille-blue);
+  color: var(--white);
+  font-weight: 700;
+  font-size: 12px;
+  border-radius: 50%;
+  line-height: 1;
+}
+
+.sort-dropdown {
+  position: relative;
+}
+
+.sort-trigger {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  height: 46px;
+  border: 1px solid var(--slate-300);
+  padding: 0 16px 0 20px;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.48px;
+}
+
+.view-toggle {
+  display: flex;
+  height: 46px;
+  border: 1px solid var(--slate-300);
+}
+
+.view-opt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 0 16px;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.48px;
+  color: var(--slate-400);
+}
+
+.view-opt.active {
+  background: var(--bg-light);
+  color: var(--ink);
+}
+
+.filter-bar-mobile {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid var(--divider);
+  border-bottom: 1px solid var(--divider);
+  padding: 12px 20px;
+  position: sticky;
+  top: 0;
+  background: var(--white);
+  z-index: 30;
+}
+
+.filters-trigger {
+  display: flex;
+  flex: 1;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.72px;
+  text-transform: uppercase;
+}
+
+.filter-divider {
+  width: 1px;
+  height: 24px;
+  background: var(--divider);
+}
+
+.sort-trigger-mobile {
+  flex: 1;
+  position: relative;
+}
+
+.sort-trigger-mobile button {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 0;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.72px;
+  text-transform: uppercase;
+}
+
+/* Mobile-only: a full-width bar above the grid (desktop keeps the
+   equivalent chips inside the sidebar instead — see
+   .active-filters-sidebar below, matching the Figma structure where
+   "Active Filters" nests under the sidebar's "Sidebar Header", not as
+   its own top-level section). */
+.active-filters-bar {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 16px var(--gutter-mobile) 4px;
+}
+
+/* Desktop-only: nested inside .filter-sidebar, right after the
+   "Filters / Clear all" header. */
+.active-filters-sidebar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  width: 100%;
+  padding-bottom: 22px;
+}
+
+.active-chip {
+  background: var(--bg-light);
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 8px 10px 8px 12px;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.44px;
+  text-transform: uppercase;
+}
+
+.active-chip button {
+  font-size: 10px;
+  line-height: 1;
+  color: var(--slate-700);
+}
+
+.clear-all {
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.66px;
+  text-transform: uppercase;
+  color: var(--marseille-blue);
+  margin-left: 4px;
+}
+
+.result-count-mobile {
+  display: flex;
+  gap: 6px;
+  align-items: baseline;
+  padding: 14px 20px;
+}
+
+.result-count-mobile strong {
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.result-count-mobile span {
+  font-size: 14px;
+  color: var(--slate-700);
+}
+
+/* ---------- Main layout ---------- */
+.plp-main {
+  display: flex;
+  gap: 48px;
+  padding: 8px var(--gutter-desktop) 96px;
+}
+
+.filter-sidebar {
+  width: 280px;
+  flex-shrink: 0;
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 18px;
+  text-transform: uppercase;
+}
+
+.sidebar-header h2 {
+  flex: 1;
+  font-weight: 800;
+  font-size: 19px;
+  letter-spacing: -0.19px;
+}
+
+.sidebar-header .clear-all {
+  margin-left: 0;
+}
+
+.filter-group {
+  border-top: 1px solid var(--divider);
+  padding: 20px 0;
+}
+
+.filter-group-header {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  width: 100%;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.72px;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+.filter-group-header span:first-child {
+  flex: 1;
+  text-align: left;
+}
+
+.filter-group-header .toggle {
+  font-size: 15px;
+  color: var(--ink);
+}
+
+.filter-group-body {
+  padding-top: 14px;
+}
+
+.filter-group.collapsed .filter-group-body {
+  display: none;
+}
+
+.checkbox-option {
+  display: flex;
+  gap: 11px;
+  align-items: center;
+  padding: 9px 0;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.checkbox-option input {
+  display: none;
+}
+
+.checkbox-option .box {
+  width: 16px;
+  height: 16px;
+  border: 1px solid var(--slate-300);
+  flex-shrink: 0;
+}
+
+.checkbox-option input:checked + .box {
+  background: var(--ink);
+  border-color: var(--ink);
+}
+
+.checkbox-option .count {
+  color: var(--slate-400);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.size-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.size-chip {
+  width: 56px;
+  height: 42px;
+  border: 1px solid var(--slate-300);
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.24px;
+  text-transform: uppercase;
+}
+
+.size-chip.active {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--white);
+}
+
+.swatch-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.swatch {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+}
+
+.price-range {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.price-track {
+  background: var(--divider);
+  height: 4px;
+  position: relative;
+}
+
+.price-fill {
+  position: absolute;
+  height: 4px;
+  background: var(--ink);
+}
+
+.price-values {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+/* ---------- Product grid ---------- */
+.product-grid {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+  min-width: 0;
+}
+
+.grid-row {
+  display: flex;
+  gap: 20px;
+}
+
+.grid-row.hidden-row {
+  display: none;
+}
+
+.promo-banner {
+  position: relative;
+  height: 280px;
+  overflow: hidden;
+  background: var(--abyss);
+}
+
+.promo-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.promo-scrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, rgba(7, 47, 85, 0.94) 0%, rgba(7, 47, 85, 0.1) 72%);
+}
+
+.promo-copy {
+  position: absolute;
+  left: 48px;
+  top: 44px;
+  width: 640px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.promo-copy .eyebrow {
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+}
+
+.promo-copy .eyebrow.gold {
+  color: var(--gold);
+}
+
+.promo-copy h3 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: -0.36px;
+  text-transform: uppercase;
+  color: var(--white);
+  line-height: 38px;
+}
+
+.promo-desc {
+  font-size: 14px;
+  line-height: 22px;
+  color: var(--white);
+  opacity: 0.85;
+}
+
+.promo-copy .btn {
+  align-self: flex-start;
+  padding: 15px 28px;
+}
+
+.pagination {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-top: 28px;
+}
+
+.showing-text {
+  font-size: 13px;
+  color: var(--slate-700);
+}
+
+.progress-track {
+  width: 300px;
+  height: 3px;
+  background: var(--divider);
+}
+
+.progress-fill {
+  width: 25%;
+  height: 3px;
+  background: var(--ink);
+}
+
+.load-more {
+  padding: 19px 48px;
+  border: 1.5px solid var(--ink);
+  letter-spacing: 0.78px;
+}
+
+/* ---------- Mobile filter drawer ---------- */
+.filters-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(5, 13, 23, 0.5);
+  z-index: 100;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+  display: flex;
+  align-items: flex-end;
+}
+
+.filters-overlay.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.filters-drawer {
+  background: var(--white);
+  width: 100%;
+  max-height: 85vh;
+  border-radius: 20px 20px 0 0;
+  display: flex;
+  flex-direction: column;
+  transform: translateY(100%);
+  transition: transform 0.25s ease;
+}
+
+.filters-overlay.open .filters-drawer {
+  transform: translateY(0);
+}
+
+.filters-drawer-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid var(--divider);
+}
+
+.filters-drawer-header h2 {
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.filters-drawer-body {
+  padding: 0 20px;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.filters-drawer-footer {
+  display: flex;
+  gap: 12px;
+  padding: 16px 20px;
+  border-top: 1px solid var(--divider);
+}
+
+.filters-drawer-footer .btn {
+  flex: 1;
+  padding: 16px 0;
+}
+
+/* =========================================================
+   Mobile overrides
+   ========================================================= */
+@media (max-width: 1023px) {
+  /* The shared mobile header's drop shadow (styles.css) reads fine
+     under the plain logo bar on other pages, but here the header also
+     contains the "< Match Kits" back-bar directly above the page's own
+     title block — the shadow between them looks like a stray divider,
+     so PLP's mobile header drops it. */
+  .site-header-mobile {
+    box-shadow: none;
+  }
+
+  .category-header {
+    padding: 20px;
+    gap: 8px;
+  }
+
+  .plp-title {
+    font-size: 26px;
+    letter-spacing: -0.195px;
+  }
+
+  .plp-desc {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  /* Shared components whose base size (set for desktop) was 13px;
+     overridden here rather than in the base rule so desktop is
+     unaffected. */
+  .checkbox-option {
+    font-size: 14px;
+  }
+
+  .showing-text {
+    font-size: 14px;
+  }
+
+  .category-nav {
+    padding: 20px;
+    gap: 8px;
+  }
+
+  .chip {
+    padding: 11px 16px;
+    font-size: 12px;
+    letter-spacing: 0.66px;
+  }
+
+  .active-filters-bar {
+    padding: 16px 20px 4px;
+  }
+
+  .active-chip {
+    font-size: 12px;
+  }
+
+  .active-chip button {
+    font-size: 12px;
+  }
+
+  .clear-all {
+    font-size: 12px;
+  }
+
+  .plp-main {
+    padding: 0 0 32px;
+  }
+
+  .filter-sidebar {
+    display: none;
+  }
+
+  /* Each .grid-row batches 3 mobile-visible cards (the 4th is
+     desktop-only) for the Load More pagination logic in script.js,
+     which shows/hides whole rows via [data-grid-row].hidden-row. That
+     grouping has nothing to do with visual layout on mobile, where the
+     design calls for a continuous 2-up grid — 3 cards per row/flex
+     container would otherwise force 3 cramped cards onto one line.
+     display:contents removes .grid-row's own box so its cards become
+     direct grid items of .product-grid, flowing 2-per-row regardless
+     of batch boundaries, while [data-grid-row].hidden-row (a more
+     specific selector) still overrides this with display:none to hide
+     a batch. */
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px 12px;
+    padding: 0 20px;
+  }
+
+  .grid-row {
+    display: contents;
+  }
+
+  .product-card .title {
+    font-size: 14px;
+  }
+
+  .promo-banner {
+    grid-column: 1 / -1;
+    height: 260px;
+  }
+
+  .promo-scrim {
+    background: linear-gradient(to bottom, rgba(7, 47, 85, 0.15), rgba(7, 47, 85, 0.95));
+  }
+
+  .promo-copy {
+    left: 24px;
+    top: auto;
+    bottom: 24px;
+    width: 302px;
+    gap: 10px;
+  }
+
+  .promo-copy h3 {
+    font-size: 24px;
+    line-height: 26px;
+  }
+
+  .promo-copy .eyebrow {
+    font-size: 12px;
+  }
+
+  .promo-copy .btn {
+    padding: 13px 22px;
+    font-size: 12px;
+    letter-spacing: 0.66px;
+  }
+
+  .pagination {
+    grid-column: 1 / -1;
+    padding-top: 18px;
+  }
+
+  .progress-track {
+    display: none;
+  }
+
+  .load-more {
+    width: 100%;
+    padding: 17px 0;
+  }
+
+  .filters-drawer-body .filter-group {
+    border-top: 1px solid var(--divider);
+  }
+
+  .filters-drawer-body .filter-group:first-child {
+    border-top: none;
+  }
+}

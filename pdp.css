@@ -1,0 +1,1030 @@
+/* =========================================================
+   PDP — Product Detail Page
+   ========================================================= */
+
+/* Keeps the footer clear of the fixed sticky bar once it appears.
+   Applied to the footer itself (not body) so the reserved space is
+   filled with the footer's own background instead of showing white. */
+body.has-sticky-bar .site-footer {
+  padding-bottom: 120px;
+}
+
+@media (max-width: 1023px) {
+  /* No sticky bar on mobile, so no clearance needed below the footer. */
+  body.has-sticky-bar .site-footer {
+    padding-bottom: 0;
+  }
+}
+
+/* ---------- Gallery ---------- */
+.pdp-gallery {
+  position: relative;
+  width: 100%;
+}
+
+.gallery-track {
+  display: flex;
+  width: 100%;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.gallery-track::-webkit-scrollbar {
+  display: none;
+}
+
+.gallery-slide {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+}
+
+.gallery-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Desktop: 720 hero + 360/360 stacked pair, repeating */
+.gallery-track.desktop-only {
+  height: 720px;
+}
+
+.gallery-slide--hero {
+  width: 720px;
+  height: 720px;
+  scroll-snap-align: start;
+}
+
+.gallery-slide-pair {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 720px;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+}
+
+.gallery-slide-pair .gallery-slide {
+  width: 360px;
+  height: 360px;
+}
+
+.gallery-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  z-index: 5;
+}
+
+.gallery-nav--next {
+  right: 24px;
+}
+
+.gallery-nav--prev {
+  left: 24px;
+}
+
+.gallery-nav img.flip {
+  transform: scaleX(-1);
+}
+
+/* Mobile: single tall slides, swipeable, dot indicator */
+.gallery-track.mobile-only {
+  height: 480px;
+}
+
+.gallery-slide--mobile {
+  width: 100%;
+  height: 480px;
+}
+
+.gallery-dots {
+  /* These sit on top of a product photo that can be anywhere from a
+     light studio background to a darker lifestyle shot — rather than
+     trying to match colour per slide, a dark scrim pill behind the
+     dots guarantees contrast against any image. */
+  position: absolute;
+  left: var(--gutter-mobile);
+  bottom: 20px;
+  display: flex;
+  gap: 6px;
+  padding: 6px 8px;
+  border-radius: 999px;
+  background: rgba(5, 13, 23, 0.35);
+}
+
+.gallery-dots .dot {
+  width: 8px;
+  height: 3px;
+  border-radius: 1px;
+  background: rgba(255, 255, 255, 0.5);
+  transition: width 0.2s ease, background 0.2s ease;
+}
+
+.gallery-dots .dot.active {
+  width: 22px;
+  background: var(--white);
+}
+
+/* ---------- Info section ---------- */
+.pdp-info-section {
+  display: flex;
+  justify-content: center;
+  background: var(--white);
+  padding: 56px var(--gutter-desktop) 72px;
+}
+
+.info-column {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 100%;
+  max-width: 720px;
+}
+
+.breadcrumb {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 12px;
+  justify-content: center;
+}
+
+.breadcrumb a,
+.breadcrumb span.current {
+  color: var(--slate-700);
+}
+
+.breadcrumb span.current {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.breadcrumb span:not(.current):not(a) {
+  color: var(--slate-300);
+}
+
+.identity-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  text-align: center;
+}
+
+.brand-kicker {
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.88px;
+  color: var(--gold);
+  text-transform: uppercase;
+}
+
+.product-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 38px;
+  color: var(--ink);
+}
+
+.rating-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 14px;
+}
+
+.rating-row .stars {
+  color: var(--gold);
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.rating-row .rating-text {
+  color: var(--slate-700);
+}
+
+.price-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.price-block .price-row {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.price-block .price {
+  font-weight: 800;
+  font-size: 24px;
+  color: var(--ink);
+}
+
+.price-block .price-note {
+  font-size: 12px;
+  color: var(--slate-700);
+}
+
+/* Authentic / Replica fit radio — compact inline row */
+.fit-radio {
+  background: var(--bg-light);
+  border-radius: 16px;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  padding: 16px 24px;
+}
+
+.fit-option {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.fit-option .radio-dot {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid var(--slate-400);
+  display: inline-block;
+  position: relative;
+}
+
+.fit-option.selected .radio-dot {
+  border-color: var(--ink);
+  background: var(--ink);
+  box-shadow: inset 0 0 0 3px var(--white);
+}
+
+.fit-option .fit-name,
+.fit-option .fit-price {
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--ink);
+}
+
+/* Personalisation button */
+.selectors {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.personalisation-button {
+  width: 100%;
+  background: var(--bg-light);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  height: 60px;
+  text-align: left;
+}
+
+.personalisation-button .left {
+  display: flex;
+  flex: 1;
+  min-width: 0;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Row on desktop (title and price inline, price pushed to the far
+   right via space-between) — switches to a stacked column on mobile
+   below, with the icon staying centered beside the full text block
+   either way since it's .left's only other flex item. */
+.personalisation-text {
+  display: flex;
+  flex: 1;
+  min-width: 0;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.personalisation-title {
+  font-weight: 700;
+  font-size: 13px;
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+.personalisation-button .from-price {
+  font-weight: 700;
+  font-size: 13px;
+  color: var(--slate-600);
+  white-space: nowrap;
+}
+
+.personalisation-button .right {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+}
+
+.selector-row {
+  display: flex;
+  gap: 12px;
+}
+
+.dropdown {
+  flex: 1;
+  position: relative;
+}
+
+.dropdown-field {
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 12px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-align: left;
+}
+
+.dropdown-field .label {
+  font-size: 10px;
+  letter-spacing: 0.6px;
+  color: var(--slate-700);
+  text-transform: uppercase;
+}
+
+.dropdown-field .value-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--ink);
+}
+
+.dropdown-field .chevron {
+  color: var(--gold);
+}
+
+/* CTAs */
+.cta-row {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+}
+
+.cta-row .btn {
+  flex: 1;
+  padding: 18px 0;
+  border-radius: 28px;
+  font-size: 14px;
+  letter-spacing: 0.84px;
+}
+
+.cta-row .cta-apple {
+  padding: 16px 0;
+  font-size: 14px;
+  letter-spacing: 0.78px;
+}
+
+/* USP row */
+.usp-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.usp {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 220px;
+}
+
+.usp-title {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  font-weight: 700;
+  font-size: 12px;
+  color: var(--ink);
+}
+
+.usp p {
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--slate-700);
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid var(--bg-light);
+  width: 100%;
+}
+
+/* Product details */
+.product-details,
+.specs {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+}
+
+.eyebrow {
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.88px;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.product-details .description {
+  font-size: 14px;
+  line-height: 22px;
+  color: var(--slate-700);
+}
+
+.features-heading {
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--ink);
+}
+
+.features-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.features-list li {
+  position: relative;
+  padding-left: 14px;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--slate-700);
+}
+
+.features-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--slate-400);
+}
+
+.spec-row {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid var(--border);
+  padding: 10px 0;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.spec-row span {
+  color: var(--slate-700);
+}
+
+.spec-row strong {
+  color: var(--ink);
+  font-weight: 700;
+  text-align: right;
+}
+
+/* ---------- Reviews ---------- */
+.pdp-reviews {
+  background: var(--bg-light);
+  padding: 96px var(--gutter-desktop);
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+
+.pdp-reviews .section-header,
+.pdp-rail .section-header {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 24px;
+}
+
+.pdp-reviews .section-header .titles,
+.pdp-rail .section-header .titles {
+  flex: 1;
+}
+
+.section-title.small {
+  font-size: 36px;
+  letter-spacing: -0.36px;
+}
+
+.link-underline {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding-bottom: 6px;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.72px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.link-underline::after {
+  content: '';
+  width: 18px;
+  height: 1.5px;
+  background: var(--ink);
+}
+
+/* The mobile "All 214 →" links already end in an arrow — the shared
+   underline tick looks like a stray extra line next to it. */
+.link-underline.mobile-only::after {
+  display: none;
+}
+
+.reviews-body {
+  display: flex;
+  gap: 64px;
+}
+
+.rating-summary {
+  background: var(--white);
+  padding: 36px;
+  width: 360px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Transparent wrapper on desktop (stars-row sits as its own row,
+   .verified.mobile-only inside it contributes nothing since it's
+   hidden) — becomes a real stacked group on mobile below, pairing
+   the stars with the review count beside the score. */
+.rating-detail {
+  display: contents;
+}
+
+.score-row {
+  display: flex;
+  gap: 12px;
+  align-items: baseline;
+}
+
+.score-row .score {
+  font-weight: 800;
+  font-size: 56px;
+  letter-spacing: -1.68px;
+  color: var(--ink);
+}
+
+.score-row .out-of {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--slate-400);
+}
+
+.stars-row {
+  color: var(--gold);
+  letter-spacing: 4px;
+  font-size: 18px;
+}
+
+.stars-row.small {
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.verified {
+  font-size: 14px;
+  color: var(--slate-700);
+}
+
+.distribution {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.dist-row {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  font-size: 12px;
+  color: var(--slate-700);
+}
+
+.dist-row span:first-child {
+  font-weight: 700;
+  width: 18px;
+}
+
+.dist-row span:last-child {
+  width: 28px;
+  text-align: right;
+}
+
+.dist-row .bar {
+  flex: 1;
+  height: 6px;
+  background: var(--slate-300);
+}
+
+.dist-row .fill {
+  height: 6px;
+  background: var(--ink);
+}
+
+.reviews-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+
+.review-card {
+  background: var(--white);
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.review-card h3 {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: -0.042px;
+  color: var(--ink);
+}
+
+.review-card p {
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--slate-700);
+}
+
+.review-card .meta {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 12px;
+}
+
+.review-card .meta span:first-child {
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.review-card .meta span:last-child {
+  color: var(--slate-400);
+}
+
+.review-card .meta .dot {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: var(--slate-400);
+}
+
+/* ---------- Rails (Complete the Look / Recently Viewed) ---------- */
+.pdp-rail {
+  padding: 56px var(--gutter-desktop);
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.rail-scroller {
+  display: flex;
+  gap: 20px;
+}
+
+.rail-card {
+  width: 240px;
+  flex-shrink: 0;
+}
+
+/* ---------- Sticky purchase bar ---------- */
+.sticky-purchase-bar {
+  position: fixed;
+  left: 50%;
+  bottom: -100px;
+  width: calc(100% - 64px);
+  max-width: var(--container-max);
+  transform: translateX(-50%);
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  box-shadow: var(--shadow-sticky-bar);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 20px 14px 28px;
+  z-index: 60;
+  transition: bottom 0.3s ease;
+  padding-bottom: calc(14px + env(safe-area-inset-bottom));
+}
+
+.sticky-purchase-bar.visible {
+  bottom: 24px;
+}
+
+.spb-left {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.spb-left .rating-row {
+  font-size: 12px;
+}
+
+.spb-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--ink);
+}
+
+.spb-right {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.spb-field {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.spb-field .label {
+  font-size: 10px;
+  letter-spacing: 0.6px;
+  color: var(--slate-700);
+  text-transform: uppercase;
+}
+
+.spb-field .value {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--ink);
+}
+
+.spb-field .chevron {
+  color: var(--gold);
+  font-size: 16px;
+  line-height: 1;
+  position: relative;
+  top: -3px;
+}
+
+.spb-price {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--ink);
+}
+
+.spb-cta {
+  padding: 13px 28px;
+  border-radius: 24px;
+  font-size: 12px;
+  letter-spacing: 0.72px;
+}
+
+.all-reviews-link {
+  align-self: center;
+}
+
+/* =========================================================
+   Mobile overrides
+   ========================================================= */
+@media (max-width: 1023px) {
+  .pdp-info-section {
+    padding: 28px var(--gutter-mobile) 40px;
+  }
+
+  .info-column {
+    max-width: 350px;
+    gap: 32px;
+  }
+
+  .product-title {
+    font-size: 26px;
+  }
+
+  /* Base size (set for desktop) dips below the 12px mobile-legibility
+     floor; overridden here rather than in the base rule so desktop is
+     unaffected. */
+  .dropdown-field .label {
+    font-size: 12px;
+  }
+
+  /* Price note stacks below "Personalise your jersey" (per Figma
+     node 10567:5298) instead of sitting inline on the right — the
+     icon stays centered beside the whole 2-line block since .left
+     keeps align-items:center and only .personalisation-text switches
+     to a column. */
+  .personalisation-button {
+    padding: 16px;
+  }
+
+  .personalisation-text {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2px;
+  }
+
+  .fit-radio {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 24px;
+    padding: 20px 16px;
+  }
+
+  /* Figma stacks Colourway and Size full-width on mobile, not
+     side-by-side as the shared .selector-row layout does by default. */
+  .selector-row {
+    flex-direction: column;
+  }
+
+  /* Figma stacks the VAT/Alma note under the price, centered, on
+     mobile — not inline beside it as on desktop. */
+  .price-block .price-row {
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .fit-option {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .fit-option .radio-dot {
+    flex-shrink: 0;
+  }
+
+  .fit-option .fit-name {
+    flex: 1;
+    text-align: left;
+  }
+
+  .fit-option .fit-price {
+    flex-shrink: 0;
+  }
+
+  .cta-row {
+    flex-direction: column;
+  }
+
+  .cta-row .cta-apple {
+    border-radius: 26px;
+    padding: 15px 0;
+  }
+
+  .cta-row .cta-add {
+    border-radius: 26px;
+    padding: 16px 0;
+  }
+
+  .usp-row {
+    overflow-x: auto;
+    scrollbar-width: none;
+    gap: 24px;
+    justify-content: flex-start;
+    /* .info-column's gap is 32px; this trims the space above just
+       this row to the requested 24px (32px - 8px). */
+    margin-top: -8px;
+  }
+
+  .usp-row::-webkit-scrollbar {
+    display: none;
+  }
+
+  .usp {
+    width: auto;
+    flex-shrink: 0;
+  }
+
+  .usp-title,
+  .usp p {
+    white-space: nowrap;
+  }
+
+  .pdp-reviews {
+    padding: 36px var(--gutter-mobile) 40px;
+    gap: 20px;
+    background: var(--bg-light);
+  }
+
+  .section-title.small {
+    font-size: 24px;
+  }
+
+  .reviews-body {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .rating-summary {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    gap: 18px;
+    padding: 20px;
+  }
+
+  .score-row .score {
+    font-size: 42px;
+  }
+
+  .rating-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .distribution {
+    display: none;
+  }
+
+  .write-review {
+    display: none;
+  }
+
+  .reviews-list {
+    width: 100%;
+    gap: 12px;
+  }
+
+  .review-card {
+    padding: 20px;
+  }
+
+  .all-reviews-link {
+    align-self: flex-start;
+    margin-top: -8px;
+  }
+
+  .pdp-rail {
+    padding: 40px 0;
+    gap: 18px;
+  }
+
+  .pdp-rail .section-header {
+    padding: 0 var(--gutter-mobile);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .rail-scroller {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 var(--gutter-mobile);
+    gap: 20px 12px;
+  }
+
+  .rail-card {
+    width: auto;
+  }
+
+  .sticky-purchase-bar {
+    display: none;
+  }
+
+  .spb-title {
+    display: none;
+  }
+
+  .spb-right {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .spb-cta {
+    padding: 13px 24px;
+  }
+}

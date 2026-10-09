@@ -1,0 +1,1075 @@
+/* =========================================================
+   Homepage
+   ========================================================= */
+
+/* ---------- Hero ---------- */
+.hero {
+  position: relative;
+  height: 860px;
+  overflow: hidden;
+  background: var(--abyss);
+}
+
+.hero-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* This photo is an ultra-wide training-ground shot; on a narrow mobile
+   viewport the default center crop lands on the coach in the middle
+   and only half-shows the players either side of him. The main player
+   (the one in motion) sits at roughly 1/3 across the source image —
+   anchor there so he's the one in frame, not cut in half. */
+.hero-img.mobile-only {
+  object-position: 35% center;
+}
+
+.hero-scrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(5, 13, 23, 0.15) 0%, rgba(5, 13, 23, 0.5) 50%, rgba(5, 13, 23, 0.9) 100%);
+}
+
+.hero-copy {
+  position: absolute;
+  left: var(--gutter-desktop);
+  top: 346px;
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  z-index: 2;
+}
+
+.stripe-accent {
+  display: flex;
+  gap: 4px;
+  height: 24px;
+  overflow: hidden;
+}
+
+.stripe-accent span {
+  display: inline-block;
+  width: 10px;
+  height: 48px;
+  background: var(--gold);
+  transform: rotate(30deg) translateY(-12px);
+}
+
+.match-kicker {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  border: 1px solid var(--gold);
+  padding: 8px 14px;
+  width: fit-content;
+}
+
+.match-kicker .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--gold);
+}
+
+.match-kicker span:last-child {
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.88px;
+  color: var(--gold);
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.hero-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 72px;
+  letter-spacing: -1.44px;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  line-height: 70px;
+  text-transform: uppercase;
+}
+
+.hero-desc {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 760px;
+}
+
+.match-stats {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.match-stats .stat {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.match-stats .value {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--white);
+}
+
+.match-stats .label {
+  font-weight: 700;
+  font-size: 9px;
+  letter-spacing: 0.72px;
+  color: rgba(255, 255, 255, 0.65);
+  text-transform: uppercase;
+}
+
+.stat-divider {
+  width: 1px;
+  height: 34px;
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.hero-ctas {
+  display: flex;
+  gap: 16px;
+}
+
+.hero-ctas .btn {
+  padding: 16px 28px;
+  letter-spacing: 1.04px;
+}
+
+.trust-strip {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.trust-strip span {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.trust-strip .dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* ---------- Shop by category (mobile) ---------- */
+.shop-by-category {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 32px 0;
+}
+
+.shop-by-category h2 {
+  font-weight: 800;
+  font-size: 19px;
+  letter-spacing: -0.19px;
+  text-transform: uppercase;
+  padding: 0 var(--gutter-mobile);
+}
+
+.category-scroller {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding: 0 var(--gutter-mobile);
+  scrollbar-width: none;
+}
+
+.category-scroller::-webkit-scrollbar {
+  display: none;
+}
+
+.category-item {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.category-item .thumb {
+  width: 74px;
+  height: 74px;
+  border-radius: 37px;
+  overflow: hidden;
+  background: var(--bg-light);
+  display: block;
+}
+
+.category-item .thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.category-item .label {
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
+
+/* ---------- Home & Away Kits ---------- */
+.kits-section {
+  padding: 104px var(--gutter-desktop);
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+
+.kit-cards {
+  display: flex;
+  gap: 24px;
+}
+
+.kit-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.kit-img {
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+}
+
+.kit-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.kit-copy {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.kit-copy h3 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 28px;
+  letter-spacing: -0.28px;
+}
+
+.kit-copy p {
+  font-size: 15px;
+  line-height: 23px;
+}
+
+.kit-copy .btn {
+  align-self: flex-start;
+}
+
+.kit-copy--light {
+  background: var(--bg-light);
+  color: var(--ink);
+}
+
+.kit-copy--blue {
+  background: var(--marseille-blue);
+  color: var(--white);
+}
+
+.kit-copy--blue p {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* ---------- Shop by Player ---------- */
+.player-section {
+  padding: 44px var(--gutter-desktop);
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+
+.player-header {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.player-sub {
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--slate-700);
+}
+
+.player-rail {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.player-rail::-webkit-scrollbar {
+  display: none;
+}
+
+.player-card {
+  width: 212px;
+  flex-shrink: 0;
+  display: block;
+}
+
+.nameplate {
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+  background: var(--bg-light);
+}
+
+.nameplate img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nameplate .scrim {
+  position: absolute;
+  left: 0;
+  top: 135px;
+  width: 100%;
+  height: 165px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(5, 5, 5, 0.85));
+}
+
+.jersey-number {
+  position: absolute;
+  left: 16px;
+  bottom: 28px;
+  font-weight: 800;
+  font-size: 72px;
+  letter-spacing: -1.44px;
+  color: var(--white);
+}
+
+.award-tag {
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  background: var(--gold);
+  color: var(--ink);
+  font-weight: 700;
+  font-size: 9px;
+  padding: 5px 8px;
+  border-radius: 3px;
+  display: flex;
+  gap: 4px;
+  white-space: nowrap;
+}
+
+.player-info {
+  padding-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.first-name {
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: var(--marseille-blue);
+}
+
+.surname {
+  font-weight: 700;
+  font-size: 19px;
+  letter-spacing: -0.095px;
+  color: var(--ink);
+}
+
+.player-info .stats {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-top: 4px;
+}
+
+.player-info .stat {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.player-info .stat strong {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 19px;
+  color: var(--ink);
+}
+
+.player-info .stat span {
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.32px;
+  color: var(--slate-400);
+  text-transform: uppercase;
+}
+
+.stat-div {
+  width: 1px;
+  height: 22px;
+  background: rgba(164, 178, 192, 0.3);
+}
+
+/* ---------- Featured Collections ---------- */
+.collections-section {
+  padding: 104px var(--gutter-desktop);
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+
+.collections-section .section-header,
+.new-arrivals-section .section-header,
+.best-sellers-section .section-header {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 24px;
+}
+
+.collections-section .section-header .titles,
+.new-arrivals-section .section-header .titles,
+.best-sellers-section .section-header .titles {
+  flex: 1;
+}
+
+/* Mobile-only header for Collections: the Figma mobile layout puts the
+   kicker on its own line, then title + "All →" link side by side on
+   the next line — a different arrangement from desktop's "titles
+   block + link" row, not just a column-stacked version of it. */
+.title-row-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+}
+
+.all-link-mobile {
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+.link-underline {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding-bottom: 8px;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.72px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.link-underline::after {
+  content: '';
+  width: 18px;
+  height: 1.5px;
+  background: var(--ink);
+}
+
+.collection-grid {
+  display: flex;
+  gap: 16px;
+}
+
+.collection-card {
+  flex: 1;
+  position: relative;
+  height: 640px;
+  overflow: hidden;
+  background: var(--bg-light);
+  display: block;
+}
+
+.collection-card img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.collection-scrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(5, 13, 23, 0) 30%, rgba(5, 13, 23, 0.86) 100%);
+}
+
+.collection-copy {
+  position: absolute;
+  left: 32px;
+  bottom: 32px;
+  width: calc(100% - 64px);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  z-index: 2;
+}
+
+.collection-copy .eyebrow {
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+}
+
+.collection-copy .eyebrow.gold {
+  color: var(--gold);
+}
+
+.collection-copy h3 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 34px;
+  letter-spacing: -0.425px;
+  text-transform: uppercase;
+  color: var(--white);
+  line-height: 34px;
+}
+
+.collection-copy .sub {
+  font-size: 14px;
+  color: var(--white);
+  opacity: 0.82;
+}
+
+.shop-link {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.72px;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.shop-link::after {
+  content: '';
+  width: 18px;
+  height: 1.5px;
+  background: var(--white);
+}
+
+/* ---------- New Arrivals / Best Sellers (shared rail) ---------- */
+.new-arrivals-section {
+  padding: 24px var(--gutter-desktop) 104px;
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+
+.best-sellers-section {
+  padding: 104px var(--gutter-desktop);
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+
+.product-rail {
+  display: flex;
+  gap: 20px;
+}
+
+.best-seller-grid {
+  display: flex;
+  gap: 20px;
+}
+
+/* ---------- Jersey Personalisation ---------- */
+.personalisation-section {
+  display: flex;
+  background: var(--marseille-blue);
+}
+
+/* Matches the design's image:panel split (~53.5% : 46.5% of the
+   content width, i.e. viewport minus the two 56px side gutters).
+   Recalculates live with viewport width. */
+.personalisation-image {
+  width: calc((min(100vw, 1920px) - 112px) * 0.535);
+  aspect-ratio: 1 / 1;
+  flex-shrink: 0;
+  overflow: hidden;
+  background: var(--bg-light);
+}
+
+.personalisation-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.personalisation-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  justify-content: center;
+  padding: 72px;
+}
+
+.personalisation-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 56px;
+  letter-spacing: -0.7px;
+  color: var(--white);
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  line-height: 56px;
+}
+
+.personalisation-desc {
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--white);
+  opacity: 0.9;
+  max-width: 540px;
+}
+
+.benefits {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.benefits li {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  font-size: 14px;
+  color: var(--white);
+}
+
+.bdot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--white);
+  flex-shrink: 0;
+}
+
+.personalisation-panel .btn {
+  align-self: flex-start;
+  padding: 19px 34px;
+}
+
+/* ---------- Editorial Story ---------- */
+.editorial-section {
+  display: flex;
+  background: var(--bg-light);
+}
+
+/* Even left/right split with the Editorial Copy side, matching the
+   design (~50/50 of the section width, 1920px-capped). */
+.editorial-image {
+  width: calc(min(100vw, 1920px) / 2);
+  aspect-ratio: 1 / 1;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.editorial-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* The models' faces sit in the top ~20% of this photo — a center
+     crop (the object-fit:cover default) cuts them off once the image
+     is forced into a square/short box. Anchoring to the top keeps
+     faces visible at any crop ratio. */
+  object-position: top;
+}
+
+.editorial-copy {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  padding: 96px;
+}
+
+.journal-tag {
+  background: var(--ink);
+  color: var(--white);
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 7px 14px 6px;
+  width: fit-content;
+}
+
+.editorial-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 60px;
+  letter-spacing: -0.9px;
+  text-transform: uppercase;
+  color: var(--ink);
+  display: flex;
+  flex-direction: column;
+  line-height: 60px;
+}
+
+.editorial-copy p {
+  font-size: 17px;
+  line-height: 29px;
+  color: var(--slate-700);
+  max-width: 560px;
+}
+
+.editorial-meta {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.66px;
+  text-transform: uppercase;
+  color: var(--slate-700);
+}
+
+.editorial-meta .dot {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: var(--slate-700);
+}
+
+.editorial-copy .btn {
+  align-self: flex-start;
+  padding: 19px 34px;
+}
+
+/* =========================================================
+   Mobile overrides
+   ========================================================= */
+@media (max-width: 1023px) {
+  .hero {
+    /* Figma's own mobile spec is 620px, but the hero-copy content
+       (kicker, title, stats, CTAs, trust strip) runs right up against
+       — and with overflow:hidden, sometimes past — that bottom edge.
+       Extra height here reads as bottom padding under the content. */
+    height: 680px;
+  }
+
+  .hero-copy {
+    left: 24px;
+    top: 240px;
+    width: 342px;
+    gap: 12px;
+  }
+
+  .stripe-accent {
+    height: 16px;
+  }
+
+  .stripe-accent span {
+    width: 7px;
+    height: 30px;
+  }
+
+  .hero-title {
+    font-size: 38px;
+    letter-spacing: -0.57px;
+    line-height: 38px;
+  }
+
+  .hero-desc {
+    font-size: 14px;
+  }
+
+  .match-stats .value {
+    font-size: 14px;
+  }
+
+  .match-stats .label {
+    font-size: 12px;
+  }
+
+  .stat-divider {
+    height: 24px;
+  }
+
+  .hero-ctas {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-ctas .btn {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+  }
+
+  .trust-strip {
+    flex-wrap: wrap;
+    gap: 12px 16px;
+  }
+
+  .kits-section {
+    padding: 44px var(--gutter-mobile);
+    gap: 20px;
+  }
+
+  .section-title {
+    font-size: 26px;
+  }
+
+  .kit-cards {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .kit-img {
+    aspect-ratio: 1 / 1;
+  }
+
+  .kit-copy {
+    padding: 28px 24px;
+    gap: 14px;
+  }
+
+  .kit-copy h3 {
+    font-size: 22px;
+  }
+
+  .kit-copy p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .player-section {
+    padding: 44px 0;
+    gap: 20px;
+  }
+
+  .player-header {
+    padding: 0 var(--gutter-mobile);
+    gap: 10px;
+  }
+
+  .player-rail {
+    padding: 0 var(--gutter-mobile);
+  }
+
+  .player-card {
+    width: 158px;
+  }
+
+  .nameplate {
+    height: 198px;
+  }
+
+  .nameplate .scrim {
+    top: 89px;
+    height: 109px;
+  }
+
+  .jersey-number {
+    font-size: 48px;
+    bottom: 14px;
+  }
+
+  .award-tag {
+    font-size: 12px;
+    padding: 4px 6px;
+  }
+
+  .surname {
+    font-size: 15px;
+  }
+
+  /* Shared components whose base size (set for desktop) dips below the
+     12px mobile-legibility floor; overridden here rather than in the
+     base rule so desktop is unaffected. */
+  .match-kicker span:last-child {
+    font-size: 12px;
+  }
+
+  .first-name {
+    font-size: 12px;
+  }
+
+  .player-info .stat span {
+    font-size: 12px;
+  }
+
+  .collection-copy .eyebrow {
+    font-size: 12px;
+  }
+
+  .journal-tag {
+    font-size: 12px;
+  }
+
+  .editorial-meta {
+    font-size: 12px;
+  }
+
+  .collections-section,
+  .new-arrivals-section,
+  .best-sellers-section {
+    padding: 44px var(--gutter-mobile);
+    gap: 20px;
+  }
+
+  .collections-section .section-header,
+  .new-arrivals-section .section-header,
+  .best-sellers-section .section-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .collection-grid {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .collection-card {
+    /* .collection-card is "flex: 1" on desktop, which sets
+       flex-basis: 0%. That's harmless in the desktop row (flex-basis
+       governs width there), but .collection-grid switches to a column
+       on mobile, so that same 0% basis now governs height — and since
+       this card's only content (image, copy) is absolutely positioned
+       and contributes no in-flow height, the card collapses to 0px
+       tall. "flex: none" restores explicit sizing via the per-card
+       heights below instead of flex-basis. */
+    flex: none;
+  }
+
+  /* Figma's mobile layout uses different heights per card, not one
+     uniform height like desktop (640px for all three). */
+  .collection-card--1 {
+    height: 420px;
+  }
+
+  .collection-card--2,
+  .collection-card--3 {
+    height: 300px;
+  }
+
+  .collection-copy h3 {
+    font-size: 24px;
+    line-height: 26px;
+  }
+
+  .product-rail,
+  .best-seller-grid {
+    overflow-x: auto;
+    scrollbar-width: none;
+    gap: 12px;
+  }
+
+  .product-rail::-webkit-scrollbar,
+  .best-seller-grid::-webkit-scrollbar {
+    display: none;
+  }
+
+  .product-rail .product-card,
+  .best-seller-grid .product-card {
+    /* Overrides the base .product-card's flex: 1 0 0 (flex-basis: 0,
+       flex-grow: 1), which was making cards stretch to fill the row
+       instead of staying fixed-width and overflowing into a scroll. */
+    flex: 0 0 160px;
+    width: 160px;
+  }
+
+  .personalisation-section {
+    flex-direction: column;
+  }
+
+  .personalisation-image {
+    width: 100%;
+    height: 330px;
+  }
+
+  .personalisation-panel {
+    padding: 36px 20px 40px;
+    gap: 18px;
+  }
+
+  .personalisation-title {
+    font-size: 32px;
+    line-height: 34px;
+  }
+
+  .personalisation-desc {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .personalisation-panel .btn {
+    width: 100%;
+    text-align: center;
+    padding: 17px 0;
+  }
+
+  .editorial-section {
+    flex-direction: column;
+  }
+
+  /* Desktop DOM order is copy-then-image (copy sits on the left), but
+     the Figma mobile layout stacks image-on-top, copy-below — the
+     opposite order — so it's flipped visually here without touching
+     the DOM order that desktop relies on. */
+  .editorial-image {
+    width: 100%;
+    height: 420px;
+    order: 1;
+  }
+
+  .editorial-copy {
+    order: 2;
+  }
+
+  .editorial-copy {
+    padding: 32px 20px 44px;
+    gap: 16px;
+  }
+
+  .editorial-title {
+    font-size: 32px;
+    line-height: 34px;
+  }
+
+  .editorial-copy p {
+    font-size: 14px;
+    line-height: 23px;
+  }
+
+  .editorial-copy .btn {
+    width: 100%;
+    text-align: center;
+    padding: 17px 0;
+  }
+}
